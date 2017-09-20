@@ -1,0 +1,283 @@
+﻿Log file open, 09/20/17 10:26:29
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-308555127) SRandInit(-308555127).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.100623
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.20-08.26.29:964][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.20-08.26.29:964][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.20-08.26.29:973][  0]LogInit: Computer: WINDOWS-EUOFFC3
+[2017.09.20-08.26.29:973][  0]LogInit: User: Bendick
+[2017.09.20-08.26.29:973][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.20-08.26.29:973][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2017.09.20-08.26.29:973][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.20-08.26.29:973][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.20-08.26.29:973][  0]LogMemory: Process Physical Memory: 273.75 MB used, 273.75 MB peak
+[2017.09.20-08.26.29:973][  0]LogMemory: Process Virtual Memory: 260.81 MB used, 260.81 MB peak
+[2017.09.20-08.26.29:973][  0]LogMemory: Physical Memory: 7965.76 MB used,  8357.21 MB free, 16322.98 MB total
+[2017.09.20-08.26.29:973][  0]LogMemory: Virtual Memory: 638.48 MB used,  8357.21 MB free, 134217728.00 MB total
+[2017.09.20-08.26.30:148][  0]LogInit: Using OS detected language (en-US).
+[2017.09.20-08.26.30:148][  0]LogInit: Using OS detected locale (en-GB).
+[2017.09.20-08.26.30:150][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.20-08.26.30:786][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.20-08.26.31:279][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.20-08.26.31:279][  0]LogD3D11RHI:       8119/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.20-08.26.31:281][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.20-08.26.31:281][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.20-08.26.31:281][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.20-08.26.31:286][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.20-08.26.31:286][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.20-08.26.31:286][  0]LogWindows: EnumDisplayDevices:
+[2017.09.20-08.26.31:286][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.09.20-08.26.31:286][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.09.20-08.26.31:286][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.20-08.26.31:286][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.20-08.26.31:287][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.20-08.26.31:287][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.20-08.26.31:287][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.20-08.26.31:287][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.20-08.26.31:287][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.20-08.26.31:679][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.20-08.26.31:832][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.20-08.26.31:922][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/12172/).
+[2017.09.20-08.26.31:922][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/241C421048A10E7DA7B623BF2ECB7F9D/'.
+[2017.09.20-08.26.31:922][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.20-08.26.32:662][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.20-08.26.32:706][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.20-08.26.32:749][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.20-08.26.32:793][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.20-08.26.32:838][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.20-08.26.32:881][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.20-08.26.32:924][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.20-08.26.32:968][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.20-08.26.33:008][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.20-08.26.33:050][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.20-08.26.33:093][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.20-08.26.33:136][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.20-08.26.33:179][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.20-08.26.33:221][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.20-08.26.33:263][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.20-08.26.33:350][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.20-08.26.33:350][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.20-08.26.33:387][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.20-08.26.33:485][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.20-08.26.33:513][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.20-08.26.33:556][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.20-08.26.33:599][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.20-08.26.33:641][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.20-08.26.33:685][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.20-08.26.33:685][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.20-08.26.34:323][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.20-08.26.34:391][  0]LogDerivedDataCache: Loaded boot cache 0.07s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.20-08.26.34:391][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.20-08.26.34:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.20-08.26.34:391][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.20-08.26.34:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.20-08.26.34:391][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.20-08.26.34:402][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.20-08.26.34:414][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.20-08.26.34:420][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.20-08.26.34:421][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.20-08.26.34:421][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.20-08.26.34:421][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.20-08.26.34:637][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.20-08.26.34:696][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.20-08.26.34:879][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.20-08.26.34:941][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.20-08.26.34:987][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.20-08.26.34:987][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.20-08.26.34:987][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.20-08.26.35:380][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2017.09.20-08.26.35:429][  0]LogAssetRegistry: FAssetRegistry took 0.0239 seconds to start up
+[2017.09.20-08.26.35:484][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.038804 seconds
+[2017.09.20-08.26.35:488][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.20-08.26.35:488][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.20-08.26.35:488][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.20-08.26.35:539][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.20-08.26.37:558][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.20-08.26.37:597][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.20-08.26.38:089][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.20-08.26.38:408][  0]SourceControl: Info Source control is disabled
+[2017.09.20-08.26.38:510][  0]SourceControl: Info Source control is disabled
+[2017.09.20-08.26.38:566][  0]SourceControl: Info Source control is disabled
+[2017.09.20-08.26.38:616][  0]SourceControl: Info Source control is disabled
+[2017.09.20-08.26.39:268][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.20-08.26.39:801][  0]LogEngine: Initializing Engine...
+[2017.09.20-08.26.39:802][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.20-08.26.39:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.20-08.26.39:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.20-08.26.40:031][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.20-08.26.40:051][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.20-08.26.40:070][  0]LogInit: FAudioDevice initialized.
+[2017.09.20-08.26.40:102][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.20-08.26.40:111][  0]LogInit: Texture streaming: Enabled
+[2017.09.20-08.26.40:213][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.20-08.26.40:400][  0]LogInit: Transaction tracking system initialized
+[2017.09.20-08.26.40:670][  0]BlueprintLog: New page: Editor Load
+[2017.09.20-08.26.41:576][  0]LocalizationService: Info Localization service is disabled
+[2017.09.20-08.26.42:199][  0]LogConsoleResponse:Display: 
+[2017.09.20-08.26.42:304][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.20-08.26.42:304][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.20-08.26.43:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2017.09.20-08.26.43:229][  0]SourceControl: Info Source control is disabled
+[2017.09.20-08.26.43:229][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.20-08.26.43:229][  0]LightingResults: New page: Lighting Build
+[2017.09.20-08.26.43:257][  0]MapCheck: New page: Map Check
+[2017.09.20-08.26.43:257][  0]LightingResults: New page: Lighting Build
+[2017.09.20-08.26.43:383][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.20-08.26.43:383][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.20-08.26.43:386][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.20-08.26.43:395][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.20-08.26.43:432][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.592ms to complete.
+[2017.09.20-08.26.43:432][  0]LogFileHelpers: Loading map 'Template_Default' took 0.203
+[2017.09.20-08.26.43:497][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.20-08.26.43:497][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.20-08.26.43:564][  0]LogCollectionManager: Loaded 0 collections in 0.000998 seconds
+[2017.09.20-08.26.43:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2017.09.20-08.26.43:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
+[2017.09.20-08.26.43:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2017.09.20-08.26.43:634][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.20-08.26.43:640][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 2329 classes and 491 folders.
+[2017.09.20-08.26.43:684][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.09.20-08.26.43:709][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.20-08.26.43:752][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.20-08.26.43:811][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.20-08.26.43:815][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.20-08.26.43:816][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.20-08.26.43:820][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.20-08.26.43:898][  0]LogRenderer: Reallocating scene render targets to support 1276x604 NumSamples 1 (Frame:1).
+[2017.09.20-08.26.43:964][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.20-08.26.44:028][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.20-08.26.44:028][  0]LogLoad: (Engine Initialization) Total time: 15.52 seconds
+[2017.09.20-08.26.44:028][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.09.20-08.26.44:028][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.20-08.26.44:028][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.20-08.26.44:038][  0]LogOcInput: OculusInput pre-init called
+[2017.09.20-08.26.44:038][  0]LogHMD: Starting GearVRController plugin
+[2017.09.20-08.26.44:046][  0]LogAssetRegistry: Asset discovery search completed in 8.6391 seconds
+[2017.09.20-08.26.44:047][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.20-08.26.44:047][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.09.20-08.26.44:049][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.20-08.26.44:105][  0]LogRenderer: Reallocating scene render targets to support 1276x624 NumSamples 1 (Frame:3).
+[2017.09.20-08.26.44:105][  0]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-08.27.13:011][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.20-08.27.13:973][380]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.20-08.48.04:846][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.20-08.49.39:001][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.20-08.50.06:587][865]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.09.20-08.50.06:695][875]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SRPrototypeV3
+[2017.09.20-08.50.06:695][875]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.09.20-08.50.06:695][875]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.09.20-08.50.06:695][875]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.09.20-08.50.06:695][875]LogTemp: BranchPath = WINDOWS-EUOFFC3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = WINDOWS-EUOFFC3/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.09.20-08.50.06:707][876]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Bendick\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.20-08.50.14:449][734]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-08.51.15:894][304]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.20-08.51.17:033][304]LogSavePackage: Save=10.34ms
+[2017.09.20-08.51.17:033][304]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_Con841CA6E7446F4426920C89A428F11167.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ruleset/ScanReach_Con.uasset'
+[2017.09.20-08.51.17:039][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ruleset/ScanReach_Con.uasset
+[2017.09.20-08.51.17:050][304]LogSavePackage: Save=8.78ms
+[2017.09.20-08.51.17:050][304]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_GM027B5D214110C6F32D1F8CB19A25F548.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ruleset/ScanReach_GM.uasset'
+[2017.09.20-08.51.17:054][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ruleset/ScanReach_GM.uasset
+[2017.09.20-08.51.20:109][304]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.20-08.51.30:842][979]LogTextFormatter:Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2017.09.20-08.51.32:173][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.20-08.51.32:210][979]LogSavePackage: Save=22.68ms
+[2017.09.20-08.51.32:210][979]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach6680D4EC44827E24C40A6EA795FA190F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.09.20-08.51.32:214][979]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.09.20-08.51.32:232][979]LogFileHelpers: Saving map 'ScanReach' took 0.324
+[2017.09.20-08.51.32:801][979]LogCrashTracker: 
+
+
+[2017.09.20-08.51.32:801][979]LogCrashTracker: 
+
+
+[2017.09.20-08.51.32:801][979]LogWindows:Error: === Critical error: ===
+[2017.09.20-08.51.32:801][979]LogWindows:Error: 
+[2017.09.20-08.51.32:801][979]LogWindows:Error: Fatal error!
+[2017.09.20-08.51.32:801][979]LogWindows:Error: 
+[2017.09.20-08.51.32:801][979]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2017.09.20-08.51.32:801][979]LogWindows:Error: 
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-CoreUObject.dll!0x00000000D0DCF703
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-AssetTools.dll!0x00000000A2A166D3
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000AF6D6EB3
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-AssetTools.dll!0x00000000A29B3465
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A15071A8
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A14B4BE7
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A14BCA07
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A15110D9
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A14B31C1
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A14BB89F
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A14B92A8
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A151D900
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000A151133A
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Slate.dll!0x00000000C7B9A8DE
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Slate.dll!0x00000000C7B690EE
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Slate.dll!0x00000000C7C0CAA4
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Slate.dll!0x00000000C7BF6595
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Slate.dll!0x00000000C7BE7939
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Core.dll!0x00000000B0601709
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Core.dll!0x00000000B05EB7D1
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Core.dll!0x00000000B06033DB
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Core.dll!0x00000000B05E7B22
+[2017.09.20-08.51.32:801][979]LogWindows:Error: USER32.dll!0x0000000002B2BC50
+[2017.09.20-08.51.32:801][979]LogWindows:Error: USER32.dll!0x0000000002B2B5CF
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor-Core.dll!0x00000000B0603CE6
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor.exe!0x00000000F221DB44
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor.exe!0x00000000F220F0B0
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor.exe!0x00000000F220F12A
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor.exe!0x00000000F2220CF9
+[2017.09.20-08.51.32:801][979]LogWindows:Error: UE4Editor.exe!0x00000000F22225F7
+[2017.09.20-08.51.32:801][979]LogWindows:Error: KERNEL32.DLL!0x0000000002572774
+[2017.09.20-08.51.32:801][979]LogWindows:Error: ntdll.dll!0x0000000002DA0D51
+[2017.09.20-08.51.32:801][979]LogWindows:Error: ntdll.dll!0x0000000002DA0D51
+[2017.09.20-08.51.32:801][979]LogWindows:Error: 
+[2017.09.20-08.51.32:808][979]LogExit: Executing StaticShutdownAfterError
+[2017.09.20-08.51.32:810][979]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.09.20-08.51.32:810][979]Log file closed, 09/20/17 10:51:32
