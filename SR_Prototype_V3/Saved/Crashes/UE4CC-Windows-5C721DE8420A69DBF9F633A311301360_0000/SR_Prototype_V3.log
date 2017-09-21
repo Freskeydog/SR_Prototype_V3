@@ -1,0 +1,686 @@
+﻿Log file open, 09/21/17 12:01:59
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-484105911) SRandInit(-484105911).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073985
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.21-10.02.00:162][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-10.02.00:162][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.21-10.02.00:185][  0]LogInit: Computer: WINDOWS-EUOFFC3
+[2017.09.21-10.02.00:185][  0]LogInit: User: Bendick
+[2017.09.21-10.02.00:185][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.21-10.02.00:185][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2017.09.21-10.02.00:185][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.21-10.02.00:185][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-10.02.00:185][  0]LogMemory: Process Physical Memory: 273.84 MB used, 273.84 MB peak
+[2017.09.21-10.02.00:185][  0]LogMemory: Process Virtual Memory: 265.00 MB used, 265.00 MB peak
+[2017.09.21-10.02.00:185][  0]LogMemory: Physical Memory: 7007.50 MB used,  9315.48 MB free, 16322.98 MB total
+[2017.09.21-10.02.00:185][  0]LogMemory: Virtual Memory: 642.61 MB used,  9315.48 MB free, 134217728.00 MB total
+[2017.09.21-10.02.00:450][  0]LogInit: Using OS detected language (en-US).
+[2017.09.21-10.02.00:450][  0]LogInit: Using OS detected locale (en-GB).
+[2017.09.21-10.02.00:502][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.21-10.02.02:831][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.21-10.02.03:292][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.21-10.02.03:292][  0]LogD3D11RHI:       8119/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.21-10.02.03:296][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.21-10.02.03:296][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.21-10.02.03:296][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.21-10.02.03:304][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.21-10.02.03:305][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.21-10.02.03:305][  0]LogWindows: EnumDisplayDevices:
+[2017.09.21-10.02.03:305][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.09.21-10.02.03:305][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.09.21-10.02.03:305][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.21-10.02.03:305][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.21-10.02.03:305][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.21-10.02.03:305][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.21-10.02.03:305][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.21-10.02.03:305][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.21-10.02.03:305][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.21-10.02.03:734][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.21-10.02.03:882][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.21-10.02.03:983][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/1148/).
+[2017.09.21-10.02.03:983][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/40D12ABC49351F8E827BD084491EB1BD/'.
+[2017.09.21-10.02.03:984][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.21-10.02.05:661][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.21-10.02.05:694][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.21-10.02.05:730][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.21-10.02.05:769][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.21-10.02.05:813][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.21-10.02.05:853][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.21-10.02.05:888][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.21-10.02.05:928][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.21-10.02.05:971][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.21-10.02.06:006][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.21-10.02.06:039][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.21-10.02.06:072][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.21-10.02.06:108][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.21-10.02.06:142][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.21-10.02.06:178][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.21-10.02.06:252][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.21-10.02.06:252][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.21-10.02.06:281][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.21-10.02.06:361][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.21-10.02.06:381][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.21-10.02.06:420][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.21-10.02.06:459][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.21-10.02.06:492][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.21-10.02.06:529][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.21-10.02.06:529][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.21-10.02.06:959][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.21-10.02.07:301][  0]LogDerivedDataCache: Loaded boot cache 0.34s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.21-10.02.07:302][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.21-10.02.07:302][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.21-10.02.07:302][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.21-10.02.07:302][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.21-10.02.07:302][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.21-10.02.07:322][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.21-10.02.07:333][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.21-10.02.07:346][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.21-10.02.07:354][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.21-10.02.07:369][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-10.02.07:369][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-10.02.08:300][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-10.02.08:690][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.21-10.02.08:733][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.21-10.02.08:771][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.21-10.02.08:771][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.21-10.02.08:771][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.21-10.02.09:944][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2017.09.21-10.02.10:038][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2017.09.21-10.02.10:094][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.037279 seconds
+[2017.09.21-10.02.10:099][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.21-10.02.10:099][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.21-10.02.10:099][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.21-10.02.10:142][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.21-10.02.14:334][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.21-10.02.14:368][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.21-10.02.14:886][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.21-10.02.15:254][  0]SourceControl: Info Source control is disabled
+[2017.09.21-10.02.15:314][  0]SourceControl: Info Source control is disabled
+[2017.09.21-10.02.15:358][  0]SourceControl: Info Source control is disabled
+[2017.09.21-10.02.15:392][  0]SourceControl: Info Source control is disabled
+[2017.09.21-10.02.15:934][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.21-10.02.16:409][  0]LogEngine: Initializing Engine...
+[2017.09.21-10.02.16:412][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.21-10.02.16:790][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.21-10.02.16:799][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.21-10.02.16:983][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.21-10.02.17:023][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.21-10.02.17:040][  0]LogInit: FAudioDevice initialized.
+[2017.09.21-10.02.17:077][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.21-10.02.17:088][  0]LogInit: Texture streaming: Disabled
+[2017.09.21-10.02.17:165][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.21-10.02.17:367][  0]LogInit: Transaction tracking system initialized
+[2017.09.21-10.02.17:615][  0]BlueprintLog: New page: Editor Load
+[2017.09.21-10.02.18:603][  0]LocalizationService: Info Localization service is disabled
+[2017.09.21-10.02.19:324][  0]LogConsoleResponse:Display: 
+[2017.09.21-10.02.19:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2017.09.21-10.02.19:643][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.21-10.02.19:644][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.21-10.02.20:540][  0]SourceControl: Info Source control is disabled
+[2017.09.21-10.02.20:543][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.21-10.02.20:545][  0]LightingResults: New page: Lighting Build
+[2017.09.21-10.02.20:589][  0]MapCheck: New page: Map Check
+[2017.09.21-10.02.20:589][  0]LightingResults: New page: Lighting Build
+[2017.09.21-10.02.21:158][  0]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.21-10.02.21:215][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.21-10.02.21:231][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.21-10.02.21:262][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.871ms to complete.
+[2017.09.21-10.02.21:262][  0]LogFileHelpers: Loading map 'ScanReach' took 0.720
+[2017.09.21-10.02.21:535][  0]LogCollectionManager: Loaded 0 collections in 0.000987 seconds
+[2017.09.21-10.02.21:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2017.09.21-10.02.21:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
+[2017.09.21-10.02.21:629][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2017.09.21-10.02.21:629][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.21-10.02.21:639][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2329 classes and 491 folders.
+[2017.09.21-10.02.21:698][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.21-10.02.22:030][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.21-10.02.22:071][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.21-10.02.22:259][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.21-10.02.22:286][  0]LogSlate: Took 0.003798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.21-10.02.22:292][  0]LogSlate: Took 0.004368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.21-10.02.22:302][  0]LogSlate: Took 0.004268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.21-10.02.22:428][  0]LogRenderer: Reallocating scene render targets to support 1276x604 NumSamples 1 (Frame:1).
+[2017.09.21-10.02.22:568][  0]LogSlate: Took 0.003784 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-10.02.22:639][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.21-10.02.22:696][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.21-10.02.22:697][  0]LogLoad: (Engine Initialization) Total time: 24.44 seconds
+[2017.09.21-10.02.22:697][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2017.09.21-10.02.22:697][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.21-10.02.22:697][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.21-10.02.23:040][  0]LogOcInput: OculusInput pre-init called
+[2017.09.21-10.02.23:040][  0]LogHMD: Starting GearVRController plugin
+[2017.09.21-10.02.23:058][  0]LogAssetRegistry: Asset discovery search completed in 13.0411 seconds
+[2017.09.21-10.02.23:059][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.21-10.02.23:059][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.09.21-10.02.23:152][  1]LogRenderer: Reallocating scene render targets to support 1276x624 NumSamples 1 (Frame:2).
+[2017.09.21-10.02.24:038][  3]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-10.08.41:045][134]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.09.21-10.08.53:243][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.08.54:477][710]LogEditorViewport: Clicking on Actor (context menu): bp_Ship_C (bp_Ship)
+[2017.09.21-10.08.55:452][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.08.55:893][866]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.09.21-10.08.56:314][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.08.56:693][955]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.09.21-10.08.57:235][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.08.57:607][ 58]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.09.21-10.09.04:192][842]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-10.09.04:525][842]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.09.21-10.09.05:080][842]LogSlate: Took 0.003059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.21-10.09.14:590][937]LogSlate: Took 0.003107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.21-10.09.18:166][362]BlueprintLog: New page: Compile w_Main
+[2017.09.21-10.09.18:263][362]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.21-10.09.19:671][529]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.09.21-10.09.19:774][540]LogEditorViewport: Clicking on Actor (context menu): bp_Ship_C (bp_Ship)
+[2017.09.21-10.09.20:782][628]LogSlate: Took 0.003034 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.21-10.09.58:259][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2017.09.21-10.09.58:319][ 53]LogSavePackage: Save=51.30ms
+[2017.09.21-10.09.58:319][ 53]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_ShipD581563F461E693AC3D74F9A837CF1F5.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2017.09.21-10.09.58:322][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2017.09.21-10.09.59:689][216]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.10.01:732][448]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.21-10.10.01:767][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.10.01:768][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-10.10.01:772][448]PIE: New page: PIE session: ScanReach (21 Sep 2017 14:10:01)
+[2017.09.21-10.10.01:772][448]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.09.21-10.10.01:777][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004256s)
+[2017.09.21-10.10.01:777][448]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.21-10.10.01:777][448]LogPlayLevel: PIE: World Init took: (0.000400s)
+[2017.09.21-10.10.01:778][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.005198s)
+[2017.09.21-10.10.01:793][448]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.21-10.10.01:804][448]LogInit: FAudioDevice initialized.
+[2017.09.21-10.10.01:852][448]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.09.21-10.10.01:854][448]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.09.21-12.10.01
+[2017.09.21-10.10.01:856][448]LogWorld: Bringing up level for play took: 0.002419
+[2017.09.21-10.10.01:899][448]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.09.21-10.10.01:907][448]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.176
+[2017.09.21-10.10.01:907][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.10.02:790][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.10.02:838][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.12.23:655][815]LogSavePackage: Save=90.81ms
+[2017.09.21-10.12.23:655][815]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_Auto1F862A21541CD41104CD1A68764B58E89.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/ScanReach_Auto1.umap'
+[2017.09.21-10.12.23:657][815]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/ScanReach_Auto1.umap
+[2017.09.21-10.12.23:658][815]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ScanReach' took 0.114
+[2017.09.21-10.12.23:658][815]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2017.09.21-10.12.23:659][815]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/w_Main] ([1] browsable assets)...
+[2017.09.21-10.12.23:659][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/w_Main]
+[2017.09.21-10.12.23:674][815]LogSavePackage: Save=9.63ms
+[2017.09.21-10.12.23:674][815]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Main_Auto19CAD0F084B65D01D76D080A338F62A5F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Blueprints/Widgets/w_Main_Auto1.uasset'
+[2017.09.21-10.12.23:675][815]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Blueprints/Widgets/w_Main_Auto1.uasset
+[2017.09.21-10.12.23:675][815]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.09.21-10.13.04:383][731]LogLinker: Can't find file '/Game/Blueprints/Widgets/w_Deckview'
+[2017.09.21-10.13.04:383][731]LogLinker: Can't find file '/Game/Blueprints/Widgets/w_Deckview'
+[2017.09.21-10.13.38:472][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.13.49:239][742]BlueprintLog: New page: Compile w_Deckview
+[2017.09.21-10.13.49:305][742]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.21-10.14.11:267][150]LogUObjectHash:Warning: Ambiguous search, could be Overlay /Game/Blueprints/Widgets/w_Deckview.w_Deckview:WidgetTree.Overlay_0 or Overlay /Engine/Transient.World_7:w_Deckview_C_5.WidgetTree_22.Overlay_0
+[2017.09.21-10.14.11:267][150]LogUObjectHash:Warning: Ambiguous search, could be Overlay /Game/Blueprints/Widgets/w_Deckview.w_Deckview:WidgetTree.Overlay_0 or Overlay /Engine/Transient.World_7:w_Deckview_C_6.WidgetTree_23.Overlay_0
+[2017.09.21-10.14.11:267][150]LogProperty:Warning: Illegal TEXT reference to a private object in external package (OverlaySlot /Game/Blueprints/Widgets/w_Deckview.w_Deckview:WidgetTree.Overlay_0.OverlaySlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_0).  Import failed...
+[2017.09.21-10.14.11:267][150]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'OverlaySlot'Overlay_0.OverlaySlot_0''
+[2017.09.21-10.15.04:038][161]BlueprintLog: New page: Compile w_Deckview
+[2017.09.21-10.15.04:099][161]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.21-10.15.17:624][337]BlueprintLog: New page: Compile w_Deckview
+[2017.09.21-10.15.17:697][337]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.21-10.15.18:154][372]LogSavePackage: Save=10.53ms
+[2017.09.21-10.15.18:154][372]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Deckview43BFDF484DC65E5FBECD30B59149A9CC.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Deckview.uasset'
+[2017.09.21-10.15.18:156][372]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Deckview.uasset
+[2017.09.21-10.15.19:817][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.15.20:584][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.18.24:206][ 31]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.18.37:398][254]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.18.38:147][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2017.09.21-10.18.38:198][321]LogSavePackage: Save=43.05ms
+[2017.09.21-10.18.38:198][321]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship212F195F4F1B7A1634B50C95CE40E541.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2017.09.21-10.18.38:199][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2017.09.21-10.19.10:938][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.21-10.19.11:043][314]LogSavePackage: Save=88.91ms
+[2017.09.21-10.19.11:043][314]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach8D493A3D40A2C2A93B5186BEC7147AC2.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.09.21-10.19.11:047][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.09.21-10.19.19:136][ 13]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.21-10.19.19:624][ 13]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewBlueprint_C_0' or package '/Engine/Transient'.
+[2017.09.21-10.19.19:624][ 13]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewBlueprint_C_1' or package '/Engine/Transient'.
+[2017.09.21-10.19.19:624][ 13]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintComponentNodeSpawner_150' or package '/Engine/Transient'.
+[2017.09.21-10.19.19:624][ 13]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewBlueprint_C_103' or package '/Engine/Transient'.
+[2017.09.21-10.19.19:624][ 13]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewBlueprint_C_102' or package '/Engine/Transient'.
+[2017.09.21-10.19.25:922][757]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.21-10.19.25:939][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.19.25:939][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-10.19.25:939][757]PIE: New page: PIE session: ScanReach (21 Sep 2017 14:19:25)
+[2017.09.21-10.19.25:940][757]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.09.21-10.19.25:941][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001642s)
+[2017.09.21-10.19.25:942][757]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.21-10.19.25:942][757]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2017.09.21-10.19.25:942][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002235s)
+[2017.09.21-10.19.25:953][757]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.21-10.19.25:963][757]LogInit: FAudioDevice initialized.
+[2017.09.21-10.19.25:991][757]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.09.21-10.19.25:992][757]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.09.21-12.19.25
+[2017.09.21-10.19.25:992][757]LogWorld: Bringing up level for play took: 0.000784
+[2017.09.21-10.19.25:993][757]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.09
+[2017.09.21-10.19.25:993][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.19.26:671][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.19.26:710][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.19.28:311][ 27]LogEditorViewport: Clicking on Actor (context menu): bp_Ship_C (bp_Ship)
+[2017.09.21-10.19.31:423][371]LogLinker:Warning: Can't find file '/Game/Blueprints/Camera/bp_DeckCamera'
+[2017.09.21-10.19.31:423][371]LogLinker:Warning: Can't find file '/Game/Blueprints/Camera/bp_DeckCamera'
+[2017.09.21-10.19.31:423][371]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/Camera/bp_DeckCamera.bp_DeckCamera'
+[2017.09.21-10.19.41:729][594]LogMetaData: Removing '/Game/Blueprints/Camera/bp_DeckCamera.bp_deckCamera:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Camera/bp_deckCamer.PackageMetaData'
+[2017.09.21-10.19.41:729][594]LogMetaData: Removing '/Game/Blueprints/Camera/bp_DeckCamera.SKEL_bp_deckCamera_C' ref from Metadata '/Game/Blueprints/Camera/bp_deckCamer.PackageMetaData'
+[2017.09.21-10.19.41:729][594]LogMetaData: Removing '/Game/Blueprints/Camera/bp_DeckCamera.bp_deckCamera_C' ref from Metadata '/Game/Blueprints/Camera/bp_deckCamer.PackageMetaData'
+[2017.09.21-10.19.41:729][594]LogMetaData: Removing '/Game/Blueprints/Camera/bp_DeckCamera.bp_deckCamera:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Camera/bp_deckCamer.PackageMetaData'
+[2017.09.21-10.19.41:729][594]LogMetaData: Removing '/Game/Blueprints/Camera/bp_DeckCamera.bp_deckCamera:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Camera/bp_deckCamer.PackageMetaData'
+[2017.09.21-10.19.41:753][594]LogSavePackage: Save=8.21ms
+[2017.09.21-10.19.41:753][594]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCameraE2A56E4C4B8733728AE953B1D9C93BF6.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.19.41:755][594]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.19.43:053][716]LogRenderer: Reallocating scene render targets to support 1276x704 NumSamples 1 (Frame:1).
+[2017.09.21-10.20.29:383][339]LogSavePackage: Save=8.86ms
+[2017.09.21-10.20.29:383][339]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCamera31C9F6DA44FB4E45A9C1A19E5668D514.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.20.29:385][339]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.20.30:351][455]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.20.30:887][501]LogSavePackage: Save=7.94ms
+[2017.09.21-10.20.30:887][501]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCameraC4DF92024862909550A3A490EE80FF6F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.20.30:888][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.21.47:556][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.21-10.21.47:659][314]LogSavePackage: Save=89.01ms
+[2017.09.21-10.21.47:659][314]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach460EB1ED448E08950AD429BDFED68749.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.09.21-10.21.47:660][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.09.21-10.21.53:236][975]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.21-10.22.26:554][945]LogSavePackage: Save=11.01ms
+[2017.09.21-10.22.26:554][945]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckCamera_RTF902176642B384FF1BFC0D8376505DCA.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/DeckCamera_RT.uasset'
+[2017.09.21-10.22.26:556][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/DeckCamera_RT.uasset
+[2017.09.21-10.22.49:050][641]LogSavePackage: Save=5.22ms
+[2017.09.21-10.22.49:050][641]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckCamera_RTC589D52E472B1C2ECE4CA3B417FB360B.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/DeckCamera_RT.uasset'
+[2017.09.21-10.22.49:052][641]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/DeckCamera_RT.uasset
+[2017.09.21-10.23.57:238][772]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera2)
+[2017.09.21-10.23.59:705][ 61]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera)
+[2017.09.21-10.24.02:495][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.24.03:556][512]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera2)
+[2017.09.21-10.24.33:400][885]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.24.33:435][885]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera_2.CamMesh0 is already used by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_0.CamMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.33:435][885]LogUObjectGlobals:Warning: Guid referenced by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera_2.DrawFrust0 is already used by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_0.DrawFrust0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.33:435][885]LogUObjectGlobals:Warning: Guid referenced by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera_2.NewSceneCaptureComponent2D is already used by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_0.NewSceneCaptureComponent2D, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.33:436][885]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera2.CamMesh0 is already used by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_1.CamMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.33:436][885]LogUObjectGlobals:Warning: Guid referenced by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera2.DrawFrust0 is already used by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_1.DrawFrust0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.33:436][885]LogUObjectGlobals:Warning: Guid referenced by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera2.NewSceneCaptureComponent2D is already used by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_1.NewSceneCaptureComponent2D, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.33:471][885]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera3.CamMesh0 is already used by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_2.CamMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.33:471][885]LogUObjectGlobals:Warning: Guid referenced by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera3.DrawFrust0 is already used by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_2.DrawFrust0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.33:471][885]LogUObjectGlobals:Warning: Guid referenced by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera3.NewSceneCaptureComponent2D is already used by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_2.NewSceneCaptureComponent2D, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.24.34:264][946]LogSavePackage: Save=8.59ms
+[2017.09.21-10.24.34:264][946]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCamera04991F0F4A83A830A2DCB1A0CFE90067.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.24.34:266][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.24.38:975][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.24.39:352][550]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera)
+[2017.09.21-10.24.45:427][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.24.45:805][312]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera3)
+[2017.09.21-10.24.48:486][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.24.48:988][683]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera2)
+[2017.09.21-10.24.51:087][928]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.09.21-10.24.51:858][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.21-10.24.53:631][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.21-10.24.53:741][223]LogSavePackage: Save=94.06ms
+[2017.09.21-10.24.53:741][223]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachF7DEDF564D8AB732F4B5EC98FD105A08.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.09.21-10.24.53:743][223]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.09.21-10.25.51:957][126]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.25.51:961][126]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera_2.CamMesh0 is already used by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_0.CamMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.25.51:961][126]LogUObjectGlobals:Warning: Guid referenced by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera_2.DrawFrust0 is already used by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_0.DrawFrust0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.25.51:961][126]LogUObjectGlobals:Warning: Guid referenced by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera_2.NewSceneCaptureComponent2D is already used by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_0.NewSceneCaptureComponent2D, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.25.51:961][126]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera2.CamMesh0 is already used by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_1.CamMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.25.51:961][126]LogUObjectGlobals:Warning: Guid referenced by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera2.DrawFrust0 is already used by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_1.DrawFrust0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.25.51:961][126]LogUObjectGlobals:Warning: Guid referenced by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera2.NewSceneCaptureComponent2D is already used by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_1.NewSceneCaptureComponent2D, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.25.51:962][126]LogUObjectGlobals:Warning: Guid referenced by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera3.CamMesh0 is already used by StaticMeshComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_2.CamMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.25.51:962][126]LogUObjectGlobals:Warning: Guid referenced by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera3.DrawFrust0 is already used by DrawFrustumComponent /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_2.DrawFrust0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.25.51:962][126]LogUObjectGlobals:Warning: Guid referenced by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.bp_deckCamera3.NewSceneCaptureComponent2D is already used by SceneCaptureComponent2D /Game/ScanReach.ScanReach:PersistentLevel.REINST_bp_deckCamera_C_2.NewSceneCaptureComponent2D, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.09.21-10.26.53:183][378]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.26.53:803][441]LogSavePackage: Save=12.09ms
+[2017.09.21-10.26.53:803][441]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCamera68AB46844BF20843DB1D3ABB3E9797CF.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.26.53:805][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.27.22:193][664]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera)
+[2017.09.21-10.27.22:984][753]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera3)
+[2017.09.21-10.27.23:870][853]Cmd: DELETE
+[2017.09.21-10.27.23:870][853]Cmd: ACTOR DELETE
+[2017.09.21-10.27.23:886][853]LogEditorActor: Deleted Actor: bp_deckCamera_C
+[2017.09.21-10.27.23:897][853]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.09.21-10.27.24:689][948]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera2)
+[2017.09.21-10.27.24:923][970]Cmd: DELETE
+[2017.09.21-10.27.24:923][970]Cmd: ACTOR DELETE
+[2017.09.21-10.27.24:924][970]LogEditorActor: Deleted Actor: bp_deckCamera_C
+[2017.09.21-10.27.24:934][970]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.09.21-10.27.25:718][ 64]LogEditorViewport: Clicking on Actor (LMB): bp_deckCamera_C (bp_deckCamera)
+[2017.09.21-10.27.25:868][ 76]Cmd: DELETE
+[2017.09.21-10.27.25:868][ 76]Cmd: ACTOR DELETE
+[2017.09.21-10.27.25:868][ 76]LogEditorActor: Deleted Actor: bp_deckCamera_C
+[2017.09.21-10.27.25:878][ 76]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.09.21-10.27.41:632][956]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.27.44:412][281]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.27.46:406][510]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.27.49:374][856]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.27.49:453][856]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.27.49:462][856]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.27.49:493][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.21-10.27.50:256][938]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.09.21-10.27.50:256][938]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.27.50:256][938]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.27.50:256][938]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.27.52:191][169]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.27.52:240][169]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.27.52:249][169]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.27.52:281][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.21-10.27.52:822][227]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.09.21-10.27.52:822][227]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.27.52:822][227]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.27.52:822][227]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.27.53:892][354]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.27.53:940][354]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.27.53:948][354]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.27.53:982][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.21-10.27.54:514][410]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.09.21-10.27.54:514][410]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.27.54:514][410]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.27.54:514][410]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.28.01:016][189]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.28.01:026][189]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.21-10.28.01:610][256]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.28.01:610][256]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.28.01:610][256]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.28.01:610][256]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.28.03:408][471]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.28.03:419][471]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.21-10.28.03:983][536]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.28.03:983][536]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.28.03:983][536]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.28.03:983][536]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.28.06:497][837]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.28.06:508][837]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.21-10.28.07:070][901]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.28.07:070][901]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.28.07:070][901]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.28.07:070][901]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.28.07:811][990]LogMaterialEditor: Applying material DeckCamera_RT_3_Mat
+[2017.09.21-10.28.08:187][990]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.28.08:216][990]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.28.08:232][990]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.28.08:275][990]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.28.08:712][990]TextureStreamingBuild:Display: Compiling optional shaders took 0.443 seconds.
+[2017.09.21-10.28.09:747][112]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.28.09:747][112]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.28.09:747][112]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.09.21-10.28.09:747][112]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.28.09:780][116]LogMaterialEditor: Applying material DeckCamera_RT_2_Mat
+[2017.09.21-10.28.10:155][116]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.28.10:183][116]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.28.10:199][116]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.28.10:235][116]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.28.10:673][116]TextureStreamingBuild:Display: Compiling optional shaders took 0.443 seconds.
+[2017.09.21-10.28.11:694][237]LogMaterialEditor: Applying material DeckCamera_RT_Mat
+[2017.09.21-10.28.12:070][237]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.28.12:098][237]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.28.12:115][237]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.28.12:151][237]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.28.12:579][237]TextureStreamingBuild:Display: Compiling optional shaders took 0.432 seconds.
+[2017.09.21-10.28.12:598][237]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.28.12:598][237]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.28.12:598][237]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.09.21-10.28.12:598][237]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.28.12:944][279]LogMaterialEditor: Saving and Compiling material DeckCamera_RT_Mat
+[2017.09.21-10.28.13:565][279]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.21-10.28.13:585][279]LogSavePackage: Save=10.44ms
+[2017.09.21-10.28.13:585][279]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckCamera_RT_Mat67B3D8E24445580065A21E9E8FCDBFA9.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/DeckCamera_RT_Mat.uasset'
+[2017.09.21-10.28.13:587][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/DeckCamera_RT_Mat.uasset
+[2017.09.21-10.28.13:589][279]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.28.13:589][279]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.28.13:589][279]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.09.21-10.28.13:589][279]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.28.48:059][380]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.29.08:206][740]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.21-10.30.51:299][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2017.09.21-10.30.51:354][ 41]LogSavePackage: Save=47.38ms
+[2017.09.21-10.30.51:354][ 41]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship45C87A8E4C2CAA7771758E925521BC61.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2017.09.21-10.30.51:357][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2017.09.21-10.30.52:248][148]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.31.25:224][ 67]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.31.53:309][391]Cmd: TRANSACTION UNDO
+[2017.09.21-10.31.53:309][391]LogEditorTransaction: Undo Remove Parameter
+[2017.09.21-10.31.53:326][391]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.31.53:334][391]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.31.53:348][391]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.31.54:118][480]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.31.54:118][480]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.31.54:118][480]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.31.54:118][480]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.31.54:559][533]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.31.54:559][533]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.31.54:559][533]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.31.54:559][533]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.31.55:018][588]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.31.55:018][588]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.31.55:018][588]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.31.55:018][588]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.32.26:077][296]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.32.43:995][403]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.33.06:766][ 90]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.33.22:370][944]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.33.36:899][646]BlueprintLog: New page: Compile bp_Ship
+[2017.09.21-10.33.37:291][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2017.09.21-10.33.37:347][681]LogSavePackage: Save=53.07ms
+[2017.09.21-10.33.37:347][681]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship3DFA1C654B919231F7F8EA9D6784995C.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2017.09.21-10.33.37:349][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2017.09.21-10.33.43:035][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2017.09.21-10.33.43:092][361]LogSavePackage: Save=53.55ms
+[2017.09.21-10.33.43:092][361]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship709BF90847A5113BBDEB83AA635A8443.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2017.09.21-10.33.43:094][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2017.09.21-10.33.48:739][ 37]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.21-10.33.48:754][ 37]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.33.48:754][ 37]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.21-10.33.48:754][ 37]LogPlayLevel: [PlayLevel] Compiling w_Main before play...
+[2017.09.21-10.33.48:827][ 37]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (1 blueprints)
+[2017.09.21-10.33.48:827][ 37]PIE: New page: PIE session: ScanReach (21 Sep 2017 14:33:48)
+[2017.09.21-10.33.48:827][ 37]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.09.21-10.33.48:829][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001892s)
+[2017.09.21-10.33.48:829][ 37]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.21-10.33.48:829][ 37]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.09.21-10.33.48:830][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002708s)
+[2017.09.21-10.33.48:843][ 37]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.21-10.33.48:853][ 37]LogInit: FAudioDevice initialized.
+[2017.09.21-10.33.48:880][ 37]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.09.21-10.33.48:881][ 37]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.09.21-12.33.48
+[2017.09.21-10.33.48:882][ 37]LogWorld: Bringing up level for play took: 0.000835
+[2017.09.21-10.33.48:894][ 37]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.811
+[2017.09.21-10.33.48:894][ 37]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.33.50:798][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.33.50:826][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.34.27:189][607]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.34.27:591][642]LogSavePackage: Save=14.18ms
+[2017.09.21-10.34.27:591][642]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCamera339AE7F049B1D151FFAACEBD3C9A756D.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.34.27:594][642]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.34.41:108][264]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.34.41:465][295]LogSavePackage: Save=14.18ms
+[2017.09.21-10.34.41:465][295]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCamera281F6475463D7D42F3A86595737FC9A1.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.34.41:467][295]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.34.52:220][582]LogMaterial: Missing cached shader map for material DeckCamera_RT_2_Mat, compiling. 
+[2017.09.21-10.34.52:980][673]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.34.52:980][673]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.34.52:980][673]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.34.52:980][673]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.34.54:382][841]LogMaterial: Missing cached shader map for material DeckCamera_RT_3_Mat, compiling. 
+[2017.09.21-10.34.54:950][909]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.34.54:950][909]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.34.54:950][909]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.34.54:950][909]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.34.56:360][ 78]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.09.21-10.34.56:912][144]MaterialEditorStats: Info Base pass shader: 82 instructions
+[2017.09.21-10.34.56:912][144]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.21-10.34.56:912][144]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.21-10.34.56:912][144]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.21-10.35.14:387][228]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.21-10.35.47:324][158]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.35.47:699][190]LogSavePackage: Save=18.16ms
+[2017.09.21-10.35.47:699][190]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCameraAC2A75234DBBA4F38E5221B055F02F4C.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.35.47:701][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.35.48:313][263]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.21-10.35.48:325][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.35.48:325][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-10.35.48:325][263]PIE: New page: PIE session: ScanReach (21 Sep 2017 14:35:48)
+[2017.09.21-10.35.48:325][263]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.09.21-10.35.48:327][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001841s)
+[2017.09.21-10.35.48:327][263]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.21-10.35.48:327][263]LogPlayLevel: PIE: World Init took: (0.000433s)
+[2017.09.21-10.35.48:327][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002415s)
+[2017.09.21-10.35.48:341][263]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.21-10.35.48:350][263]LogInit: FAudioDevice initialized.
+[2017.09.21-10.35.48:397][263]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.09.21-10.35.48:398][263]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.09.21-12.35.48
+[2017.09.21-10.35.48:398][263]LogWorld: Bringing up level for play took: 0.000829
+[2017.09.21-10.35.48:402][263]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.318
+[2017.09.21-10.35.48:402][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.35.48:411][263]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.09.21-10.35.50:679][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.35.50:729][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.00:504][674]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.36.00:935][713]LogSavePackage: Save=18.49ms
+[2017.09.21-10.36.00:935][713]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCameraC0972CDC466B8C27504F6C83D69870A0.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.36.00:937][713]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.36.01:756][811]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.21-10.36.01:768][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.01:768][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-10.36.01:768][811]PIE: New page: PIE session: ScanReach (21 Sep 2017 14:36:01)
+[2017.09.21-10.36.01:768][811]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.09.21-10.36.01:770][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001771s)
+[2017.09.21-10.36.01:770][811]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.21-10.36.01:770][811]LogPlayLevel: PIE: World Init took: (0.000456s)
+[2017.09.21-10.36.01:770][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002361s)
+[2017.09.21-10.36.01:786][811]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.21-10.36.01:795][811]LogInit: FAudioDevice initialized.
+[2017.09.21-10.36.01:840][811]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.09.21-10.36.01:842][811]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.09.21-12.36.01
+[2017.09.21-10.36.01:842][811]LogWorld: Bringing up level for play took: 0.000917
+[2017.09.21-10.36.01:844][811]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.239
+[2017.09.21-10.36.01:845][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.03:413][996]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.03:453][996]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.09:109][673]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.21-10.36.09:121][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.09:121][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-10.36.09:121][673]PIE: New page: PIE session: ScanReach (21 Sep 2017 14:36:09)
+[2017.09.21-10.36.09:122][673]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.09.21-10.36.09:123][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001714s)
+[2017.09.21-10.36.09:124][673]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.21-10.36.09:124][673]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2017.09.21-10.36.09:124][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002357s)
+[2017.09.21-10.36.09:140][673]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.21-10.36.09:149][673]LogInit: FAudioDevice initialized.
+[2017.09.21-10.36.09:178][673]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.09.21-10.36.09:179][673]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.09.21-12.36.09
+[2017.09.21-10.36.09:180][673]LogWorld: Bringing up level for play took: 0.000780
+[2017.09.21-10.36.09:181][673]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.902
+[2017.09.21-10.36.09:181][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.12:425][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.12:456][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.15:626][439]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.21-10.36.15:638][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.15:638][439]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.21-10.36.15:638][439]LogPlayLevel: [PlayLevel] Compiling bp_deckCamera before play...
+[2017.09.21-10.36.15:708][439]LogPlayLevel: PlayLevel: Blueprint regeneration took 70 ms (1 blueprints)
+[2017.09.21-10.36.15:709][439]PIE: New page: PIE session: ScanReach (21 Sep 2017 14:36:15)
+[2017.09.21-10.36.15:709][439]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.09.21-10.36.15:710][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001575s)
+[2017.09.21-10.36.15:711][439]LogAIModule: Creating AISystem for world ScanReach
+[2017.09.21-10.36.15:711][439]LogPlayLevel: PIE: World Init took: (0.000431s)
+[2017.09.21-10.36.15:711][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002132s)
+[2017.09.21-10.36.15:725][439]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.09.21-10.36.15:734][439]LogInit: FAudioDevice initialized.
+[2017.09.21-10.36.15:784][439]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.09.21-10.36.15:786][439]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.09.21-12.36.15
+[2017.09.21-10.36.15:786][439]LogWorld: Bringing up level for play took: 0.001104
+[2017.09.21-10.36.15:788][439]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.295
+[2017.09.21-10.36.15:788][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.17:912][690]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.17:955][690]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.09.21-10.36.32:987][491]BlueprintLog: New page: Compile bp_deckCamera
+[2017.09.21-10.36.37:107][973]LogSavePackage: Save=14.41ms
+[2017.09.21-10.36.37:107][973]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCameraDCF0DA8A4D2FA45C31940D873846167E.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.09.21-10.36.37:109][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.09.21-10.36.43:782][772]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.09.21-10.36.43:959][772]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.177 s
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: === Handled ensure: ===
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: 
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: Stack: 
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D686E2B6
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D661B8C2
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D6631E86
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000AC717556
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000CE9ED27B
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000AB5424AA
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000AB3E72CC
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000AB3EA6D9
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000AB508035
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0BADB57
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0BB4B61
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0DD48D3
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0C0F604
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0BE77FC
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000D0BD814C
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D68615B0
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D684B7D1
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D68633DB
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D6847B22
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: USER32.dll!0x0000000002B2BC50
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: USER32.dll!0x0000000002B2B5CF
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D6863CE6
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor.exe!0x000000004565DB44
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor.exe!0x000000004564F0B0
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor.exe!0x000000004564F12A
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor.exe!0x0000000045660CF9
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: UE4Editor.exe!0x00000000456625F7
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: KERNEL32.DLL!0x0000000002572774
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: ntdll.dll!0x0000000002DA0D51
+[2017.09.21-10.36.43:959][772]LogOutputDevice:Error: 
+[2017.09.21-10.36.43:964][772]LogStats:                SubmitErrorReport -  0.000 s
