@@ -1,0 +1,351 @@
+﻿Log file open, 10/03/17 12:03:05
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-250494188) SRandInit(-250494188).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.693182
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.03-10.03.05:974][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-10.03.05:974][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.03-10.03.05:996][  0]LogInit: Computer: WINDOWS-EUOFFC3
+[2017.10.03-10.03.05:996][  0]LogInit: User: Bendick
+[2017.10.03-10.03.05:996][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.03-10.03.05:996][  0]LogInit: High frequency timer resolution =3.914067 MHz
+[2017.10.03-10.03.05:996][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.03-10.03.05:996][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.03-10.03.05:996][  0]LogMemory: Process Physical Memory: 273.48 MB used, 273.48 MB peak
+[2017.10.03-10.03.05:996][  0]LogMemory: Process Virtual Memory: 264.87 MB used, 264.87 MB peak
+[2017.10.03-10.03.05:996][  0]LogMemory: Physical Memory: 7278.63 MB used,  9044.35 MB free, 16322.98 MB total
+[2017.10.03-10.03.05:996][  0]LogMemory: Virtual Memory: 642.61 MB used,  9044.35 MB free, 134217728.00 MB total
+[2017.10.03-10.03.06:254][  0]LogInit: Using OS detected language (en-US).
+[2017.10.03-10.03.06:254][  0]LogInit: Using OS detected locale (en-GB).
+[2017.10.03-10.03.06:293][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.03-10.03.08:414][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.03-10.03.08:850][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.10.03-10.03.08:850][  0]LogD3D11RHI:       8119/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.03-10.03.08:851][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.03-10.03.08:851][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.03-10.03.08:851][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.03-10.03.08:858][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.03-10.03.08:858][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.03-10.03.08:858][  0]LogWindows: EnumDisplayDevices:
+[2017.10.03-10.03.08:858][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.10.03-10.03.08:858][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.10.03-10.03.08:858][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.03-10.03.08:858][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.03-10.03.08:859][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.03-10.03.08:859][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.10.03-10.03.08:859][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.03-10.03.08:859][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.03-10.03.08:859][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.03-10.03.09:278][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.03-10.03.09:381][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.03-10.03.09:477][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/11524/).
+[2017.10.03-10.03.09:477][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/A5FEB35C49358EB75ECC8983F52DAEA5/'.
+[2017.10.03-10.03.09:478][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.03-10.03.10:934][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.03-10.03.10:966][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.03-10.03.10:998][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.03-10.03.11:030][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.03-10.03.11:067][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.03-10.03.11:100][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.03-10.03.11:132][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.03-10.03.11:164][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.03-10.03.11:194][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.03-10.03.11:228][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.03-10.03.11:261][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.03-10.03.11:293][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.03-10.03.11:326][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.03-10.03.11:358][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.03-10.03.11:391][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.03-10.03.11:457][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.03-10.03.11:457][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.03-10.03.11:483][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.03-10.03.11:563][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.03-10.03.11:583][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.03-10.03.11:616][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.03-10.03.11:648][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.03-10.03.11:680][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.03-10.03.11:715][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.03-10.03.11:715][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.03-10.03.12:135][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.03-10.03.12:515][  0]LogDerivedDataCache: Loaded boot cache 0.38s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.03-10.03.12:515][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.03-10.03.12:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.03-10.03.12:515][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.03-10.03.12:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.03-10.03.12:515][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.03-10.03.12:534][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.03-10.03.12:546][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.03-10.03.12:559][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.03-10.03.12:566][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.03-10.03.12:579][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-10.03.12:579][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-10.03.13:460][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-10.03.13:849][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.03-10.03.13:891][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.03-10.03.13:926][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.03-10.03.13:926][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.03-10.03.13:926][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.03-10.03.15:067][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2017.10.03-10.03.15:159][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2017.10.03-10.03.15:237][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.057822 seconds
+[2017.10.03-10.03.15:242][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.03-10.03.15:242][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.03-10.03.15:242][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.03-10.03.15:285][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.03-10.03.18:700][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.03-10.03.18:732][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.03-10.03.19:232][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.03-10.03.19:597][  0]SourceControl: Info Source control is disabled
+[2017.10.03-10.03.19:655][  0]SourceControl: Info Source control is disabled
+[2017.10.03-10.03.19:696][  0]SourceControl: Info Source control is disabled
+[2017.10.03-10.03.19:730][  0]SourceControl: Info Source control is disabled
+[2017.10.03-10.03.20:248][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.03-10.03.20:705][  0]LogEngine: Initializing Engine...
+[2017.10.03-10.03.20:707][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.03-10.03.20:962][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.03-10.03.20:963][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.03-10.03.21:115][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.03-10.03.21:142][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.03-10.03.21:156][  0]LogInit: FAudioDevice initialized.
+[2017.10.03-10.03.21:191][  0]LogDerivedDataCache: Saved boot cache 0.03s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.03-10.03.21:200][  0]LogInit: Texture streaming: Disabled
+[2017.10.03-10.03.21:272][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.03-10.03.21:465][  0]LogInit: Transaction tracking system initialized
+[2017.10.03-10.03.21:700][  0]BlueprintLog: New page: Editor Load
+[2017.10.03-10.03.22:465][  0]LocalizationService: Info Localization service is disabled
+[2017.10.03-10.03.22:991][  0]LogConsoleResponse:Display: 
+[2017.10.03-10.03.23:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2017.10.03-10.03.23:306][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.03-10.03.23:307][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.03-10.03.24:115][  0]SourceControl: Info Source control is disabled
+[2017.10.03-10.03.24:117][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-10.03.24:123][  0]LightingResults: New page: Lighting Build
+[2017.10.03-10.03.24:162][  0]MapCheck: New page: Map Check
+[2017.10.03-10.03.24:162][  0]LightingResults: New page: Lighting Build
+[2017.10.03-10.03.25:424][  0]LogAIModule: Creating AISystem for world ScanReach
+[2017.10.03-10.03.25:477][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-10.03.25:500][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-10.03.25:535][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.883ms to complete.
+[2017.10.03-10.03.25:535][  0]LogFileHelpers: Loading map 'ScanReach' took 1.418
+[2017.10.03-10.03.25:799][  0]LogCollectionManager: Loaded 0 collections in 0.000979 seconds
+[2017.10.03-10.03.25:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2017.10.03-10.03.25:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
+[2017.10.03-10.03.25:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2017.10.03-10.03.25:891][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000282 seconds
+[2017.10.03-10.03.25:907][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2329 classes and 491 folders.
+[2017.10.03-10.03.25:967][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.10.03-10.03.26:216][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.10.03-10.03.26:255][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.03-10.03.26:477][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.03-10.03.26:534][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.03-10.03.26:597][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.03-10.03.26:597][  0]LogLoad: (Engine Initialization) Total time: 23.32 seconds
+[2017.10.03-10.03.26:597][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.10.03-10.03.26:597][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.03-10.03.26:597][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.03-10.03.26:951][  0]LogOcInput: OculusInput pre-init called
+[2017.10.03-10.03.26:951][  0]LogHMD: Starting GearVRController plugin
+[2017.10.03-10.03.26:977][  0]LogAssetRegistry: Asset discovery search completed in 11.8392 seconds
+[2017.10.03-10.03.26:979][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.03-10.03.26:980][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001195 seconds (updated 0 objects)
+[2017.10.03-10.03.27:019][  0]LogSlate: Took 0.004070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-10.03.27:025][  0]LogSlate: Took 0.003863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.03-10.03.27:036][  0]LogSlate: Took 0.004447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.03-10.03.27:173][  0]LogSlate: Took 0.003800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-10.03.27:198][  1]LogRenderer: Reallocating scene render targets to support 912x452 NumSamples 1 (Frame:1).
+[2017.10.03-10.03.29:307][  7]LogRenderer: Reallocating scene render targets to support 1276x624 NumSamples 1 (Frame:4).
+[2017.10.03-10.03.31:453][258]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.03-10.03.31:488][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.03.31:489][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-10.03.31:493][258]PIE: New page: PIE session: ScanReach (3 Oct 2017 14:03:31)
+[2017.10.03-10.03.31:493][258]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.10.03-10.03.31:500][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006165s)
+[2017.10.03-10.03.31:500][258]LogAIModule: Creating AISystem for world ScanReach
+[2017.10.03-10.03.31:500][258]LogPlayLevel: PIE: World Init took: (0.000379s)
+[2017.10.03-10.03.31:501][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.007435s)
+[2017.10.03-10.03.31:517][258]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.03-10.03.31:526][258]LogInit: FAudioDevice initialized.
+[2017.10.03-10.03.31:606][258]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.10.03-10.03.31:618][258]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.10.03-12.03.31
+[2017.10.03-10.03.31:621][258]LogWorld: Bringing up level for play took: 0.003851
+[2017.10.03-10.03.31:660][258]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.10.03-10.03.31:679][258]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.406
+[2017.10.03-10.03.31:680][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.03.31:708][258]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.10.03-10.03.51:865][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.03.51:906][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.03.54:171][930]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.10.03-10.03.54:739][983]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.10.03-10.03.54:783][986]LogEditorViewport: Clicking on Component (LMB): ChildActorComponent (NODE_AddChildActorComponent-0_2)
+[2017.10.03-10.03.55:120][ 25]LogEditorViewport: Clicking on Component (context menu): ChildActorComponent (NODE_AddChildActorComponent-0_3)
+[2017.10.03-10.03.56:044][130]LogEditorViewport: Clicking on Component (LMB): ChildActorComponent (NODE_AddChildActorComponent-0_3)
+[2017.10.03-10.04.01:278][731]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-10.04.01:602][731]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.10.03-10.04.02:026][731]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-10.04.02:134][731]LogSlate: Took 0.003256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.03-10.04.02:242][732]LogSlate: Took 0.003070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.03-10.04.05:171][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2017.10.03-10.04.05:334][ 44]LogSavePackage: Save=148.56ms
+[2017.10.03-10.04.05:334][ 44]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship27A3607E4827C41463E8F2A8A9C0728C.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2017.10.03-10.04.05:335][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2017.10.03-10.04.41:535][260]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.03-10.04.41:550][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.04.41:550][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-10.04.41:550][260]PIE: New page: PIE session: ScanReach (3 Oct 2017 14:04:41)
+[2017.10.03-10.04.41:550][260]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.10.03-10.04.41:554][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003823s)
+[2017.10.03-10.04.41:555][260]LogAIModule: Creating AISystem for world ScanReach
+[2017.10.03-10.04.41:555][260]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2017.10.03-10.04.41:555][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.004458s)
+[2017.10.03-10.04.41:569][260]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.03-10.04.41:578][260]LogInit: FAudioDevice initialized.
+[2017.10.03-10.04.41:634][260]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.10.03-10.04.41:636][260]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.10.03-12.04.41
+[2017.10.03-10.04.41:636][260]LogWorld: Bringing up level for play took: 0.001528
+[2017.10.03-10.04.41:642][260]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.443
+[2017.10.03-10.04.41:642][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.05.39:530][517]LogRenderer: Reallocating scene render targets to support 1920x1028 NumSamples 1 (Frame:6259).
+[2017.10.03-10.06.29:860][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.06.29:947][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.06.30:418][ 45]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.10.03-10.06.30:927][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.03-10.06.31:851][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.03-10.06.32:023][201]LogSavePackage: Save=149.96ms
+[2017.10.03-10.06.32:023][201]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach12B5A0E14818C747016EEA8AC40F4C25.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.10.03-10.06.32:024][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.10.03-10.06.32:048][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.10.03-10.06.32:071][201]LogSavePackage: Save=12.51ms
+[2017.10.03-10.06.32:071][201]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataC95D9CA0467D3D6BB39357A13AE2FC62.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.10.03-10.06.32:072][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.10.03-10.06.35:549][591]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.03-10.06.35:560][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.06.35:560][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-10.06.35:560][591]PIE: New page: PIE session: ScanReach (3 Oct 2017 14:06:35)
+[2017.10.03-10.06.35:560][591]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.10.03-10.06.35:564][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003572s)
+[2017.10.03-10.06.35:564][591]LogAIModule: Creating AISystem for world ScanReach
+[2017.10.03-10.06.35:564][591]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2017.10.03-10.06.35:564][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.004170s)
+[2017.10.03-10.06.35:578][591]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.03-10.06.35:587][591]LogInit: FAudioDevice initialized.
+[2017.10.03-10.06.35:641][591]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.10.03-10.06.35:643][591]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.10.03-12.06.35
+[2017.10.03-10.06.35:643][591]LogWorld: Bringing up level for play took: 0.001476
+[2017.10.03-10.06.35:649][591]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.436
+[2017.10.03-10.06.35:650][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.06.36:942][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.06.37:005][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.06.45:591][681]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.03-10.08.26:877][132]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.10.03-10.08.26:955][132]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.10.03-10.08.26:963][132]LogMaterial: Missing cached shader map for material DeckCamera_RT_Mat, compiling. 
+[2017.10.03-10.08.26:996][132]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.03-10.09.28:757][500]BlueprintLog: New page: Compile bp_deckCamera
+[2017.10.03-10.09.29:360][542]LogSavePackage: Save=24.23ms
+[2017.10.03-10.09.29:360][542]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckCamera0E0FD72149C5B853DF673FBD14C21EC4.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset'
+[2017.10.03-10.09.29:361][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Camera/bp_DeckCamera.uasset
+[2017.10.03-10.09.30:039][623]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.03-10.09.30:050][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.09.30:051][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-10.09.30:051][623]PIE: New page: PIE session: ScanReach (3 Oct 2017 14:09:30)
+[2017.10.03-10.09.30:051][623]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.10.03-10.09.30:055][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004107s)
+[2017.10.03-10.09.30:055][623]LogAIModule: Creating AISystem for world ScanReach
+[2017.10.03-10.09.30:055][623]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2017.10.03-10.09.30:055][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.004756s)
+[2017.10.03-10.09.30:069][623]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.03-10.09.30:079][623]LogInit: FAudioDevice initialized.
+[2017.10.03-10.09.30:132][623]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.10.03-10.09.30:134][623]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.10.03-12.09.30
+[2017.10.03-10.09.30:135][623]LogWorld: Bringing up level for play took: 0.001603
+[2017.10.03-10.09.30:140][623]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.055
+[2017.10.03-10.09.30:140][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.09.53:452][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.09.53:512][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.03-10.10.04:666][663]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.10.03-10.10.05:100][706]LogEditorViewport: Clicking on Actor (context menu): bp_Ship_C (bp_Ship)
+[2017.10.03-10.10.06:877][910]LogUObjectBase:Warning: Object is not registered
+[2017.10.03-10.10.07:051][910]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.174 s
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: === Handled ensure: ===
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: 
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: Stack: 
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003A87E2B6
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003A62B8C2
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003A641E86
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000022157556
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000202BD27B
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000001F4524AA
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000001F2F72CC
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000001F2FA6D9
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000001F418035
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000372BDB57
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000372C4B61
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000374E48D3
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000003731F604
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000372F77FC
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000372E814C
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003A8715B0
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003A85B7D1
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003A8733DB
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003A857B22
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: USER32.dll!0x00000000777DBC50
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: USER32.dll!0x00000000777DB5CF
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000003A873CE6
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor.exe!0x00000000114EDB44
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor.exe!0x00000000114DF0B0
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor.exe!0x00000000114DF12A
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor.exe!0x00000000114F0CF9
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: UE4Editor.exe!0x00000000114F25F7
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: KERNEL32.DLL!0x00000000772A2774
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: ntdll.dll!0x0000000077B60D51
+[2017.10.03-10.10.07:051][910]LogOutputDevice:Error: 
+[2017.10.03-10.10.07:056][910]LogStats:                SubmitErrorReport -  0.000 s
