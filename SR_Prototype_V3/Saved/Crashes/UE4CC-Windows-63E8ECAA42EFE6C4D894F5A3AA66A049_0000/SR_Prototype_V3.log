@@ -1,0 +1,460 @@
+﻿Log file open, 10/13/17 13:49:13
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-650284533) SRandInit(-650284533).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072523
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.13-11.49.14:099][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.13-11.49.14:099][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.13-11.49.14:120][  0]LogInit: Computer: WINDOWS-EUOFFC3
+[2017.10.13-11.49.14:120][  0]LogInit: User: Bendick
+[2017.10.13-11.49.14:120][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.13-11.49.14:120][  0]LogInit: High frequency timer resolution =3.914067 MHz
+[2017.10.13-11.49.14:120][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.13-11.49.14:120][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.13-11.49.14:120][  0]LogMemory: Process Physical Memory: 273.77 MB used, 273.77 MB peak
+[2017.10.13-11.49.14:120][  0]LogMemory: Process Virtual Memory: 264.95 MB used, 264.95 MB peak
+[2017.10.13-11.49.14:120][  0]LogMemory: Physical Memory: 7095.61 MB used,  9227.36 MB free, 16322.98 MB total
+[2017.10.13-11.49.14:120][  0]LogMemory: Virtual Memory: 642.61 MB used,  9227.36 MB free, 134217728.00 MB total
+[2017.10.13-11.49.14:186][  0]LogInit: Using OS detected language (en-US).
+[2017.10.13-11.49.14:186][  0]LogInit: Using OS detected locale (en-GB).
+[2017.10.13-11.49.14:225][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.13-11.49.16:205][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.13-11.49.16:640][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.10.13-11.49.16:640][  0]LogD3D11RHI:       8119/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.13-11.49.16:642][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.13-11.49.16:642][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.13-11.49.16:642][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.13-11.49.16:646][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.13-11.49.16:646][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.13-11.49.16:646][  0]LogWindows: EnumDisplayDevices:
+[2017.10.13-11.49.16:646][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.10.13-11.49.16:646][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.10.13-11.49.16:646][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.13-11.49.16:646][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.13-11.49.16:646][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.13-11.49.16:646][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.10.13-11.49.16:646][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.13-11.49.16:646][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.13-11.49.16:646][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.13-11.49.17:044][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.13-11.49.17:175][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.13-11.49.17:265][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/11488/).
+[2017.10.13-11.49.17:265][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/A43931C54E56C3A84C4F7583841CD8DF/'.
+[2017.10.13-11.49.17:265][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.13-11.49.18:617][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.13-11.49.18:649][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.13-11.49.18:681][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.13-11.49.18:713][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.13-11.49.18:748][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.13-11.49.18:780][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.13-11.49.18:812][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.13-11.49.18:844][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.13-11.49.18:873][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.13-11.49.18:905][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.13-11.49.18:937][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.13-11.49.18:968][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.13-11.49.19:000][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.13-11.49.19:032][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.13-11.49.19:064][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.13-11.49.19:127][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.13-11.49.19:127][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.13-11.49.19:152][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.13-11.49.19:223][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.13-11.49.19:243][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.13-11.49.19:275][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.13-11.49.19:307][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.13-11.49.19:339][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.13-11.49.19:371][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.13-11.49.19:371][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.13-11.49.19:711][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.13-11.49.20:048][  0]LogDerivedDataCache: Loaded boot cache 0.34s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.13-11.49.20:048][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.13-11.49.20:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.13-11.49.20:048][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.13-11.49.20:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.13-11.49.20:048][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.13-11.49.20:060][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.13-11.49.20:071][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.13-11.49.20:078][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.13-11.49.20:078][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.13-11.49.20:087][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.13-11.49.20:087][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.13-11.49.20:594][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.13-11.49.20:760][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.13-11.49.20:790][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.13-11.49.20:824][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.13-11.49.20:824][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.13-11.49.20:824][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.13-11.49.21:227][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2017.10.13-11.49.21:275][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
+[2017.10.13-11.49.21:315][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.027178 seconds
+[2017.10.13-11.49.21:319][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.13-11.49.21:319][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.13-11.49.21:319][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.13-11.49.21:360][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.13-11.49.24:523][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.13-11.49.24:553][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.13-11.49.24:939][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.13-11.49.25:197][  0]SourceControl: Info Source control is disabled
+[2017.10.13-11.49.25:246][  0]SourceControl: Info Source control is disabled
+[2017.10.13-11.49.25:279][  0]SourceControl: Info Source control is disabled
+[2017.10.13-11.49.25:310][  0]SourceControl: Info Source control is disabled
+[2017.10.13-11.49.25:773][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.13-11.49.26:158][  0]LogEngine: Initializing Engine...
+[2017.10.13-11.49.26:159][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.13-11.49.26:289][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.13-11.49.26:290][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.13-11.49.26:372][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.13-11.49.26:378][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.13-11.49.26:391][  0]LogInit: FAudioDevice initialized.
+[2017.10.13-11.49.26:426][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.13-11.49.26:440][  0]LogInit: Texture streaming: Disabled
+[2017.10.13-11.49.26:503][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.13-11.49.26:650][  0]LogInit: Transaction tracking system initialized
+[2017.10.13-11.49.26:845][  0]BlueprintLog: New page: Editor Load
+[2017.10.13-11.49.27:453][  0]LocalizationService: Info Localization service is disabled
+[2017.10.13-11.49.27:899][  0]LogConsoleResponse:Display: 
+[2017.10.13-11.49.28:016][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.13-11.49.28:016][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.13-11.49.28:678][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2017.10.13-11.49.28:708][  0]SourceControl: Info Source control is disabled
+[2017.10.13-11.49.28:708][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.13-11.49.28:709][  0]LightingResults: New page: Lighting Build
+[2017.10.13-11.49.28:734][  0]MapCheck: New page: Map Check
+[2017.10.13-11.49.28:734][  0]LightingResults: New page: Lighting Build
+[2017.10.13-11.49.29:405][  0]LogAIModule: Creating AISystem for world ScanReach
+[2017.10.13-11.49.29:413][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.13-11.49.29:422][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.13-11.49.29:453][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.124ms to complete.
+[2017.10.13-11.49.29:453][  0]LogFileHelpers: Loading map 'ScanReach' took 0.745
+[2017.10.13-11.49.29:580][  0]LogCollectionManager: Loaded 0 collections in 0.000961 seconds
+[2017.10.13-11.49.29:646][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2017.10.13-11.49.29:646][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
+[2017.10.13-11.49.29:646][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2017.10.13-11.49.29:646][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.13-11.49.29:652][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 2329 classes and 491 folders.
+[2017.10.13-11.49.29:692][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.10.13-11.49.29:982][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.10.13-11.49.30:010][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.13-11.49.30:070][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.13-11.49.30:078][  0]LogSlate: Took 0.004097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.13-11.49.30:083][  0]LogSlate: Took 0.004302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.13-11.49.30:091][  0]LogSlate: Took 0.004370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.13-11.49.30:172][  0]LogRenderer: Reallocating scene render targets to support 1276x604 NumSamples 1 (Frame:1).
+[2017.10.13-11.49.30:215][  0]LogSlate: Took 0.004009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.13-11.49.30:262][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.13-11.49.30:311][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.13-11.49.30:312][  0]LogLoad: (Engine Initialization) Total time: 17.83 seconds
+[2017.10.13-11.49.30:312][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.10.13-11.49.30:312][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.13-11.49.30:312][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.13-11.49.30:651][  0]LogOcInput: OculusInput pre-init called
+[2017.10.13-11.49.30:651][  0]LogHMD: Starting GearVRController plugin
+[2017.10.13-11.49.30:664][  0]LogAssetRegistry: Asset discovery search completed in 9.4099 seconds
+[2017.10.13-11.49.30:665][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.13-11.49.30:665][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.10.13-11.49.30:701][  0]LogRenderer: Reallocating scene render targets to support 1276x624 NumSamples 1 (Frame:2).
+[2017.10.13-11.49.56:030][362]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.13-11.49.56:260][362]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.10.13-11.49.56:675][362]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.13-11.49.56:679][362]LogSlate: Took 0.003182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.13-11.50.08:406][758]LogTexture:Display: Building textures: BelowMainDeck_256 (AutoDXT, 256X256)
+[2017.10.13-11.51.31:206][666]BlueprintLog: New page: Compile w_DeckButton
+[2017.10.13-11.51.31:297][666]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.13-11.51.31:687][704]LogSavePackage: Save=31.68ms
+[2017.10.13-11.51.31:687][704]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButton4183A2FD4D7107537E0AC1A237898650.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2017.10.13-11.51.31:689][704]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2017.10.13-11.51.35:377][134]LogSavePackage: Save=30.87ms
+[2017.10.13-11.51.35:377][134]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButtonD9B2DF5A4B99E36B80C10E87C92EDA04.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2017.10.13-11.51.35:378][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2017.10.13-11.51.36:342][244]LogSavePackage: Save=30.21ms
+[2017.10.13-11.51.36:342][244]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButtonC4CB51E4453B3AE0824D73A632FEB0D1.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2017.10.13-11.51.36:343][244]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2017.10.13-11.51.39:278][596]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.10.13-11.51.42:711][999]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.10.13-11.51.42:780][  5]LogEditorViewport: Clicking on Component (LMB): ChildActorComponent (NODE_AddChildActorComponent-0_0)
+[2017.10.13-11.51.50:364][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.13-11.51.50:486][911]LogSavePackage: Save=103.32ms
+[2017.10.13-11.51.50:486][911]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach95B94EE647CC57C99E33B7984262B279.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.10.13-11.51.50:487][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.10.13-11.51.50:518][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.10.13-11.51.50:540][911]LogSavePackage: Save=11.07ms
+[2017.10.13-11.51.50:540][911]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData416BDC9B427267CD28CF41ABDDBA6146.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.10.13-11.51.50:541][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.10.13-11.52.00:671][115]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_1' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_1' is empty
+[2017.10.13-11.52.07:698][955]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_5' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_5' is empty
+[2017.10.13-11.52.17:622][141]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_9' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_9' is empty
+[2017.10.13-11.52.19:002][301]LogSlate: Took 0.003089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.13-11.52.25:382][ 64]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_13' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_13' is empty
+[2017.10.13-11.52.27:525][318]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_17' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_17' is empty
+[2017.10.13-11.52.28:347][414]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_21' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_21' is empty
+[2017.10.13-11.52.29:020][492]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_25' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_25' is empty
+[2017.10.13-11.52.29:901][595]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_29' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_29' is empty
+[2017.10.13-11.52.30:574][673]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_33' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_33' is empty
+[2017.10.13-11.52.37:115][455]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_37' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_37' is empty
+[2017.10.13-11.52.40:371][843]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_s_DeckSetup_41' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_s_DeckSetup_41' is empty
+[2017.10.13-11.52.40:824][891]LogSavePackage: Save=4.10ms
+[2017.10.13-11.52.40:824][891]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/s_FloorInfo045434254C9C1F1A27E8FABBBF47E1FA.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Structs/s_FloorInfo.uasset'
+[2017.10.13-11.52.40:826][891]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Structs/s_FloorInfo.uasset
+[2017.10.13-11.52.41:690][992]LogSavePackage: Save=3.80ms
+[2017.10.13-11.52.41:690][992]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/s_FloorInfo9C8617054E0D1E59877F289940C37078.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Structs/s_FloorInfo.uasset'
+[2017.10.13-11.52.41:691][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Structs/s_FloorInfo.uasset
+[2017.10.13-11.52.44:643][345]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.13-11.52.44:677][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.13-11.52.44:677][345]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.13-11.52.44:677][345]LogPlayLevel: [PlayLevel] Compiling bp_Ship before play...
+[2017.10.13-11.52.44:862][345]LogPlayLevel: [PlayLevel] Compiling bp_Deck before play...
+[2017.10.13-11.52.45:391][345]LogPlayLevel: [PlayLevel] Compiling DeckOverview_Container before play...
+[2017.10.13-11.52.45:481][345]LogPlayLevel: PlayLevel: Blueprint regeneration took 804 ms (3 blueprints)
+[2017.10.13-11.52.45:482][345]PIE: New page: PIE session: ScanReach (13 Oct 2017 15:52:45)
+[2017.10.13-11.52.45:483][345]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.10.13-11.52.45:485][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002334s)
+[2017.10.13-11.52.45:485][345]LogAIModule: Creating AISystem for world ScanReach
+[2017.10.13-11.52.45:485][345]LogPlayLevel: PIE: World Init took: (0.000428s)
+[2017.10.13-11.52.45:485][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002887s)
+[2017.10.13-11.52.45:498][345]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.13-11.52.45:508][345]LogInit: FAudioDevice initialized.
+[2017.10.13-11.52.45:578][345]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.10.13-11.52.45:579][345]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.10.13-13.52.45
+[2017.10.13-11.52.45:580][345]LogWorld: Bringing up level for play took: 0.001287
+[2017.10.13-11.52.45:606][345]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.10.13-11.52.45:611][345]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 1.584
+[2017.10.13-11.52.45:611][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.13-11.52.45:630][345]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.10.13-11.52.45:661][346]LoadErrors:Error: Error /Game/Blueprints/Ship/bp_Deck : Failed import for ObjectProperty /Game/Blueprints/Structs/s_FloorInfo.s_FloorInfo:DeckImage_23_F17FEB9845C349476FE847ACFC11FD9B
+[2017.10.13-11.52.45:661][346]LoadErrors:Error: Error /Game/Blueprints/Ship/bp_Deck : Failed import for TextProperty /Game/Blueprints/Structs/s_FloorInfo.s_FloorInfo:DeckName_9_98C66F31410402951B2DEBA6F290C90C
+[2017.10.13-11.52.45:662][346]LoadErrors:Error: Error /Game/Blueprints/Widgets/DeckOverview_Container : Failed import for ObjectProperty /Game/Blueprints/Structs/s_FloorInfo.s_FloorInfo:DeckImage_23_F17FEB9845C349476FE847ACFC11FD9B
+[2017.10.13-11.52.45:662][346]LoadErrors:Error: Error /Game/Blueprints/Widgets/DeckOverview_Container : Failed import for TextProperty /Game/Blueprints/Structs/s_FloorInfo.s_FloorInfo:DeckName_9_98C66F31410402951B2DEBA6F290C90C
+[2017.10.13-11.52.47:484][556]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_6
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.47:484][556]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.47:776][591]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_8
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.47:776][591]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.48:318][656]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_11
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.48:318][656]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.48:543][683]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_10
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.48:543][683]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.48:792][713]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_13
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.48:793][713]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.49:043][743]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_12
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.49:043][743]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.49:293][773]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_9
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.49:293][773]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.49:576][807]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_6
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.49:576][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.49:851][840]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_7
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.49:851][840]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.50:984][976]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_12
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.50:984][976]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.51:201][  2]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_12
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.51:201][  2]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.51:509][ 39]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_9
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.51:510][ 39]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.51:826][ 77]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_6
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.51:826][ 77]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.52:126][113]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_7
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.52:126][113]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.52:426][149]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_10
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.52:426][149]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.52:618][172]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_10
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.52:618][172]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.52:843][199]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_13
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.52:843][199]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.53:101][230]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_14
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.53:101][230]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.53:351][260]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_11
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.53:351][260]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.53:609][291]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_10
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.53:610][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.53:868][322]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.w_DeckButton_C_13
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.52.53:868][322]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.52.54:052][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.13-11.52.54:117][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.13-11.52.54:679][406]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.10.13-11.52.59:587][913]LogSlate: Took 0.003147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.13-11.53.06:176][655]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.10.13-11.53.06:196][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.13-11.53.06:197][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.13-11.53.06:197][655]PIE: New page: PIE session: ScanReach (13 Oct 2017 15:53:06)
+[2017.10.13-11.53.06:197][655]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.10.13-11.53.06:199][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002371s)
+[2017.10.13-11.53.06:199][655]LogAIModule: Creating AISystem for world ScanReach
+[2017.10.13-11.53.06:200][655]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2017.10.13-11.53.06:200][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002981s)
+[2017.10.13-11.53.06:212][655]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.10.13-11.53.06:222][655]LogInit: FAudioDevice initialized.
+[2017.10.13-11.53.06:278][655]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.10.13-11.53.06:279][655]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.10.13-13.53.06
+[2017.10.13-11.53.06:280][655]LogWorld: Bringing up level for play took: 0.001182
+[2017.10.13-11.53.06:288][655]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.26
+[2017.10.13-11.53.06:288][655]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.13-11.53.07:350][774]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_DeckButton_C_20
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.53.07:350][774]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.53.07:664][811]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_DeckButton_C_21
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.53.07:664][811]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.53.07:935][842]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_DeckButton_C_24
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.53.07:935][842]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.53.08:171][869]LogScript:Warning: Accessed None trying to read property bp_shipref
+	w_DeckButton_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_DeckButton_C_23
+	Function /Game/Blueprints/Widgets/w_DeckButton.w_DeckButton_C:ExecuteUbergraph_w_DeckButton:0110
+[2017.10.13-11.53.08:171][869]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property bp_shipref from function: 'ExecuteUbergraph_w_DeckButton' from node: Change Deck View in graph: EventGraph in object: w_DeckButton with description: Accessed None trying to read property bp_shipref
+[2017.10.13-11.53.08:324][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.13-11.53.08:398][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.10.13-11.53.32:334][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.13-11.53.32:452][725]LogSavePackage: Save=97.30ms
+[2017.10.13-11.53.32:452][725]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach376A93A2483222B02DCFA596FEABD22F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.10.13-11.53.32:453][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.10.13-11.53.32:481][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.10.13-11.53.32:497][725]LogSavePackage: Save=7.74ms
+[2017.10.13-11.53.32:497][725]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData5A7A44FF4C784419464396926E9D0268.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.10.13-11.53.32:498][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.10.13-11.53.33:992][903]LogEditorViewport: Clicking on Actor (context menu): bp_Ship_C (bp_Ship)
+[2017.10.13-11.53.57:245][572]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.10.13-11.54.24:189][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.13-11.54.24:317][766]LogSavePackage: Save=102.48ms
+[2017.10.13-11.54.24:317][766]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach8D1C59C545714C894FA4CF94EAEFB2E6.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.10.13-11.54.24:319][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.10.13-11.54.24:343][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.10.13-11.54.24:359][766]LogSavePackage: Save=7.65ms
+[2017.10.13-11.54.24:359][766]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataD7972A064AEA81B2CF954BADAA24FD06.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.10.13-11.54.24:360][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.10.13-11.54.24:851][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.13-11.54.24:973][822]LogSavePackage: Save=103.12ms
+[2017.10.13-11.54.24:973][822]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach4E3F32734DB791845B18A1B7C9CC5D38.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.10.13-11.54.24:973][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.10.13-11.54.24:997][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.10.13-11.54.25:012][822]LogSavePackage: Save=8.05ms
+[2017.10.13-11.54.25:012][822]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData6D54AB9849216F3006F40D997D46C1B4.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.10.13-11.54.25:013][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.10.13-11.54.36:666][208]LogUObjectArray:Warning: Invalid object index 4653103
+[2017.10.13-11.54.36:833][208]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.166 s
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: === Handled ensure: ===
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: 
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: Stack: 
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C9CEE2B6
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C9A9B8C2
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C9AB1E86
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BDD87556
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000BB41D27B
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000BA6524AA
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000BA4F72CC
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000BA4FA6D9
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000BA618035
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C8E2DB57
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C8E34B61
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C90548D3
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C8E8F604
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C8E677FC
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C8E5814C
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C9CE15B0
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C9CCB7D1
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C9CE33DB
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C9CC7B22
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: USER32.dll!0x000000000E56BC50
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: USER32.dll!0x000000000E56B5CF
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C9CE3CE6
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor.exe!0x00000000B594DB44
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor.exe!0x00000000B593F0B0
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor.exe!0x00000000B593F12A
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor.exe!0x00000000B5950CF9
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: UE4Editor.exe!0x00000000B59525F7
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: KERNEL32.DLL!0x000000000E9F2774
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: ntdll.dll!0x0000000011070D51
+[2017.10.13-11.54.36:833][208]LogOutputDevice:Error: 
+[2017.10.13-11.54.36:838][208]LogStats:                SubmitErrorReport -  0.000 s
