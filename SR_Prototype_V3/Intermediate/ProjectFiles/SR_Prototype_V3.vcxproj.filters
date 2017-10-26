@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SR_Prototype_V3.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2EEF53AD-4475-42C3-B1A5-76F9550DD7E0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SR_Prototype_V3.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SR_Prototype_V3Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{D38D831E-429A-4636-BCDB-5193089E4F51}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SR_Prototype_V3">
+			<UniqueIdentifier>{0DA5FD23-10FF-4B87-A7CF-8A03CBE4779F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SR_Prototype_V3\SR_Prototype_V3.Build.cs">
+			<Filter>Source\SR_Prototype_V3</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SR_Prototype_V3\SR_Prototype_V3.cpp">
+			<Filter>Source\SR_Prototype_V3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SR_Prototype_V3\SR_Prototype_V3.h">
+			<Filter>Source\SR_Prototype_V3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SR_Prototype_V3\WebSocketEmpty.cpp">
+			<Filter>Source\SR_Prototype_V3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SR_Prototype_V3\WebSocketEmpty.h">
+			<Filter>Source\SR_Prototype_V3</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
