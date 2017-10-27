@@ -1,3 +1,4 @@
 C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Source\SR_Prototype_V3\SR_Prototype_V3.Build.cs
+C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Plugins\WebSocket\Source\WebSocket\WebSocket.Build.cs
 C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Source\SR_Prototype_V3.Target.cs
 C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Source\SR_Prototype_V3Editor.Target.cs
