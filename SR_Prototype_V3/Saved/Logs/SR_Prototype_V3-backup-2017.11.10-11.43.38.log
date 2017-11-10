@@ -1,0 +1,930 @@
+﻿Log file open, 11/10/17 11:18:22
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(504750834) SRandInit(504750834).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073516
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.10-10.18.22:442][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.10-10.18.22:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.10-10.18.22:463][  0]LogInit: Computer: WINDOWS-EUOFFC3
+[2017.11.10-10.18.22:463][  0]LogInit: User: Bendick
+[2017.11.10-10.18.22:463][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.10-10.18.22:463][  0]LogInit: High frequency timer resolution =3.914068 MHz
+[2017.11.10-10.18.22:463][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.10-10.18.22:463][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.10-10.18.22:463][  0]LogMemory: Process Physical Memory: 272.64 MB used, 272.64 MB peak
+[2017.11.10-10.18.22:463][  0]LogMemory: Process Virtual Memory: 259.05 MB used, 259.05 MB peak
+[2017.11.10-10.18.22:463][  0]LogMemory: Physical Memory: 8048.25 MB used,  8274.72 MB free, 16322.98 MB total
+[2017.11.10-10.18.22:463][  0]LogMemory: Virtual Memory: 636.66 MB used,  8274.72 MB free, 134217728.00 MB total
+[2017.11.10-10.18.22:529][  0]LogInit: Using OS detected language (en-US).
+[2017.11.10-10.18.22:529][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.10-10.18.22:576][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.10-10.18.24:862][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.10-10.18.24:895][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.10-10.18.24:895][  0]LogD3D11RHI:       8119/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.10-10.18.24:897][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.10-10.18.24:897][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.10-10.18.24:897][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.10-10.18.24:901][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.10-10.18.24:901][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.10-10.18.24:901][  0]LogWindows: EnumDisplayDevices:
+[2017.11.10-10.18.24:901][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.11.10-10.18.24:902][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.10-10.18.24:902][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.10-10.18.24:902][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.10-10.18.24:902][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.10-10.18.24:902][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.10-10.18.24:902][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.11.10-10.18.24:902][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.11.10-10.18.24:902][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.10-10.18.24:921][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.10-10.18.24:935][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.10-10.18.25:025][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/14860/).
+[2017.11.10-10.18.25:025][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/CA35BB6B418744F7E09245B5CB88A4B6/'.
+[2017.11.10-10.18.25:025][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.10-10.18.26:529][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.10-10.18.26:562][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.10-10.18.26:595][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.10-10.18.26:629][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.10-10.18.26:667][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.10-10.18.26:700][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.10-10.18.26:734][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.10-10.18.26:767][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.10-10.18.26:797][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.10-10.18.26:833][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.10-10.18.26:867][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.10-10.18.26:900][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.10-10.18.26:933][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.10-10.18.26:966][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.10-10.18.26:999][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.10-10.18.27:070][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.10-10.18.27:070][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.10-10.18.27:097][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.10-10.18.27:172][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.10-10.18.27:192][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.10-10.18.27:225][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.10-10.18.27:258][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.10-10.18.27:291][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.10-10.18.27:327][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.10-10.18.27:327][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.10-10.18.27:704][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.10-10.18.28:090][  0]LogDerivedDataCache: Loaded boot cache 0.39s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.10-10.18.28:090][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.10-10.18.28:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.10-10.18.28:090][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.10-10.18.28:090][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.10-10.18.28:090][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.10-10.18.28:110][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.10-10.18.28:121][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.10-10.18.28:128][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.10-10.18.28:128][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.10-10.18.28:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.10-10.18.28:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.10-10.18.28:668][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.10-10.18.28:963][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.10-10.18.29:006][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.10-10.18.29:042][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.10-10.18.29:042][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.10-10.18.29:042][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.10-10.18.30:039][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2017.11.10-10.18.30:111][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
+[2017.11.10-10.18.30:164][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.036049 seconds
+[2017.11.10-10.18.30:167][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.10-10.18.30:167][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.10-10.18.30:167][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.10-10.18.30:212][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.10-10.18.33:956][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.10-10.18.33:991][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.10-10.18.34:484][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.10-10.18.35:378][  0]SourceControl: Info Source control is disabled
+[2017.11.10-10.18.35:413][  0]SourceControl: Info Source control is disabled
+[2017.11.10-10.18.35:458][  0]SourceControl: Info Source control is disabled
+[2017.11.10-10.18.35:497][  0]SourceControl: Info Source control is disabled
+[2017.11.10-10.18.36:063][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.10-10.18.36:543][  0]LogEngine: Initializing Engine...
+[2017.11.10-10.18.36:544][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.10-10.18.36:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.10-10.18.36:682][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.10-10.18.36:775][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.10-10.18.36:787][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.10-10.18.36:802][  0]LogInit: FAudioDevice initialized.
+[2017.11.10-10.18.36:837][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.10-10.18.36:850][  0]LogInit: Texture streaming: Disabled
+[2017.11.10-10.18.36:920][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.10-10.18.37:103][  0]LogInit: Transaction tracking system initialized
+[2017.11.10-10.18.37:336][  0]BlueprintLog: New page: Editor Load
+[2017.11.10-10.18.38:066][  0]LocalizationService: Info Localization service is disabled
+[2017.11.10-10.18.38:623][  0]LogConsoleResponse:Display: 
+[2017.11.10-10.18.38:768][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.10-10.18.38:768][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.10-10.18.39:518][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2017.11.10-10.18.39:568][  0]SourceControl: Info Source control is disabled
+[2017.11.10-10.18.39:568][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.10-10.18.39:568][  0]LightingResults: New page: Lighting Build
+[2017.11.10-10.18.39:597][  0]MapCheck: New page: Map Check
+[2017.11.10-10.18.39:597][  0]LightingResults: New page: Lighting Build
+[2017.11.10-10.18.40:347][  0]LogTexture:Display: Building textures: T_MusterStation (BGRA8, 222X153)
+[2017.11.10-10.18.40:351][  0]LogMaterial: Missing cached shader map for material M_MusterStation, compiling. 
+[2017.11.10-10.18.40:401][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.11.10-10.18.40:404][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.11.10-10.18.40:405][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.11.10-10.18.40:407][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.11.10-10.18.40:407][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2017.11.10-10.18.40:408][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 64X64)
+[2017.11.10-10.18.40:509][  0]LogTexture:Display: Building textures: T_Staircase (BGRA8, 151X152)
+[2017.11.10-10.18.40:513][  0]LogMaterial: Missing cached shader map for material M_Staircase, compiling. 
+[2017.11.10-10.18.40:556][  0]LogMaterial: Missing cached shader map for material M_Pawn, compiling. 
+[2017.11.10-10.18.40:571][  0]LogStaticMesh: Building static mesh SM_Pawn...
+[2017.11.10-10.18.40:578][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/SM_Pawn.SM_Pawn
+[2017.11.10-10.18.40:663][  0]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.10-10.18.40:695][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.10-10.18.40:716][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.10-10.18.40:768][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.038ms to complete.
+[2017.11.10-10.18.40:768][  0]LogFileHelpers: Loading map 'ScanReach' took 1.199
+[2017.11.10-10.18.41:031][  0]LogCollectionManager: Loaded 0 collections in 0.001689 seconds
+[2017.11.10-10.18.41:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2017.11.10-10.18.41:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
+[2017.11.10-10.18.41:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2017.11.10-10.18.41:142][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.10-10.18.41:159][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2334 classes and 495 folders.
+[2017.11.10-10.18.41:247][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.11.10-10.18.41:666][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.11.10-10.18.41:732][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.11.10-10.18.41:854][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.10-10.18.41:903][  0]LogSlate: Took 0.005865 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.10-10.18.41:912][  0]LogSlate: Took 0.006832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.10-10.18.41:925][  0]LogSlate: Took 0.006927 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.10-10.18.42:066][  0]LogRenderer: Reallocating scene render targets to support 1276x604 NumSamples 1 (Frame:1).
+[2017.11.10-10.18.42:165][  0]LogSlate: Took 0.005264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.10-10.18.42:270][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.10-10.18.42:351][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.11.10-10.18.42:351][  0]LogLoad: (Engine Initialization) Total time: 21.65 seconds
+[2017.11.10-10.18.42:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.28 seconds
+[2017.11.10-10.18.42:351][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.10-10.18.42:351][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.10-10.18.42:693][  0]LogOcInput: OculusInput pre-init called
+[2017.11.10-10.18.42:693][  0]LogHMD: Starting GearVRController plugin
+[2017.11.10-10.18.42:713][  0]LogAssetRegistry: Asset discovery search completed in 12.6235 seconds
+[2017.11.10-10.18.42:715][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.10-10.18.42:715][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.11.10-10.18.42:836][  1]LogRenderer: Reallocating scene render targets to support 1276x624 NumSamples 1 (Frame:3).
+[2017.11.10-10.18.46:702][ 12]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush1)
+[2017.11.10-10.18.48:795][248]LogTemp: Repeting last play command: Standalone Game
+[2017.11.10-10.18.48:873][248]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.10-10.18.49:108][248]LogSavePackage: Save=197.92ms
+[2017.11.10-10.18.49:108][248]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReachA19EAEA2462E0DB4F8EE548D55B8C66A.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.18.49:110][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.18.49:114][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.18.49:149][248]LogSavePackage: Save=9.45ms
+[2017.11.10-10.18.49:149][248]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData51E2117643D61A5F844A35B09D509DFE.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.18.49:150][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.18.49:153][248]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.19.43:234][609]LogTemp: Repeting last play command: Standalone Game
+[2017.11.10-10.19.43:639][609]LogSavePackage: Save=219.57ms
+[2017.11.10-10.19.43:639][609]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReachFB36B73F48796B7705747AB31ABA39A1.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.19.43:640][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.19.43:643][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.19.43:717][609]LogSavePackage: Save=49.50ms
+[2017.11.10-10.19.43:717][609]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataE208F717437892386E2EFCA38D589795.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.19.43:718][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.19.43:738][609]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.20.21:934][726]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.11.10-10.20.22:326][726]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.10-10.20.22:385][726]LogBlueprintUserMessages: [bp_Deck_C_1] bp_Deck1
+[2017.11.10-10.20.22:397][726]LogSlate: Took 0.003480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.10-10.20.22:537][727]LogSlate: Took 0.003534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.10-10.20.25:065][984]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1922.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.25:065][984]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1923.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.25:065][984]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1924.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.25:065][984]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1925.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.25:066][984]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1921.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.25:066][984]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1926.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.26:832][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1949.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.26:832][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1948.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.26:832][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1947.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.26:832][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1946.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.26:832][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1945.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.26:832][173]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1950.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:333][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Deck" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset" SILENT=true
+[2017.11.10-10.20.27:433][226]LogSavePackage: Save=73.29ms
+[2017.11.10-10.20.27:433][226]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckD03DC0C844553B882AABD385E5856214.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset'
+[2017.11.10-10.20.27:437][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset
+[2017.11.10-10.20.27:860][274]BlueprintLog: New page: Compile bp_Deck
+[2017.11.10-10.20.27:902][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1904.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:902][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1903.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:902][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1902.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:902][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1901.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:902][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1906.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:972][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1919.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:972][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1918.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:973][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1917.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:973][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1916.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:973][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1915.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.27:973][274]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1920.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.20.57:628][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.10-10.20.57:630][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.10-10.20.57:630][777]PIE: New page: SIE session: ScanReach (10 Nov 2017 12:20:57)
+[2017.11.10-10.20.57:631][777]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.11.10-10.20.57:637][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006063s)
+[2017.11.10-10.20.57:637][777]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.10-10.20.57:637][777]LogPlayLevel: PIE: World Init took: (0.000402s)
+[2017.11.10-10.20.57:637][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.006620s)
+[2017.11.10-10.20.57:650][777]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.10-10.20.57:661][777]LogInit: FAudioDevice initialized.
+[2017.11.10-10.20.57:701][777]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.11.10-10.20.57:704][777]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.11.10-11.20.57
+[2017.11.10-10.20.57:705][777]LogWorld: Bringing up level for play took: 0.002369
+[2017.11.10-10.20.57:733][777]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.11.10-10.20.57:736][777]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.56
+[2017.11.10-10.20.57:751][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.10-10.20.57:872][786]LogRenderer: Reallocating scene render targets to support 1280x624 NumSamples 1 (Frame:19).
+[2017.11.10-10.21.03:457][355]LogEditorViewport: Clicking Background
+[2017.11.10-10.21.05:348][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.10-10.21.05:395][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.10-10.21.06:120][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.10-10.21.17:513][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.10-10.21.43:731][120]LogTemp: Repeting last play command: Simulate
+[2017.11.10-10.21.43:746][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.10-10.21.43:746][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.10-10.21.43:746][120]PIE: New page: SIE session: ScanReach (10 Nov 2017 12:21:43)
+[2017.11.10-10.21.43:746][120]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.11.10-10.21.43:752][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005829s)
+[2017.11.10-10.21.43:752][120]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.10-10.21.43:752][120]LogPlayLevel: PIE: World Init took: (0.000379s)
+[2017.11.10-10.21.43:753][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.006344s)
+[2017.11.10-10.21.43:768][120]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.10-10.21.43:778][120]LogInit: FAudioDevice initialized.
+[2017.11.10-10.21.43:807][120]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.11.10-10.21.43:809][120]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.11.10-11.21.43
+[2017.11.10-10.21.43:810][120]LogWorld: Bringing up level for play took: 0.002576
+[2017.11.10-10.21.43:813][120]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.483
+[2017.11.10-10.21.43:825][120]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.10-10.21.45:990][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.10-10.21.46:031][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.10-10.21.48:215][576]LogSavePackage: Save=220.85ms
+[2017.11.10-10.21.48:215][576]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReach3D6A9C0D489B3955CB6A0E9B1159F9C3.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.21.48:216][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.21.48:218][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.21.48:250][576]LogSavePackage: Save=8.49ms
+[2017.11.10-10.21.48:250][576]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData3D77F79046E4CAEB123B7F89D51585C0.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.21.48:250][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.21.48:254][576]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.22.18:245][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.10-10.22.18:519][ 51]LogSavePackage: Save=240.05ms
+[2017.11.10-10.22.18:519][ 51]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachB69F65304418096877329E83DEF8AB5A.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.11.10-10.22.18:521][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.11.10-10.22.18:550][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.22.18:584][ 51]LogSavePackage: Save=7.88ms
+[2017.11.10-10.22.18:584][ 51]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData22330D8C4FE499BC05C8EABF5408AA47.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.22.18:585][ 51]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset', retrying in .5s...
+[2017.11.10-10.22.19:085][ 51]LogFileManager:Warning: DeleteFile recovered during retry!
+[2017.11.10-10.22.19:088][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.22.22:290][424]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.11.10-10.22.23:060][507]LogEditorViewport: Clicking on Actor (context menu): bp_Ship_C (bp_Ship)
+[2017.11.10-10.22.28:205][ 71]LogUObjectArray:Warning: Invalid object index 4653103
+[2017.11.10-10.22.28:435][ 71]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.230 s
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: === Handled ensure: ===
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: 
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: Stack: 
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D23CE2B6
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D217B8C2
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D2191E86
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CDC27556
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000DC3DD27B
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000CBAB24AA
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000CB9572CC
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000CB95A6D9
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000CBA78035
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E450DB57
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E4514B61
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E47348D3
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E456F604
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E45477FC
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E453814C
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D23C15B0
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D23AB7D1
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D23C33DB
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D23A7B22
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: USER32.dll!0x0000000020C5BC50
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: USER32.dll!0x0000000020C5B5CF
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D23C3CE6
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor.exe!0x000000005165DB44
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor.exe!0x000000005164F0B0
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor.exe!0x000000005164F12A
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor.exe!0x0000000051660CF9
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: UE4Editor.exe!0x00000000516625F7
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: KERNEL32.DLL!0x00000000206C2774
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: ntdll.dll!0x00000000212A0D51
+[2017.11.10-10.22.28:435][ 71]LogOutputDevice:Error: 
+[2017.11.10-10.22.28:441][ 71]LogStats:                SubmitErrorReport -  0.000 s
+[2017.11.10-10.22.28:818][ 71]LogStats:                    SendNewReport -  0.377 s
+[2017.11.10-10.22.28:818][ 71]LogStats:             FDebug::EnsureFailed -  0.613 s
+[2017.11.10-10.22.28:819][ 71]LogUObjectArray:Warning: Invalid object index 4653103
+[2017.11.10-10.22.50:698][640]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.10-10.22.57:150][402]LogSavePackage: Save=18.15ms
+[2017.11.10-10.22.57:150][402]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusTextF014C9B04C4A283EABA91C8FF456BFB8.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.22.57:152][402]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.23.04:432][268]LogSlate: Took 0.014447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.10-10.23.12:540][227]LogSavePackage: Save=17.67ms
+[2017.11.10-10.23.12:540][227]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusText15446C944E8A8A175C75EF9C471DCD8C.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.23.12:542][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.23.13:071][284]LogSavePackage: Save=16.89ms
+[2017.11.10-10.23.13:071][284]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusTextE6367BA243143ECFFC283F858EF75DA2.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.23.13:072][284]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.23.13:557][342]BlueprintLog: New page: Compile w_statusText
+[2017.11.10-10.23.13:660][342]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.24.13:384][415]LogSavePackage: Save=101.22ms
+[2017.11.10-10.24.13:384][415]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options48EE60A24D03F83068215A88E4A87F8B.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.24.13:386][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.24.14:379][534]BlueprintLog: New page: Compile w_Options
+[2017.11.10-10.24.14:488][534]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.24.15:046][584]LogSavePackage: Save=100.84ms
+[2017.11.10-10.24.15:046][584]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options5372C218451EF22E9E59B687D237F350.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.24.15:047][584]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.24.41:163][669]LogSavePackage: Save=21.94ms
+[2017.11.10-10.24.41:163][669]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusTextFDF2E2A74E60B632E3F64AB4009AA3BE.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.24.41:165][669]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.24.41:540][714]BlueprintLog: New page: Compile w_statusText
+[2017.11.10-10.24.41:621][714]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.24.41:977][749]LogSavePackage: Save=21.56ms
+[2017.11.10-10.24.41:977][749]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusText57611ED94320A170E1B450AA83105147.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.24.41:978][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.24.43:237][898]LogTemp: Repeting last play command: Standalone Game
+[2017.11.10-10.24.44:534][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2017.11.10-10.24.44:757][898]LogSavePackage: Save=195.72ms
+[2017.11.10-10.24.44:757][898]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship63E80E134CA2FB3FFD00F5A4C73BB3EB.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2017.11.10-10.24.44:759][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2017.11.10-10.24.45:036][898]LogSavePackage: Save=222.51ms
+[2017.11.10-10.24.45:036][898]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReach0F531B5B402CB9078A164495BA82879A.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.24.45:037][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.24.45:039][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.24.45:074][898]LogSavePackage: Save=7.35ms
+[2017.11.10-10.24.45:074][898]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData90DB974943706F82E29A859D7BAB1F1B.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.24.45:074][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.24.45:078][898]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.25.18:857][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.10-10.25.19:103][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.10-10.25.19:369][304]LogSavePackage: Save=230.74ms
+[2017.11.10-10.25.19:369][304]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachB3EBFD3A49088108D41C9FAF07AC375F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.11.10-10.25.19:371][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.11.10-10.25.19:406][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.25.19:440][304]LogSavePackage: Save=8.05ms
+[2017.11.10-10.25.19:440][304]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData92D225BD4619E26731CD4A9B3E06D529.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.25.19:441][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.25.23:849][820]LogSavePackage: Save=21.09ms
+[2017.11.10-10.25.23:849][820]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusText517970624999B72199C48BBF811B4ED9.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.25.23:851][820]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.25.55:466][585]LogSavePackage: Save=100.96ms
+[2017.11.10-10.25.55:466][585]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options9E1C904D49102741DDC21B972BCA9F9F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.25.55:468][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.26.55:623][705]LogSavePackage: Save=25.43ms
+[2017.11.10-10.26.55:623][705]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusTextE4DF0D19405E6E5BD1EA14BF0183A11E.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.26.55:625][705]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.26.56:031][754]BlueprintLog: New page: Compile w_statusText
+[2017.11.10-10.26.56:212][754]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.26.56:388][767]LogSavePackage: Save=26.88ms
+[2017.11.10-10.26.56:388][767]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusTextF53ABA7D4675D68DF1801DAAA64DC00E.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.26.56:389][767]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.26.56:616][786]LogSavePackage: Save=26.45ms
+[2017.11.10-10.26.56:616][786]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_statusText6298012D44F14B19A29B4BB39D1F9023.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset'
+[2017.11.10-10.26.56:617][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_statusText.uasset
+[2017.11.10-10.27.18:729][417]LogSavePackage: Save=101.27ms
+[2017.11.10-10.27.18:729][417]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options357AEAD34C22790A490D47A5D5B0886D.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.27.18:732][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.27.42:073][190]LogBlueprintUserMessages: [bp_Deck_C_20] bp_Deck20
+[2017.11.10-10.27.43:251][324]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1932.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.43:251][324]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1927.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.43:251][324]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1928.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.43:251][324]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1929.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.43:251][324]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1930.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.43:251][324]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1931.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.49:427][ 58]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1943.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.49:427][ 58]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1942.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.49:427][ 58]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1941.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.49:427][ 58]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1940.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.49:427][ 58]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1939.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.27.49:427][ 58]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1944.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.00:604][388]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1956.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.00:604][388]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1951.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.00:604][388]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1952.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.00:604][388]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1953.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.00:604][388]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1954.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.00:604][388]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1955.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.03:384][715]BlueprintLog: New page: Compile bp_Deck
+[2017.11.10-10.28.04:070][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1934.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:070][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1933.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:070][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1926.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:070][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1925.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:070][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1924.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:070][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1935.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:097][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1946.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:097][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1945.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:097][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1944.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:097][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1943.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:097][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1942.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:097][715]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1947.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.10-10.28.04:496][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Deck" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset" SILENT=true
+[2017.11.10-10.28.04:601][753]LogSavePackage: Save=76.41ms
+[2017.11.10-10.28.04:601][753]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckB4EE253D4CF520EB186998A2FB57871A.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset'
+[2017.11.10-10.28.04:603][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset
+[2017.11.10-10.28.20:102][579]BlueprintLog: New page: Compile w_Options
+[2017.11.10-10.28.20:208][579]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.28.20:297][589]BlueprintLog: New page: Compile w_Options
+[2017.11.10-10.28.20:408][589]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.28.21:813][739]LogSavePackage: Save=103.87ms
+[2017.11.10-10.28.21:814][739]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_OptionsC5A5FF7F48CE6539C5AD75AE1C225374.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.28.21:816][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.28.53:724][516]LogSavePackage: Save=22.30ms
+[2017.11.10-10.28.53:724][516]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_StatusCBC202DA44C2B009FB106D9709C161A7.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Status.uasset'
+[2017.11.10-10.28.53:725][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Status.uasset
+[2017.11.10-10.29.37:864][765]BlueprintLog: New page: Compile w_Options
+[2017.11.10-10.29.37:971][765]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.29.38:589][820]LogSavePackage: Save=112.04ms
+[2017.11.10-10.29.38:589][820]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options57D7CF374CC36FDFF1BE32941988E39A.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.29.38:591][820]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.29.38:963][846]LogSavePackage: Save=108.62ms
+[2017.11.10-10.29.38:963][846]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_OptionsCBBBE2F54749C5C31B0A208FF53D0298.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.29.38:964][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.29.41:403][138]LogTemp: Repeting last play command: Standalone Game
+[2017.11.10-10.29.41:747][138]LogSavePackage: Save=225.53ms
+[2017.11.10-10.29.41:747][138]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReachB951884F4D30EA27B16ACCA7A2C3531A.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.29.41:748][138]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.29.41:751][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.29.41:781][138]LogSavePackage: Save=7.38ms
+[2017.11.10-10.29.41:781][138]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData0580EC8D43AEE0A94E57C7A22B9B2D5E.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.29.41:782][138]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.29.41:785][138]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.31.17:565][761]BlueprintLog: New page: Compile w_Options
+[2017.11.10-10.31.17:707][761]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.31.17:763][762]BlueprintLog: New page: Compile w_Options
+[2017.11.10-10.31.17:872][762]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.31.18:355][801]LogSavePackage: Save=109.17ms
+[2017.11.10-10.31.18:355][801]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_OptionsD6964429482762AC6B00AF8A0675AEBD.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.31.18:356][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.31.18:875][844]LogSavePackage: Save=108.65ms
+[2017.11.10-10.31.18:875][844]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_OptionsBC8106B743F309D54E825B95F0FC422D.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.31.18:875][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.31.19:737][947]LogTemp: Repeting last play command: Standalone Game
+[2017.11.10-10.31.20:075][947]LogSavePackage: Save=223.11ms
+[2017.11.10-10.31.20:075][947]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReach8F3D20304569C1BFEE32DB81714D05B0.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.31.20:076][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.31.20:079][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.31.20:125][947]LogSavePackage: Save=19.11ms
+[2017.11.10-10.31.20:125][947]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData0BF7C44E4A16C8DC467391B8FEDE2E63.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.31.20:126][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.31.20:130][947]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.33.02:418][232]LogSavePackage: Save=108.84ms
+[2017.11.10-10.33.02:418][232]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_OptionsC479A6FA41C997FE32B737AA8AD6068E.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.33.02:421][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.33.03:142][318]BlueprintLog: New page: Compile w_Options
+[2017.11.10-10.33.03:248][318]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.33.03:827][369]LogSavePackage: Save=110.09ms
+[2017.11.10-10.33.03:827][369]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options691683624297FBE5AF3B1B9C91D03E55.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.33.03:828][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.33.07:611][821]LogTemp: Repeting last play command: Standalone Game
+[2017.11.10-10.33.07:947][821]LogSavePackage: Save=224.47ms
+[2017.11.10-10.33.07:947][821]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReach052FCE7345D3DA82D5E4D5AA13BB9AF0.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.33.07:948][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.33.07:951][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.33.07:981][821]LogSavePackage: Save=7.24ms
+[2017.11.10-10.33.07:981][821]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataC823C64F4D4FBF1301E9E6A46586B126.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.33.07:982][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.33.07:986][821]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.33.41:858][161]LogSavePackage: Save=108.77ms
+[2017.11.10-10.33.41:858][161]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options04F44E084E62BE7D3F643C9272DC2F69.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.33.41:859][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.33.54:100][591]LogEditorTransaction: Undo Move Nodes
+[2017.11.10-10.34.03:218][559]LogSavePackage: Save=109.02ms
+[2017.11.10-10.34.03:218][559]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options50C882CE44D1EC6845D00EA94F349C9F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.34.03:220][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.34.04:022][651]BlueprintLog: New page: Compile w_Options
+[2017.11.10-10.34.04:133][651]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.34.04:625][690]LogSavePackage: Save=111.76ms
+[2017.11.10-10.34.04:626][690]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Options9C8221E04596924CD1CEF98DB93E8319.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset'
+[2017.11.10-10.34.04:626][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Options.uasset
+[2017.11.10-10.35.16:000][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.10-10.35.16:262][229]LogSavePackage: Save=225.24ms
+[2017.11.10-10.35.16:262][229]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach8510455A491190AD75A8BDA1AD1CB3AA.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.11.10-10.35.16:264][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.11.10-10.35.16:293][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.35.16:323][229]LogSavePackage: Save=7.45ms
+[2017.11.10-10.35.16:323][229]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataC1632DA84C905636F42415AAC0D2F513.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.35.16:324][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.35.19:473][563]LogTemp: Repeting last play command: Standalone Game
+[2017.11.10-10.35.19:824][563]LogSavePackage: Save=237.27ms
+[2017.11.10-10.35.19:824][563]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReach972A139D4584900E3B2A59AEAB4FEA45.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.35.19:825][563]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.35.19:827][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.35.19:858][563]LogSavePackage: Save=7.88ms
+[2017.11.10-10.35.19:858][563]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataC796F44148CB9B5816EA6790DBADC851.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.35.19:859][563]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.35.19:862][563]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.36.07:655][632]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.11.10-10.36.19:983][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.10-10.36.20:729][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.10-10.36.32:278][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.10-10.37.21:350][357]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.11.10-10.37.21:644][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.10-10.37.21:918][386]LogSavePackage: Save=233.49ms
+[2017.11.10-10.37.21:918][386]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachA16868234D6FD4174D8D319CBC7B96CE.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.11.10-10.37.21:920][386]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.11.10-10.37.21:948][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.37.21:983][386]LogSavePackage: Save=7.54ms
+[2017.11.10-10.37.21:983][386]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData99E362FC4A3AB3C7F76075899F2FCB98.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.37.21:984][386]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.37.22:551][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.10-10.37.22:820][452]LogSavePackage: Save=229.17ms
+[2017.11.10-10.37.22:820][452]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachC6FF1F614D9CF85A006D989CF811FDEC.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.11.10-10.37.22:821][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.11.10-10.37.22:848][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.37.22:879][452]LogSavePackage: Save=7.47ms
+[2017.11.10-10.37.22:879][452]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataA5087E8940889BD8F0A0449FD2E2D367.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.37.22:879][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.37.23:234][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.10-10.38.25:112][843]LogSlate: Took 0.027094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.11.10-10.38.26:789][ 33]LogEditorTransaction: Undo Move Widget
+[2017.11.10-10.38.40:754][702]BlueprintLog: New page: Compile w_Main
+[2017.11.10-10.38.40:891][702]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.38.41:214][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/w_Main" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset" SILENT=true
+[2017.11.10-10.38.41:281][737]LogSavePackage: Save=39.66ms
+[2017.11.10-10.38.41:281][737]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Main5B4EAF4B48042C3B9305FA997CDF7977.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset'
+[2017.11.10-10.38.41:283][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset
+[2017.11.10-10.38.41:966][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/w_Main" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset" SILENT=true
+[2017.11.10-10.38.42:029][817]LogSavePackage: Save=39.19ms
+[2017.11.10-10.38.42:029][817]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_MainAEC07126482F399B1AC0B7A852C3CFF3.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset'
+[2017.11.10-10.38.42:030][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset
+[2017.11.10-10.38.43:096][945]LogTemp: Repeting last play command: Standalone Game
+[2017.11.10-10.38.43:440][945]LogSavePackage: Save=227.67ms
+[2017.11.10-10.38.43:441][945]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/UEDPCScanReachC1F949604E77F9942C7A5CB2EA37E6E4.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap'
+[2017.11.10-10.38.43:441][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/UEDPCScanReach.umap
+[2017.11.10-10.38.43:444][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.11.10-10.38.43:488][945]LogSavePackage: Save=20.04ms
+[2017.11.10-10.38.43:488][945]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData12540D174640540E70E536B96832B7DA.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.11.10-10.38.43:489][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.11.10-10.38.43:492][945]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.10-10.39.30:607][422]BlueprintLog: New page: Compile w_Main
+[2017.11.10-10.39.30:706][422]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.10-10.39.31:091][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/w_Main" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset" SILENT=true
+[2017.11.10-10.39.31:156][466]LogSavePackage: Save=40.16ms
+[2017.11.10-10.39.31:156][466]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_MainA953325A4D76A93DDF7C51ABAE15EF30.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset'
+[2017.11.10-10.39.31:158][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset
+[2017.11.10-10.39.32:189][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/w_Main" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset" SILENT=true
+[2017.11.10-10.39.32:251][588]LogSavePackage: Save=38.50ms
+[2017.11.10-10.39.32:251][588]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_Main89F12EA445B7151DB7948E964ADBAB90.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset'
+[2017.11.10-10.39.32:252][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset
+[2017.11.10-10.39.36:731][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/w_Main" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset" SILENT=true
+[2017.11.10-10.39.36:793][124]LogSavePackage: Save=38.10ms
+[2017.11.10-10.39.36:793][124]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_MainA5A7982C42417A0343396F837E5607E4.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset'
+[2017.11.10-10.39.36:794][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset
+[2017.11.10-10.39.38:682][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/w_Main" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset" SILENT=true
+[2017.11.10-10.39.38:745][349]LogSavePackage: Save=38.64ms
+[2017.11.10-10.39.38:745][349]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_MainE50213324F66E8ED4521D686E23181CA.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset'
+[2017.11.10-10.39.38:746][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Main.uasset
+[2017.11.10-10.39.42:572][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.10-10.39.42:846][696]LogSavePackage: Save=237.01ms
+[2017.11.10-10.39.42:847][696]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach7E83F0A043E54DAA9EA9DDA61EBB73D1.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.11.10-10.39.42:849][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.11.10-10.39.42:875][696]LogFileHelpers: Saving map 'ScanReach' took 0.342
+[2017.11.10-10.39.43:046][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.10-10.39.43:295][697]Cmd: QUIT_EDITOR
+[2017.11.10-10.39.43:316][697]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.10-10.39.43:316][697]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.10-10.39.43:326][697]LogExit: Preparing to exit.
+[2017.11.10-10.39.44:360][697]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' was aborted.
+[2017.11.10-10.39.44:384][697]LogExit: Editor shut down
+[2017.11.10-10.39.44:387][697]LogExit: Transaction tracking system shut down
+[2017.11.10-10.39.44:465][697]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.10-10.39.44:465][697]LogExit: Object subsystem successfully closed.
+[2017.11.10-10.39.44:479][697]LogD3D11RHI: Shutdown
+[2017.11.10-10.39.44:479][697]LogD3D11RHI: CleanupD3DDevice
+[2017.11.10-10.39.44:531][697]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.10-10.39.44:553][697]LogModuleManager: Shutting down and abandoning module SequencerWidgets (536)
+[2017.11.10-10.39.44:553][697]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.11.10-10.39.44:553][697]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2017.11.10-10.39.44:553][697]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2017.11.10-10.39.44:553][697]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.11.10-10.39.44:553][697]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.11.10-10.39.44:553][697]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.11.10-10.39.44:553][697]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.11.10-10.39.44:553][697]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.10-10.39.44:554][697]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.11.10-10.39.44:554][697]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.11.10-10.39.44:554][697]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.11.10-10.39.44:554][697]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' was aborted.
+[2017.11.10-10.39.44:554][697]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' was aborted.
+[2017.11.10-10.39.44:554][697]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' was aborted.
+[2017.11.10-10.39.44:554][697]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.11.10-10.39.44:554][697]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.11.10-10.39.44:554][697]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.11.10-10.39.44:555][697]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.11.10-10.39.44:556][697]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.11.10-10.39.44:558][697]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.11.10-10.39.44:561][697]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.11.10-10.39.44:562][697]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.11.10-10.39.44:563][697]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.11.10-10.39.44:565][697]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.11.10-10.39.44:565][697]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.11.10-10.39.44:566][697]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.11.10-10.39.44:566][697]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.11.10-10.39.44:566][697]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.11.10-10.39.45:561][697]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.11.10-10.39.45:561][697]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.11.10-10.39.45:561][697]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.11.10-10.39.45:572][697]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.11.10-10.39.45:573][697]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.11.10-10.39.45:573][697]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.11.10-10.39.45:573][697]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.11.10-10.39.45:574][697]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.11.10-10.39.45:575][697]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.11.10-10.39.45:575][697]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.11.10-10.39.45:575][697]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.11.10-10.39.45:576][697]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.11.10-10.39.45:576][697]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.11.10-10.39.45:576][697]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.11.10-10.39.45:576][697]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.11.10-10.39.45:577][697]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.11.10-10.39.45:577][697]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.11.10-10.39.45:577][697]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.11.10-10.39.45:577][697]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.11.10-10.39.45:578][697]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.11.10-10.39.45:579][697]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.11.10-10.39.45:579][697]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.11.10-10.39.45:580][697]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.11.10-10.39.45:581][697]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.11.10-10.39.45:633][697]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.11.10-10.39.45:633][697]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.11.10-10.39.45:634][697]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.11.10-10.39.45:636][697]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.11.10-10.39.45:636][697]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.11.10-10.39.45:636][697]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.11.10-10.39.45:636][697]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.11.10-10.39.45:637][697]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.11.10-10.39.45:637][697]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.11.10-10.39.45:637][697]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.11.10-10.39.45:642][697]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.11.10-10.39.45:642][697]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.11.10-10.39.45:642][697]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.11.10-10.39.45:643][697]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.11.10-10.39.45:643][697]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.11.10-10.39.45:644][697]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.11.10-10.39.45:645][697]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.11.10-10.39.45:822][697]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.11.10-10.39.45:822][697]LogModuleManager: Shutting down and abandoning module WebSocket (328)
+[2017.11.10-10.39.45:822][697]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.11.10-10.39.45:822][697]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.11.10-10.39.45:822][697]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.11.10-10.39.45:823][697]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.11.10-10.39.45:825][697]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.11.10-10.39.45:825][697]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.11.10-10.39.45:826][697]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.11.10-10.39.45:826][697]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.11.10-10.39.45:826][697]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.11.10-10.39.45:826][697]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.11.10-10.39.45:826][697]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.11.10-10.39.45:826][697]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.11.10-10.39.45:826][697]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.11.10-10.39.45:827][697]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.11.10-10.39.45:829][697]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.11.10-10.39.45:829][697]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.11.10-10.39.45:829][697]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.11.10-10.39.45:829][697]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.11.10-10.39.45:829][697]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.11.10-10.39.45:829][697]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.11.10-10.39.45:830][697]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.11.10-10.39.45:830][697]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.11.10-10.39.45:830][697]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.11.10-10.39.45:830][697]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.11.10-10.39.45:830][697]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.11.10-10.39.45:830][697]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.11.10-10.39.45:830][697]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.11.10-10.39.45:831][697]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.11.10-10.39.45:832][697]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.11.10-10.39.45:832][697]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.11.10-10.39.45:832][697]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Binaries/Win64' was aborted.
+[2017.11.10-10.39.45:832][697]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Plugins/WebSocket/Binaries/Win64' was aborted.
+[2017.11.10-10.39.45:832][697]LogModuleManager: Shutting down and abandoning module SR_Prototype_V3 (248)
+[2017.11.10-10.39.45:832][697]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.10-10.39.45:833][697]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.10-10.39.45:833][697]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.10-10.39.45:833][697]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.10-10.39.45:833][697]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.10-10.39.45:833][697]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.10-10.39.45:933][697]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.10-10.39.46:033][697]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.10-10.39.46:034][697]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.10-10.39.46:034][697]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.10-10.39.46:034][697]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.10-10.39.46:034][697]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.10-10.39.46:034][697]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.10-10.39.46:035][697]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.10-10.39.46:036][697]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.10-10.39.46:037][697]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.10-10.39.46:037][697]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.10-10.39.46:037][697]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.10-10.39.46:037][697]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.10-10.39.46:037][697]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.10-10.39.46:037][697]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.10-10.39.46:193][697]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.10-10.39.46:193][697]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' was aborted.
+[2017.11.10-10.39.46:193][697]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.10-10.39.46:193][697]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.10-10.39.46:195][697]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.10-10.39.46:196][697]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.10-10.39.46:196][697]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.10-10.39.46:196][697]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.10-10.39.46:196][697]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.10-10.39.46:196][697]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.10-10.39.46:196][697]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.10-10.39.46:196][697]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.10-10.39.46:196][697]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.10-10.39.46:233][697]LogDerivedDataCache: Shutdown
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.10-10.39.46:233][697]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.10-10.39.46:233][697]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.10-10.39.46:233][697]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.11.10-10.39.46:234][697]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE78D9747-4058-2997-72A3-54B7B996E1D1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0c75b627499df609a8813c9ced46962c%7Cfebaf0232e0e4e628b45a2bec753bbbc%7C408adb04-e8c0-4c29-a1fb-4d7ed05dedd7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.10-10.39.46:234][697]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE78D9747-4058-2997-72A3-54B7B996E1D1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0c75b627499df609a8813c9ced46962c%7Cfebaf0232e0e4e628b45a2bec753bbbc%7C408adb04-e8c0-4c29-a1fb-4d7ed05dedd7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.10-10.39.46:250][697]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.10-10.39.46:251][697]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.10-10.39.46:251][697]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.10-10.39.46:251][697]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.10-10.39.46:251][697]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.10-10.39.46:251][697]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.10-10.39.46:251][697]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.10-10.39.46:251][697]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.10-10.39.46:251][697]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.10-10.39.46:252][697]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.10-10.39.46:253][697]LogExit: Exiting.
+[2017.11.10-10.39.46:267][697]Log file closed, 11/10/17 11:39:46
