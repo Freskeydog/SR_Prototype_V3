@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SR_Prototype_V3.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{2EEF53AD-4475-42C3-B1A5-76F9550DD7E0}</UniqueIdentifier>
+			<UniqueIdentifier>{90A67E8A-5FD3-4B18-94D6-529F77FEF988}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SR_Prototype_V3.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{D38D831E-429A-4636-BCDB-5193089E4F51}</UniqueIdentifier>
+			<UniqueIdentifier>{B4AAA547-AAF3-49E6-8690-8AFA1434517E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -27,8 +27,878 @@
 		<None Include="..\..\Config\DefaultInput.ini">
 			<Filter>Config</Filter>
 		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{7255D3A8-6EBE-498A-8ABD-FFB2AA9117B7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket">
+			<UniqueIdentifier>{07099999-E901-40B2-B7B5-3A381C706F73}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source">
+			<UniqueIdentifier>{B667E07E-7D4B-406F-B95B-47C379FE1D87}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket">
+			<UniqueIdentifier>{A0F09C11-E881-4B70-B1CB-7DDA915A57B0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\WebSocket.Build.cs">
+			<Filter>Plugins\WebSocket\Source\WebSocket</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\WebSocket_UPL.xml">
+			<Filter>Plugins\WebSocket\Source\WebSocket</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\Private">
+			<UniqueIdentifier>{60A89B62-EFD9-4926-BEA3-E944FDBC93F9}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocket.cpp">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocketBase.cpp">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocketBlueprintLibrary.cpp">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocketContext.cpp">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\Private\WebSocketContext.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\Public">
+			<UniqueIdentifier>{7EA74CBE-A839-41F3-A2BE-4AA0F33EF020}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\Public\WebSocket.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\Public\WebSocketBase.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\Public\WebSocketBlueprintLibrary.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty">
+			<UniqueIdentifier>{E9DF34D5-F96A-4409-A1EB-7BE07174B834}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include">
+			<UniqueIdentifier>{BA6E5EF4-1B85-4EE6-96FB-D6881EE4B616}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android">
+			<UniqueIdentifier>{9818ABD3-3B35-4691-B167-B593C1D967AB}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\zconf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\zlib.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl">
+			<UniqueIdentifier>{F08C2394-04A2-4B51-B3D4-7925297EAE4D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\aes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\asn1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\asn1t.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\asn1_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\bio.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\blowfish.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\bn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\buffer.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\camellia.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\cast.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\cmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\cms.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\comp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\conf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\conf_api.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\crypto.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\des.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\des_old.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\dh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\dsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\dso.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\dtls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ebcdic.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ec.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ecdh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ecdsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\engine.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\err.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\evp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\e_os2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\hmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\krb5_asn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\kssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\lhash.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\md4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\md5.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\modes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\objects.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\obj_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ocsp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\opensslconf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\opensslv.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ossl_typ.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pem.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pem2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pkcs12.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pkcs7.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\pqueue.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\rand.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\rc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\rc4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ripemd.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\rsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\safestack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\seed.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\sha.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\srp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\srtp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ssl2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ssl23.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ssl3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\stack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\symhacks.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\tls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ts.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\txt_db.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ui.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\ui_compat.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\whrlpool.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\x509.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\x509v3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl\x509_vfy.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Android\openssl</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS">
+			<UniqueIdentifier>{09AF0A76-D5E0-4C15-827F-CDE7A0A5368D}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\extension-permessage-deflate.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\lejp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\romfs.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl">
+			<UniqueIdentifier>{9F7E755A-17E3-4D1A-839D-07F37CEEAB22}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\aes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\asn1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\asn1t.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\asn1_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\bio.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\blowfish.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\bn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\buffer.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\camellia.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\cast.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\cmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\cms.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\comp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\conf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\conf_api.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\crypto.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\des.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\des_old.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\dh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\dsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\dso.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\dtls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ebcdic.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ec.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ecdh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ecdsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\engine.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\err.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\evp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\e_os2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\hmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\idea.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\krb5_asn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\kssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\lhash.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\md4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\md5.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\mdc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\modes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\objects.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\obj_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ocsp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\opensslconf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\opensslv.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ossl_typ.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pem.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pem2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pkcs12.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pkcs7.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\pqueue.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\rand.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\rc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\rc4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ripemd.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\rsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\safestack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\seed.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\sha.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\srp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\srtp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ssl2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ssl23.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ssl3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\stack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\symhacks.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\tls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ts.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\txt_db.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ui.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\ui_compat.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\whrlpool.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\x509.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\x509v3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl\x509_vfy.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\IOS\openssl</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac">
+			<UniqueIdentifier>{C543FF10-994B-4DEF-8F88-25DC6EE8DD01}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl">
+			<UniqueIdentifier>{B5A66D4A-5146-4250-9AAA-3DD6A02CAE87}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\aes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\asn1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\asn1t.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\asn1_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\bio.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\blowfish.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\bn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\buffer.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\camellia.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\cast.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\cmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\cms.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\comp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\conf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\conf_api.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\crypto.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\des.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\des_old.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\dh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\dsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\dso.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\dtls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ebcdic.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ec.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ecdh.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ecdsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\engine.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\err.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\evp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\e_os2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\hmac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\idea.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\krb5_asn.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\kssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\lhash.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\md4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\md5.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\mdc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\modes.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\objects.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\obj_mac.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ocsp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\opensslconf.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\opensslv.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ossl_typ.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pem.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pem2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pkcs12.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pkcs7.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\pqueue.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\rand.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\rc2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\rc4.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ripemd.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\rsa.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\safestack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\seed.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\sha.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\srp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\srtp.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ssl.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ssl2.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ssl23.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ssl3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\stack.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\symhacks.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\tls1.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ts.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\txt_db.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ui.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\ui_compat.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\whrlpool.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\x509.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\x509v3.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl\x509_vfy.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Mac\openssl</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64">
+			<UniqueIdentifier>{126D2ABB-62B7-4FB0-8302-07D3CAC15962}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64\libwebsockets.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64\lws_config.h">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib">
+			<UniqueIdentifier>{A273B40F-3E0E-4698-AB56-300C8A88F716}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android">
+			<UniqueIdentifier>{9AA57BE6-809E-4042-92CA-5FF2B4946778}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar">
+			<UniqueIdentifier>{D7C225F0-EB9A-4947-ADB2-DED84013305F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com">
+			<UniqueIdentifier>{C221FD2B-6B17-4B0F-9EEE-09DE88B4E356}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android">
+			<UniqueIdentifier>{052BFBED-E494-4876-8D24-A02F2A3EB6D5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley">
+			<UniqueIdentifier>{FC2F69D4-C12D-44FE-A397-77BC253B324B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0">
+			<UniqueIdentifier>{BD5BBF18-9E66-4C78-B482-65BF5974DCBB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0\volley-1.0.0.aar">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0\volley-1.0.0.pom">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\android\volley\1.0.0</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util">
+			<UniqueIdentifier>{71B4B856-C34B-42FC-8B18-1CC78FC61305}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper">
+			<UniqueIdentifier>{29518D38-1F9B-43DA-9046-4F1FE2E98C99}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0">
+			<UniqueIdentifier>{10909C64-B5AA-4839-9FE3-12A01628D3D0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0\websockethelper-1.0.0.aar">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0\websockethelper-1.0.0.pom">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\aar\com\util\websockethelper\1.0.0</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\armeabi-v7a">
+			<UniqueIdentifier>{D81D71C1-FFCC-438B-A364-AD8AC1C9964E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\armeabi-v7a\libwebsockets.a">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Android\armeabi-v7a</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\IOS">
+			<UniqueIdentifier>{1B90B39F-F701-4E53-B450-EFBEA413FBBD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\IOS\libcrypto.a">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\IOS</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\IOS\libssl.a">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\IOS</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\IOS\libwebsockets.a">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\IOS</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Mac">
+			<UniqueIdentifier>{B1EE1C66-D5A0-49F5-95B3-869BF7C8EEA5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Mac\libcrypto.a">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Mac</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Mac\libssl.a">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Mac</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Mac\libwebsockets.a">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Mac</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Win64">
+			<UniqueIdentifier>{B614390F-8C85-45BB-992D-79FA4D54BB4F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Win64\websockets_static.lib">
+			<Filter>Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Win64</Filter>
+		</None >
+		<None Include="..\..\Plugins\WebSocket\WebSocket.uplugin">
+			<Filter>Plugins\WebSocket</Filter>
+		</None >
+		<Filter Include="Plugins\WebSocket\Resources">
+			<UniqueIdentifier>{29645797-5767-4DD8-9AA9-B007D4846856}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\WebSocket\Resources\Icon128.png">
+			<Filter>Plugins\WebSocket\Resources</Filter>
+		</None >
 		<Filter Include="Source\SR_Prototype_V3">
-			<UniqueIdentifier>{0DA5FD23-10FF-4B87-A7CF-8A03CBE4779F}</UniqueIdentifier>
+			<UniqueIdentifier>{FEBBB394-2281-4F3D-92FB-FD26C8D14231}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SR_Prototype_V3\SR_Prototype_V3.Build.cs">
 			<Filter>Source\SR_Prototype_V3</Filter>
@@ -44,6 +914,18 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\SR_Prototype_V3\WebSocketEmpty.h">
 			<Filter>Source\SR_Prototype_V3</Filter>
+		</ClInclude >
+		<Filter Include="Source\SR_Prototype_V3\Private">
+			<UniqueIdentifier>{535F54C7-07CD-4929-BE01-9460140F6F98}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SR_Prototype_V3\Private\URWTxtFile.cpp">
+			<Filter>Source\SR_Prototype_V3\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\SR_Prototype_V3\Public">
+			<UniqueIdentifier>{375FC3B0-2D28-4181-A0CA-EE68153804D0}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SR_Prototype_V3\Public\URWTxtFile.h">
+			<Filter>Source\SR_Prototype_V3\Public</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>
