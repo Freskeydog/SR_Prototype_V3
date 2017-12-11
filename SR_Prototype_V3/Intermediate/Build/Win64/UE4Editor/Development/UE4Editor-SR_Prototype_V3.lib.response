@@ -9,6 +9,8 @@
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\SR_Prototype_V3\SR_Prototype_V3.cpp.obj"
 "C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\SR_Prototype_V3\WebSocketEmpty.cpp.obj"
+"C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\SR_Prototype_V3\URWTxtFile.cpp.obj"
+"C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\SR_Prototype_V3\SR_Prototype_V3.generated.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\SR_Prototype_V3\PCLaunch.rc.res"
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
 /OUT:"C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3.lib"

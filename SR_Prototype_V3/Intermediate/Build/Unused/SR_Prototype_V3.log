@@ -1,0 +1,12 @@
+﻿  Parsing headers for SR_Prototype_V3Editor
+    Running UnrealHeaderTool "C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\SR_Prototype_V3.uproject" "C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\SR_Prototype_V3Editor\Development\SR_Prototype_V3Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SR_Prototype_V3Editor in 5.1786056 seconds
+  Performing 4 actions (4 in parallel)
+  URWTxtFile.cpp
+  SR_Prototype_V3.generated.cpp
+  [3/4] Link UE4Editor-SR_Prototype_V3.dll
+  [4/4] Link UE4Editor-SR_Prototype_V3.lib
+     Creating library C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3.lib and object C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3.exp
+     Creating library C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3.suppressed.lib and object C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3.suppressed.exp
+  Deploying SR_Prototype_V3Editor Win64 Development...
+  Total build time: 7.65 seconds (Local executor: 1.73 seconds)

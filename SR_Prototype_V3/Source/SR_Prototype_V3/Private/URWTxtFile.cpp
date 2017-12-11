@@ -2,12 +2,12 @@
 
 #include "URWTxtFile.h"
 
-bool URWTxtFile::LoadTxt(FString FileNameA, FString& SaveTextA)
+bool UURWTxtFile::LoadTxt(FString FileNameA, FString& SaveTextA)
 {
 	return FFileHelper::LoadFileToString(SaveTextA, *(FPaths::GameDir() + FileNameA));
 }
 
-bool URWTxtFile::SaveTxt(FString SaveTextB, FString FileNameB)
+bool UURWTxtFile::SaveTxt(FString SaveTextB, FString FileNameB)
 {
 	return FFileHelper::SaveStringToFile(SaveTextB, *(FPaths::GameDir() + FileNameB));
 }
