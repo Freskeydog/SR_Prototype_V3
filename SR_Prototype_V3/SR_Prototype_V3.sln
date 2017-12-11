@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{BDCCC58B-0AC8-43D0-BBD2-445D43739267}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{B0F228F8-29D4-4F37-A4FF-D6D792E0FEB1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{3D849948-DD1F-4DF6-AB0E-B865302EDFD2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{916ADFCD-FDBF-40C0-BD78-9EA398710931}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{0A0D4F58-7F4C-4765-95FA-4EC1706BE2EB}"
 EndProject
@@ -114,7 +114,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0A0D4F58-7F4C-4765-95FA-4EC1706BE2EB} = {BDCCC58B-0AC8-43D0-BBD2-445D43739267}
-		{076F30E8-5AB2-418F-92A0-32C2A11355F7} = {3D849948-DD1F-4DF6-AB0E-B865302EDFD2}
+		{0A0D4F58-7F4C-4765-95FA-4EC1706BE2EB} = {B0F228F8-29D4-4F37-A4FF-D6D792E0FEB1}
+		{076F30E8-5AB2-418F-92A0-32C2A11355F7} = {916ADFCD-FDBF-40C0-BD78-9EA398710931}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31FA8AB6-CCA9-4248-A36A-9F727102FBD3}
 	EndGlobalSection
 EndGlobal
