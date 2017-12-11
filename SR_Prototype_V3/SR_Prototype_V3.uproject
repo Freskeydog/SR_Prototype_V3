@@ -7,10 +7,7 @@
 		{
 			"Name": "SR_Prototype_V3",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	]
 }
