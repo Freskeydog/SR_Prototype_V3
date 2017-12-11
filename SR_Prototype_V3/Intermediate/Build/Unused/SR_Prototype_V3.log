@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\ProjectFiles\UE4.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\ProjectFiles\SR_Prototype_V3.vcxproj]
+C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Plugins\WebSocket\Source\WebSocket\WebSocket.Build.cs : warning : Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+  Compiling game modules for hot reload
+  Parsing headers for SR_Prototype_V3Editor
+    Running UnrealHeaderTool "C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\SR_Prototype_V3.uproject" "C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\SR_Prototype_V3Editor\Development\SR_Prototype_V3Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SR_Prototype_V3Editor in 2.105804 seconds
+  Performing 6 actions (4 in parallel)
+  MyBlueprintFunctionLibrary.cpp
+  SR_Prototype_V3.cpp
+  WebSocketEmpty.cpp
+  SR_Prototype_V3.generated.cpp
+  [5/6] Link UE4Editor-SR_Prototype_V3-3705.dll
+  [6/6] Link UE4Editor-SR_Prototype_V3-3705.lib
+     Creating library C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3-3705.lib and object C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3-3705.exp
+     Creating library C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3-3705.suppressed.lib and object C:\Users\Bendick\Documents\GitHub\SR_Prototype_V3\SR_Prototype_V3\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SR_Prototype_V3-3705.suppressed.exp
+  Deploying SR_Prototype_V3Editor Win64 Development...
+  Total build time: 8.97 seconds (Local executor: 4.97 seconds)
