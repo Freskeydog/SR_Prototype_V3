@@ -1,0 +1,857 @@
+﻿Log file open, 11/16/17 11:48:12
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(766469204) SRandInit(766469204).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073031
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.16-10.48.12:797][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-10.48.12:797][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.16-10.48.12:804][  0]LogInit: Computer: WINDOWS-EUOFFC3
+[2017.11.16-10.48.12:804][  0]LogInit: User: Bendick
+[2017.11.16-10.48.12:804][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.16-10.48.12:804][  0]LogInit: High frequency timer resolution =3.914068 MHz
+[2017.11.16-10.48.12:805][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.16-10.48.12:805][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.16-10.48.12:805][  0]LogMemory: Process Physical Memory: 272.42 MB used, 272.42 MB peak
+[2017.11.16-10.48.12:805][  0]LogMemory: Process Virtual Memory: 259.04 MB used, 259.04 MB peak
+[2017.11.16-10.48.12:805][  0]LogMemory: Physical Memory: 8223.85 MB used,  8099.13 MB free, 16322.98 MB total
+[2017.11.16-10.48.12:805][  0]LogMemory: Virtual Memory: 636.66 MB used,  8099.13 MB free, 134217728.00 MB total
+[2017.11.16-10.48.12:851][  0]LogInit: Using OS detected language (en-US).
+[2017.11.16-10.48.12:851][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.16-10.48.12:853][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.16-10.48.13:512][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.16-10.48.13:556][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.16-10.48.13:556][  0]LogD3D11RHI:       8119/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.16-10.48.13:556][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.16-10.48.13:556][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.16-10.48.13:556][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.16-10.48.13:562][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.16-10.48.13:562][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.16-10.48.13:562][  0]LogWindows: EnumDisplayDevices:
+[2017.11.16-10.48.13:562][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.11.16-10.48.13:562][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.16-10.48.13:562][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-10.48.13:562][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-10.48.13:562][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.16-10.48.13:562][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.16-10.48.13:562][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.11.16-10.48.13:562][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.11.16-10.48.13:562][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.16-10.48.13:583][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.16-10.48.13:591][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.16-10.48.13:681][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/7536/).
+[2017.11.16-10.48.13:681][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/45BB83CF4B632390766258A2CC064CC6/'.
+[2017.11.16-10.48.13:681][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.16-10.48.14:368][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.16-10.48.14:401][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.16-10.48.14:435][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.16-10.48.14:479][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.16-10.48.14:518][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.16-10.48.14:553][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.16-10.48.14:593][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.16-10.48.14:629][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.16-10.48.14:660][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.16-10.48.14:695][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.16-10.48.14:730][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.16-10.48.14:766][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.16-10.48.14:799][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.16-10.48.14:832][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.16-10.48.14:873][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.16-10.48.14:938][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.16-10.48.14:938][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.16-10.48.14:964][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.16-10.48.15:032][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.16-10.48.15:053][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.16-10.48.15:086][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.16-10.48.15:118][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.16-10.48.15:149][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.16-10.48.15:181][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.16-10.48.15:181][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.16-10.48.15:507][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.16-10.48.15:582][  0]LogDerivedDataCache: Loaded boot cache 0.08s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-10.48.15:582][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.16-10.48.15:582][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.16-10.48.15:582][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.16-10.48.15:582][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.16-10.48.15:582][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.16-10.48.15:593][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.16-10.48.15:604][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.16-10.48.15:611][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.16-10.48.15:611][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.16-10.48.15:611][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-10.48.15:611][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-10.48.15:821][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-10.48.15:975][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.16-10.48.16:004][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.16-10.48.16:034][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.16-10.48.16:034][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.16-10.48.16:034][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.16-10.48.16:438][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2017.11.16-10.48.16:486][  0]LogAssetRegistry: FAssetRegistry took 0.0235 seconds to start up
+[2017.11.16-10.48.16:529][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.027537 seconds
+[2017.11.16-10.48.16:533][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.16-10.48.16:533][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.16-10.48.16:533][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.16-10.48.16:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.16-10.48.18:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.16-10.48.18:333][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.16-10.48.18:726][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.16-10.48.18:987][  0]SourceControl: Info Source control is disabled
+[2017.11.16-10.48.19:013][  0]SourceControl: Info Source control is disabled
+[2017.11.16-10.48.19:046][  0]SourceControl: Info Source control is disabled
+[2017.11.16-10.48.19:081][  0]SourceControl: Info Source control is disabled
+[2017.11.16-10.48.19:532][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.16-10.48.19:955][  0]LogEngine: Initializing Engine...
+[2017.11.16-10.48.19:955][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.16-10.48.20:100][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.16-10.48.20:100][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.16-10.48.20:200][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.16-10.48.20:207][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-10.48.20:228][  0]LogInit: FAudioDevice initialized.
+[2017.11.16-10.48.20:272][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-10.48.20:284][  0]LogInit: Texture streaming: Disabled
+[2017.11.16-10.48.20:358][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.16-10.48.20:503][  0]LogInit: Transaction tracking system initialized
+[2017.11.16-10.48.20:710][  0]BlueprintLog: New page: Editor Load
+[2017.11.16-10.48.21:372][  0]LocalizationService: Info Localization service is disabled
+[2017.11.16-10.48.21:843][  0]LogConsoleResponse:Display: 
+[2017.11.16-10.48.21:946][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.16-10.48.21:946][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.16-10.48.22:612][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2017.11.16-10.48.22:612][  0]SourceControl: Info Source control is disabled
+[2017.11.16-10.48.22:612][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-10.48.22:612][  0]LightingResults: New page: Lighting Build
+[2017.11.16-10.48.22:639][  0]MapCheck: New page: Map Check
+[2017.11.16-10.48.22:639][  0]LightingResults: New page: Lighting Build
+[2017.11.16-10.48.23:315][  0]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.16-10.48.23:334][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-10.48.23:347][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-10.48.23:381][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.929ms to complete.
+[2017.11.16-10.48.23:381][  0]LogFileHelpers: Loading map 'ScanReach' took 0.769
+[2017.11.16-10.48.23:492][  0]LogCollectionManager: Loaded 0 collections in 0.000968 seconds
+[2017.11.16-10.48.23:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2017.11.16-10.48.23:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
+[2017.11.16-10.48.23:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2017.11.16-10.48.23:560][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.16-10.48.23:567][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2334 classes and 495 folders.
+[2017.11.16-10.48.23:611][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.11.16-10.48.23:633][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.16-10.48.23:662][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.16-10.48.23:718][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.16-10.48.23:721][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-10.48.23:723][  0]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.16-10.48.23:726][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.16-10.48.23:788][  0]LogRenderer: Reallocating scene render targets to support 1276x604 NumSamples 1 (Frame:1).
+[2017.11.16-10.48.23:826][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-10.48.23:858][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.16-10.48.23:908][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.16-10.48.23:908][  0]LogLoad: (Engine Initialization) Total time: 12.25 seconds
+[2017.11.16-10.48.23:908][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
+[2017.11.16-10.48.23:908][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.16-10.48.23:908][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.16-10.48.24:246][  0]LogOcInput: OculusInput pre-init called
+[2017.11.16-10.48.24:246][  0]LogHMD: Starting GearVRController plugin
+[2017.11.16-10.48.24:259][  0]LogAssetRegistry: Asset discovery search completed in 7.7941 seconds
+[2017.11.16-10.48.24:260][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.16-10.48.24:260][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.11.16-10.48.24:328][  1]LogRenderer: Reallocating scene render targets to support 1276x624 NumSamples 1 (Frame:2).
+[2017.11.16-10.48.25:249][  3]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-10.48.27:654][ 19]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.11.16-10.48.28:459][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.16-10.48.33:181][660]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.11.16-10.48.33:220][660]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.48.33:222][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-10.48.33:225][660]PIE: New page: PIE session: ScanReach (16 Nov 2017 12:48:33)
+[2017.11.16-10.48.33:226][660]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.11.16-10.48.33:235][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008539s)
+[2017.11.16-10.48.33:235][660]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.16-10.48.33:235][660]LogPlayLevel: PIE: World Init took: (0.000411s)
+[2017.11.16-10.48.33:235][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.009653s)
+[2017.11.16-10.48.33:249][660]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-10.48.33:258][660]LogInit: FAudioDevice initialized.
+[2017.11.16-10.48.33:335][660]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.11.16-10.48.33:339][660]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.11.16-11.48.33
+[2017.11.16-10.48.33:350][660]LogWorld: Bringing up level for play took: 0.012789
+[2017.11.16-10.48.33:391][660]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.11.16-10.48.33:411][660]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.551
+[2017.11.16-10.48.33:412][660]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.48.33:443][660]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.11.16-10.48.33:833][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.48.33:895][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.48.34:692][792]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.11.16-10.48.34:706][792]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.48.34:706][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-10.48.34:706][792]PIE: New page: PIE session: ScanReach (16 Nov 2017 12:48:34)
+[2017.11.16-10.48.34:706][792]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.11.16-10.48.34:713][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006175s)
+[2017.11.16-10.48.34:713][792]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.16-10.48.34:713][792]LogPlayLevel: PIE: World Init took: (0.000382s)
+[2017.11.16-10.48.34:713][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.006690s)
+[2017.11.16-10.48.34:723][792]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-10.48.34:732][792]LogInit: FAudioDevice initialized.
+[2017.11.16-10.48.34:784][792]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.11.16-10.48.34:786][792]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.11.16-11.48.34
+[2017.11.16-10.48.34:787][792]LogWorld: Bringing up level for play took: 0.002500
+[2017.11.16-10.48.34:792][792]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.067
+[2017.11.16-10.48.34:793][792]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.48.43:450][823]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.48.43:469][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:469][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:035C
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:035C
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:035C
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:035C
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:035C
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:035C
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:035C
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:035C
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]LogScript:Warning: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+	w_shipInfo_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.w_Main_C_1.WidgetTree_27.W_SideInfo.WidgetTree_28.w_shipInfo
+	Function /Game/Blueprints/Widgets/w_shipInfo.w_shipInfo_C:UpdateMustered:0347
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:470][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:471][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:472][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.48.43:472][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:472][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.48.43:472][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:472][823]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.48.43:472][823]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.48.43:508][823]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.48.49:307][461]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-10.48.49:550][461]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.11.16-10.48.50:005][461]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.16-10.49.33:927][615]BlueprintLog: New page: Compile w_shipInfo
+[2017.11.16-10.49.34:034][615]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.16-10.49.34:626][670]LogSavePackage: Save=77.18ms
+[2017.11.16-10.49.34:626][670]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfoB4F632F342D90E05A24A09B5AA0F9F83.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.49.34:627][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.49.38:285][ 89]LogSavePackage: Save=74.38ms
+[2017.11.16-10.49.38:285][ 89]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfo28E2BFC9481093C2541540B2E333BFF2.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.49.38:287][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.49.38:778][147]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.11.16-10.49.38:803][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.49.38:803][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-10.49.38:803][147]PIE: New page: PIE session: ScanReach (16 Nov 2017 12:49:38)
+[2017.11.16-10.49.38:803][147]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.11.16-10.49.38:810][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006197s)
+[2017.11.16-10.49.38:810][147]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.16-10.49.38:810][147]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2017.11.16-10.49.38:810][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.006854s)
+[2017.11.16-10.49.38:824][147]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-10.49.38:834][147]LogInit: FAudioDevice initialized.
+[2017.11.16-10.49.38:891][147]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.11.16-10.49.38:895][147]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.11.16-11.49.38
+[2017.11.16-10.49.38:896][147]LogWorld: Bringing up level for play took: 0.003961
+[2017.11.16-10.49.38:900][147]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.041
+[2017.11.16-10.49.38:901][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.49.46:292][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.49.46:312][ 30]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.49.46:313][ 30]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.49.46:313][ 30]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.49.46:351][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.50.12:263][115]BlueprintLog: New page: Compile w_shipInfo
+[2017.11.16-10.50.12:356][115]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.16-10.50.12:986][175]LogSavePackage: Save=76.34ms
+[2017.11.16-10.50.12:986][175]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfo097B574B481C6DFE7FF9038592DED9C9.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.50.12:988][175]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.50.13:456][216]LogSavePackage: Save=73.77ms
+[2017.11.16-10.50.13:456][216]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfo23AC139F4421667959B9CEAC908DAA7F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.50.13:457][216]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.50.21:895][188]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.16-10.50.36:096][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2017.11.16-10.50.36:334][846]LogSavePackage: Save=203.54ms
+[2017.11.16-10.50.36:334][846]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship4948C8314E9AA9AF6E378EAEE6A42586.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2017.11.16-10.50.36:336][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2017.11.16-10.50.36:989][924]BlueprintLog: New page: Compile bp_Ship
+[2017.11.16-10.50.37:135][924]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1922.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.50.37:135][924]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1923.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.50.37:135][924]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1924.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.50.37:135][924]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1925.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.50.37:136][924]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1921.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.50.37:136][924]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1926.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.50.53:070][708]LogSavePackage: Save=73.58ms
+[2017.11.16-10.50.53:070][708]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfo539000A54F9037B68CFBAFBFAAA2C4A2.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.50.53:071][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.50.53:634][773]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.11.16-10.50.53:657][773]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.50.53:658][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-10.50.53:658][773]PIE: New page: PIE session: ScanReach (16 Nov 2017 12:50:53)
+[2017.11.16-10.50.53:658][773]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.11.16-10.50.53:663][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005867s)
+[2017.11.16-10.50.53:664][773]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.16-10.50.53:664][773]LogPlayLevel: PIE: World Init took: (0.000364s)
+[2017.11.16-10.50.53:664][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.006359s)
+[2017.11.16-10.50.53:678][773]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-10.50.53:688][773]LogInit: FAudioDevice initialized.
+[2017.11.16-10.50.53:738][773]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.11.16-10.50.53:741][773]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.11.16-11.50.53
+[2017.11.16-10.50.53:742][773]LogWorld: Bringing up level for play took: 0.002400
+[2017.11.16-10.50.53:746][773]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.887
+[2017.11.16-10.50.53:746][773]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.51.05:448][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:468][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:469][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:470][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1904 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1904 is pending kill
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1903 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1903 is pending kill
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Attempted to access DESTROYED_bp_Deck_C_CHILDACTOR_1902 via property CallFunc_Array_Get_Item, but DESTROYED_bp_Deck_C_CHILDACTOR_1902 is pending kill
+[2017.11.16-10.51.05:471][875]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D from function: 'UpdateMustered' from node: Branch in graph: UpdateMustered in object: w_shipInfo with description: Accessed None reading structure HasMuster?_12_076E90AF41BEB45AE61E448266175C9D
+[2017.11.16-10.51.05:527][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.51.07:689][ 70]LogSavePackage: Save=74.73ms
+[2017.11.16-10.51.07:689][ 70]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfoB07E5D124CAFA266E7387BA35CA8E766.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.51.07:690][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.51.43:841][861]BlueprintLog: New page: Compile w_shipInfo
+[2017.11.16-10.51.44:051][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1906.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:051][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1901.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:051][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1902.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:051][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1903.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:051][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1904.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:051][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1905.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:076][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1941.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:076][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1940.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:076][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1939.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:076][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1938.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:076][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1937.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:076][861]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1942.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.51.44:106][861]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.16-10.51.44:388][868]LogSavePackage: Save=85.34ms
+[2017.11.16-10.51.44:388][868]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfoEA1895E145430C223E0F26BD6FA29C90.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.51.44:390][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.51.44:734][887]LogSavePackage: Save=82.56ms
+[2017.11.16-10.51.44:734][887]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfo7639B9B64E82A3654B06E0A811E04134.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.51.44:735][887]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.51.59:726][494]LogSavePackage: Save=74.95ms
+[2017.11.16-10.51.59:726][494]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfo2A3D50204D00770285139DB44C5A2053.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.51.59:728][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.52.00:099][534]BlueprintLog: New page: Compile w_shipInfo
+[2017.11.16-10.52.00:220][534]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1966.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.52.00:220][534]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1961.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.52.00:220][534]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1962.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.52.00:220][534]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1963.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.52.00:220][534]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1964.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.52.00:220][534]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1965.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.11.16-10.52.00:241][534]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.16-10.52.00:628][553]LogSavePackage: Save=77.90ms
+[2017.11.16-10.52.00:628][553]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_shipInfo6E495E594D4E2256A9FE499228C2FDEB.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset'
+[2017.11.16-10.52.00:629][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_shipInfo.uasset
+[2017.11.16-10.52.01:059][594]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.11.16-10.52.01:082][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.52.01:082][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-10.52.01:082][594]PIE: New page: PIE session: ScanReach (16 Nov 2017 12:52:01)
+[2017.11.16-10.52.01:082][594]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.11.16-10.52.01:089][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006464s)
+[2017.11.16-10.52.01:089][594]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.16-10.52.01:089][594]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2017.11.16-10.52.01:090][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.007323s)
+[2017.11.16-10.52.01:106][594]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-10.52.01:117][594]LogInit: FAudioDevice initialized.
+[2017.11.16-10.52.01:170][594]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.11.16-10.52.01:173][594]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.11.16-11.52.01
+[2017.11.16-10.52.01:174][594]LogWorld: Bringing up level for play took: 0.002663
+[2017.11.16-10.52.01:179][594]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.319
+[2017.11.16-10.52.01:179][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.52.10:187][619]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.52.10:252][619]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.52.11:621][773]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.11.16-10.52.11:637][773]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.52.11:637][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-10.52.11:637][773]PIE: New page: PIE session: ScanReach (16 Nov 2017 12:52:11)
+[2017.11.16-10.52.11:637][773]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.11.16-10.52.11:643][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005852s)
+[2017.11.16-10.52.11:643][773]LogAIModule: Creating AISystem for world ScanReach
+[2017.11.16-10.52.11:643][773]LogPlayLevel: PIE: World Init took: (0.000370s)
+[2017.11.16-10.52.11:643][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.006364s)
+[2017.11.16-10.52.11:659][773]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-10.52.11:668][773]LogInit: FAudioDevice initialized.
+[2017.11.16-10.52.11:723][773]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.11.16-10.52.11:727][773]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.11.16-11.52.11
+[2017.11.16-10.52.11:728][773]LogWorld: Bringing up level for play took: 0.003420
+[2017.11.16-10.52.11:734][773]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.874
+[2017.11.16-10.52.11:734][773]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.52.12:252][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.52.12:316][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.11.16-10.52.17:366][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.16-10.52.17:635][305]LogSavePackage: Save=227.93ms
+[2017.11.16-10.52.17:635][305]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach8F810DCB4D08D195E9C7A782100AEC08.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.11.16-10.52.17:637][305]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.11.16-10.52.17:665][305]LogFileHelpers: Saving map 'ScanReach' took 0.339
+[2017.11.16-10.52.17:803][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.16-10.52.17:844][305]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.16-10.52.17:844][305]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.16-10.52.18:006][306]Cmd: QUIT_EDITOR
+[2017.11.16-10.52.18:208][306]LogExit: Preparing to exit.
+[2017.11.16-10.52.18:507][306]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' was aborted.
+[2017.11.16-10.52.18:536][306]LogExit: Editor shut down
+[2017.11.16-10.52.18:539][306]LogExit: Transaction tracking system shut down
+[2017.11.16-10.52.18:607][306]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.16-10.52.18:607][306]LogExit: Object subsystem successfully closed.
+[2017.11.16-10.52.18:617][306]LogD3D11RHI: Shutdown
+[2017.11.16-10.52.18:617][306]LogD3D11RHI: CleanupD3DDevice
+[2017.11.16-10.52.18:672][306]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.16-10.52.18:681][306]LogModuleManager: Shutting down and abandoning module SequencerWidgets (536)
+[2017.11.16-10.52.18:681][306]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.11.16-10.52.18:681][306]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.11.16-10.52.18:681][306]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.11.16-10.52.18:681][306]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.11.16-10.52.18:681][306]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.11.16-10.52.18:681][306]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.11.16-10.52.18:681][306]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.11.16-10.52.18:681][306]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.11.16-10.52.18:682][306]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' was aborted.
+[2017.11.16-10.52.18:682][306]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' was aborted.
+[2017.11.16-10.52.18:682][306]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' was aborted.
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.11.16-10.52.18:682][306]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.11.16-10.52.19:639][306]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.11.16-10.52.19:690][306]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.11.16-10.52.19:695][306]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module WebSocket (328)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.11.16-10.52.19:829][306]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.11.16-10.52.19:830][306]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Binaries/Win64' was aborted.
+[2017.11.16-10.52.19:830][306]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Plugins/WebSocket/Binaries/Win64' was aborted.
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module SR_Prototype_V3 (248)
+[2017.11.16-10.52.19:830][306]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.16-10.52.19:831][306]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.16-10.52.19:831][306]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.16-10.52.19:831][306]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.16-10.52.19:831][306]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.16-10.52.19:831][306]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.16-10.52.19:931][306]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.16-10.52.20:031][306]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.16-10.52.20:031][306]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.16-10.52.20:031][306]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.16-10.52.20:031][306]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.16-10.52.20:031][306]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.16-10.52.20:031][306]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.16-10.52.20:032][306]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.16-10.52.20:034][306]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.16-10.52.20:034][306]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.16-10.52.20:034][306]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.16-10.52.20:034][306]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.16-10.52.20:034][306]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.16-10.52.20:034][306]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.16-10.52.20:167][306]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.16-10.52.20:167][306]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' was aborted.
+[2017.11.16-10.52.20:167][306]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.16-10.52.20:167][306]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.16-10.52.20:169][306]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.16-10.52.20:225][306]LogDerivedDataCache: Shutdown
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.16-10.52.20:225][306]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.16-10.52.20:225][306]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.16-10.52.20:225][306]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.16-10.52.20:225][306]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2C1D4C09-49D8-972E-710C-C18209CB8D8C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0c75b627499df609a8813c9ced46962c%7Cfebaf0232e0e4e628b45a2bec753bbbc%7C408adb04-e8c0-4c29-a1fb-4d7ed05dedd7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.16-10.52.20:236][306]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.16-10.52.20:237][306]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.16-10.52.20:237][306]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.16-10.52.20:237][306]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.16-10.52.20:237][306]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.16-10.52.20:237][306]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.16-10.52.20:237][306]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.16-10.52.20:237][306]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.16-10.52.20:237][306]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.16-10.52.20:238][306]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.16-10.52.20:240][306]LogExit: Exiting.
+[2017.11.16-10.52.20:254][306]Log file closed, 11/16/17 11:52:20
