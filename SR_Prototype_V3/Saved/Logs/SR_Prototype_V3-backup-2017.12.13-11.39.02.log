@@ -1,0 +1,429 @@
+﻿Log file open, 12/12/17 14:49:29
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1074931410) SRandInit(1074931410).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082061
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.12-13.49.29:841][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.12-13.49.29:841][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.12-13.49.29:851][  0]LogInit: Computer: MAGNUS-PC
+[2017.12.12-13.49.29:851][  0]LogInit: User: Magnus
+[2017.12.12-13.49.29:851][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.12-13.49.29:851][  0]LogInit: High frequency timer resolution =3.117187 MHz
+[2017.12.12-13.49.29:851][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.12.12-13.49.29:851][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.12-13.49.29:851][  0]LogMemory: Process Physical Memory: 273.45 MB used, 273.45 MB peak
+[2017.12.12-13.49.29:851][  0]LogMemory: Process Virtual Memory: 266.55 MB used, 266.55 MB peak
+[2017.12.12-13.49.29:851][  0]LogMemory: Physical Memory: 4667.58 MB used,  11669.27 MB free, 16336.84 MB total
+[2017.12.12-13.49.29:851][  0]LogMemory: Virtual Memory: 676.89 MB used,  11669.27 MB free, 134217728.00 MB total
+[2017.12.12-13.49.29:899][  0]LogInit: Using OS detected language (nb-NO).
+[2017.12.12-13.49.29:899][  0]LogInit: Using OS detected locale (nb-NO).
+[2017.12.12-13.49.29:901][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the language.
+[2017.12.12-13.49.29:901][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the locale.
+[2017.12.12-13.49.30:731][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.12-13.49.30:781][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.12-13.49.30:781][  0]LogD3D11RHI:       8096/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.12.12-13.49.30:782][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.12-13.49.30:782][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.12-13.49.30:782][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.12-13.49.30:786][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.12-13.49.30:786][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.12-13.49.30:786][  0]LogWindows: EnumDisplayDevices:
+[2017.12.12-13.49.30:787][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.12-13.49.30:787][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.12-13.49.30:787][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.12-13.49.30:787][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.12-13.49.30:787][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.12-13.49.30:787][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.12-13.49.30:787][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.12-13.49.30:787][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.12-13.49.30:787][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.12-13.49.30:811][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.12-13.49.30:947][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.12-13.49.30:990][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/4224/).
+[2017.12.12-13.49.30:991][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Magnus/AppData/Local/Temp/UnrealShaderWorkingDir/23A2869C4006D802539EEAAB0DFD45C2/'.
+[2017.12.12-13.49.30:991][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.12-13.49.31:916][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.12-13.49.31:952][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.12-13.49.31:988][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.12-13.49.32:025][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.12-13.49.32:061][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.12-13.49.32:098][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.12-13.49.32:135][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.12-13.49.32:169][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.12-13.49.32:200][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.12-13.49.32:235][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.12-13.49.32:269][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.12-13.49.32:303][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.12-13.49.32:338][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.12-13.49.32:371][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.12-13.49.32:403][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.12-13.49.32:469][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.12-13.49.32:469][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.12-13.49.32:493][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.12-13.49.32:560][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.12-13.49.32:582][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.12-13.49.32:617][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.12-13.49.32:650][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.12-13.49.32:682][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.12-13.49.32:715][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.12-13.49.32:715][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.12-13.49.33:021][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.12-13.49.33:098][  0]LogDerivedDataCache: Loaded boot cache 0.08s 111MB C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.12-13.49.33:098][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.12-13.49.33:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.12-13.49.33:099][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.12-13.49.33:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.12-13.49.33:099][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.12-13.49.33:114][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.12-13.49.33:125][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Magnus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.12-13.49.33:134][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.12-13.49.33:135][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.12-13.49.33:135][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.12-13.49.33:135][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.12-13.49.33:419][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.12-13.49.33:589][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.12-13.49.33:617][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.12-13.49.33:647][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.12-13.49.33:647][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.12-13.49.33:647][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.12-13.49.34:083][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2017.12.12-13.49.34:135][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2017.12.12-13.49.34:167][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.017596 seconds
+[2017.12.12-13.49.34:171][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.12-13.49.34:171][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.12.12-13.49.34:171][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.12-13.49.34:211][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.12-13.49.35:991][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.12-13.49.36:020][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.12-13.49.36:381][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.12-13.49.36:659][  0]SourceControl: Info Source control is disabled
+[2017.12.12-13.49.36:697][  0]SourceControl: Info Source control is disabled
+[2017.12.12-13.49.36:726][  0]SourceControl: Info Source control is disabled
+[2017.12.12-13.49.36:755][  0]SourceControl: Info Source control is disabled
+[2017.12.12-13.49.37:181][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.12-13.49.37:583][  0]LogEngine: Initializing Engine...
+[2017.12.12-13.49.37:583][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.12-13.49.37:751][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.12-13.49.37:751][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.12-13.49.37:836][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.12-13.49.37:846][  0]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.12-13.49.37:857][  0]LogInit: FAudioDevice initialized.
+[2017.12.12-13.49.37:900][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.12-13.49.37:911][  0]LogInit: Texture streaming: Disabled
+[2017.12.12-13.49.37:970][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.12-13.49.38:132][  0]LogInit: Transaction tracking system initialized
+[2017.12.12-13.49.38:336][  0]BlueprintLog: New page: Editor Load
+[2017.12.12-13.49.39:000][  0]LocalizationService: Info Localization service is disabled
+[2017.12.12-13.49.39:459][  0]LogConsoleResponse:Display: 
+[2017.12.12-13.49.39:585][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.12-13.49.39:585][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.12-13.49.40:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2017.12.12-13.49.40:319][  0]SourceControl: Info Source control is disabled
+[2017.12.12-13.49.40:319][  0]Cmd: MAP LOAD FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.12-13.49.40:320][  0]LightingResults: New page: Lighting Build
+[2017.12.12-13.49.40:358][  0]MapCheck: New page: Map Check
+[2017.12.12-13.49.40:358][  0]LightingResults: New page: Lighting Build
+[2017.12.12-13.49.40:800][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.12.12-13.49.40:804][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.12.12-13.49.40:805][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.12.12-13.49.40:807][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.12.12-13.49.40:979][  0]LogAIModule: Creating AISystem for world ScanReach
+[2017.12.12-13.49.40:987][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.12-13.49.41:001][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.12-13.49.41:034][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.032ms to complete.
+[2017.12.12-13.49.41:034][  0]LogFileHelpers: Loading map 'ScanReach' took 0.715
+[2017.12.12-13.49.41:211][  0]LogCollectionManager: Loaded 0 collections in 0.000863 seconds
+[2017.12.12-13.49.41:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2017.12.12-13.49.41:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Magnus/Collections/' took 0.01s
+[2017.12.12-13.49.41:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2017.12.12-13.49.41:297][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.12.12-13.49.41:305][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2329 classes and 491 folders.
+[2017.12.12-13.49.41:347][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.12-13.49.41:376][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.12-13.49.41:404][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.12-13.49.41:473][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.12-13.49.41:477][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.12-13.49.41:479][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.12-13.49.41:485][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.12-13.49.41:575][  0]LogRenderer: Reallocating scene render targets to support 1096x596 NumSamples 1 (Frame:1).
+[2017.12.12-13.49.41:634][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-13.49.41:670][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.12-13.49.41:719][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.12-13.49.41:720][  0]LogLoad: (Engine Initialization) Total time: 13.06 seconds
+[2017.12.12-13.49.41:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.12.12-13.49.41:720][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.12-13.49.41:720][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.12-13.49.42:060][  0]LogOcInput: OculusInput pre-init called
+[2017.12.12-13.49.42:060][  0]LogHMD: Starting GearVRController plugin
+[2017.12.12-13.49.42:075][  0]LogAssetRegistry: Asset discovery search completed in 7.9610 seconds
+[2017.12.12-13.49.42:077][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.12-13.49.42:077][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.12.12-14.09.39:412][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.12-14.09.44:942][462]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.12.12-14.09.45:667][544]Cmd: DELETE
+[2017.12.12-14.09.45:667][544]Cmd: ACTOR DELETE
+[2017.12.12-14.09.45:670][544]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.12.12-14.09.45:678][544]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.12.12-14.09.49:073][944]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.12.12-14.09.49:081][944]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.12.12-14.09.50:345][ 95]Cmd: SELECT NONE
+[2017.12.12-14.09.51:285][204]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-14.09.51:295][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.12-14.09.51:419][204]LogSavePackage: Save=98.57ms
+[2017.12.12-14.09.51:419][204]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachE0BE7017410350C6999928B77ECDC643.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.12.12-14.09.51:422][204]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.12.12-14.09.51:463][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.12.12-14.09.51:494][204]LogSavePackage: Save=15.10ms
+[2017.12.12-14.09.51:494][204]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData0F261DF245AB667395AF979063813520.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.12.12-14.09.51:495][204]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.12.12-14.09.54:938][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.12-14.10.40:136][905]Cmd: SELECT NONE
+[2017.12.12-14.10.40:973][  5]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.12-14.10.41:013][  5]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.12.12-14.10.41:013][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-14.10.41:014][  5]PIE: New page: PIE session: ScanReach (Dec 12, 2017, 4:10:41 PM)
+[2017.12.12-14.10.41:014][  5]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.12.12-14.10.41:016][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002323s)
+[2017.12.12-14.10.41:017][  5]LogAIModule: Creating AISystem for world ScanReach
+[2017.12.12-14.10.41:017][  5]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2017.12.12-14.10.41:017][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.003335s)
+[2017.12.12-14.10.41:031][  5]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.12-14.10.41:038][  5]LogInit: FAudioDevice initialized.
+[2017.12.12-14.10.41:187][  5]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.12.12-14.10.41:190][  5]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.12.12-15.10.41
+[2017.12.12-14.10.41:190][  5]LogWorld: Bringing up level for play took: 0.001588
+[2017.12.12-14.10.41:219][  5]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.12.12-14.10.41:226][  5]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.333
+[2017.12.12-14.10.41:227][  5]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.12.12-14.10.41:254][  5]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.12.12-14.10.42:283][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.12.12-14.10.42:330][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.12.12-14.10.45:317][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.12-14.10.45:435][473]LogSavePackage: Save=98.42ms
+[2017.12.12-14.10.45:435][473]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachCB1B1ABC41B5BC4032AB1CA2F42731FB.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.12.12-14.10.45:438][473]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.12.12-14.10.45:468][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.12.12-14.10.45:492][473]LogSavePackage: Save=12.65ms
+[2017.12.12-14.10.45:492][473]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataBF2F02D24411707BB40FAD8C8F9CD7BB.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.12.12-14.10.45:493][473]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.12.12-14.10.50:718][ 91]MapCheck: New page: Map Check
+[2017.12.12-14.10.50:750][ 91]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.12-14.10.50:750][ 91]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.12-14.10.50:854][ 91]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.12-14.10.50:861][ 91]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BackgroundMaterial, compiling. 
+[2017.12.12-14.10.50:866][ 91]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.12.12-14.10.50:872][ 91]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.12.12-14.10.50:878][ 91]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_7, compiling. 
+[2017.12.12-14.10.51:353][ 91]TextureStreamingBuild:Display: Compiling optional shaders took 0.505 seconds.
+[2017.12.12-14.10.51:358][ 91]LogLevel:Display: Export Material TexCoord Scales took 0.005 seconds.
+[2017.12.12-14.10.51:362][ 91]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.12.12-14.10.51:369][ 91]LightingResults: New page: Lighting Build - Dec 12, 2017, 4:10:51 PM
+[2017.12.12-14.10.51:404][ 91]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.12-14.10.51:482][ 91]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.12-14.10.51:491][ 91]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.12-14.10.52:506][ 91]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.12-14.10.52:506][ 91]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4224
+[2017.12.12-14.10.55:033][ 91]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.12.12-14.10.55:033][ 91]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.12-14.10.55:033][ 91]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.12-14.10.55:033][ 91]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.12-14.10.55:033][ 91]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.12-14.10.55:033][ 91]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.12-14.10.55:158][ 91]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.12-14.10.55:158][ 91]MapCheck: New page: ScanReach - Dec 12, 2017, 4:10:55 PM
+[2017.12.12-14.10.55:158][ 91]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.12.12-14.10.55:158][ 91]MapCheck:Warning: Performance Warning bp_Deck_C_1896 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.55:158][ 91]MapCheck:Warning: Performance Warning bp_Deck_C_1897 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.55:158][ 91]MapCheck:Warning: Performance Warning bp_Deck_C_1898 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.55:158][ 91]MapCheck:Warning: Performance Warning bp_Deck_C_1899 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.55:158][ 91]MapCheck:Warning: Performance Warning bp_Deck_C_1900 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.55:158][ 91]MapCheck:Warning: Performance Warning bp_Deck_C_1901 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.55:195][ 91]MapCheck: Info Map check complete: 1 Error(s), 6 Warning(s), took 37.288ms to complete.
+[2017.12.12-14.10.55:217][ 91]LogEditorBuildUtils: Build time 0:04
+[2017.12.12-14.10.56:734][ 96]Job is a success!
+[2017.12.12-14.10.57:180][ 97]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2017.12.12-14.10.57:180][ 97]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2017.12.12-14.10.57:180][ 97]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 64X64)
+[2017.12.12-14.10.57:207][ 97]Lightmass on MAGNUS-PC: 1.31 sec total, 95 ms importing, 24 ms setup, 243 ms photons, 921 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 3.65 sec total, 145 ms processing.
+[2017.12.12-14.10.57:224][ 97]LogStaticLightingSystem: Illumination: 5.49 sec (6 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2017.12.12-14.10.57:224][ 97]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.12.12-14.10.57:224][ 97]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.12.12-14.10.58:036][ 97]DumpUnbuiltLightIteractions
+[2017.12.12-14.10.58:036][ 97]Lights with unbuilt interactions: 0
+[2017.12.12-14.10.58:036][ 97]
+[2017.12.12-14.10.58:036][ 97]Primitives with unbuilt interactions: 0
+[2017.12.12-14.10.58:042][ 98]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.12-14.10.58:042][ 98]MapCheck: New page: ScanReach - Dec 12, 2017, 4:10:58 PM
+[2017.12.12-14.10.58:043][ 98]MapCheck:Warning: Performance Warning bp_Deck_C_1896 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.58:043][ 98]MapCheck:Warning: Performance Warning bp_Deck_C_1897 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.58:043][ 98]MapCheck:Warning: Performance Warning bp_Deck_C_1898 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.58:043][ 98]MapCheck:Warning: Performance Warning bp_Deck_C_1899 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.58:043][ 98]MapCheck:Warning: Performance Warning bp_Deck_C_1900 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.58:043][ 98]MapCheck:Warning: Performance Warning bp_Deck_C_1901 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.12.12-14.10.58:079][ 98]MapCheck: Info Map check complete: 0 Error(s), 6 Warning(s), took 37.179ms to complete.
+[2017.12.12-14.11.31:768][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.12-14.11.31:891][224]LogSavePackage: Save=102.76ms
+[2017.12.12-14.11.31:891][224]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach4F4650E14B734A18D752C680D0D9F93A.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.12.12-14.11.31:894][224]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.12.12-14.11.31:928][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.12.12-14.11.31:960][224]LogSavePackage: Save=20.92ms
+[2017.12.12-14.11.31:960][224]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataE58AE342426907EFD67B29B9D1931E1A.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.12.12-14.11.31:962][224]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.12.12-14.11.32:711][313]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.12.12-14.11.34:243][489]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.12-14.11.36:291][685]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.12.12-14.11.36:928][685]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.12-14.11.49:192][721]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1944.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.49:192][721]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1939.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.49:192][721]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1940.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.49:192][721]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1941.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.49:193][721]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1942.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.49:193][721]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1943.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:292][820]BlueprintLog: New page: Compile bp_Deck
+[2017.12.12-14.11.50:320][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1902.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:320][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1903.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:320][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1904.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:320][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1905.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:320][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1906.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:410][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1917.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:410][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1916.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:410][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1915.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:410][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1914.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:410][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1913.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:410][820]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_1918.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.12.12-14.11.50:869][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Deck" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset" SILENT=true
+[2017.12.12-14.11.50:925][851]LogSavePackage: Save=37.41ms
+[2017.12.12-14.11.50:925][851]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_DeckA9FE3E1E47957CC16D68D79257395CD0.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset'
+[2017.12.12-14.11.50:928][851]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Deck.uasset
+[2017.12.12-14.12.04:525][197]Cmd: SELECT NONE
+[2017.12.12-14.12.13:584][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.12-14.12.13:741][279]LogSavePackage: Save=130.30ms
+[2017.12.12-14.12.13:741][279]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach06AF93ED4C51B2EC5A053BBE58867012.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.12.12-14.12.13:744][279]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.12.12-14.12.13:778][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.12.12-14.12.13:810][279]LogSavePackage: Save=20.53ms
+[2017.12.12-14.12.13:810][279]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData49ACDE6E41F1DBFF205E439AC7BE3345.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.12.12-14.12.13:812][279]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.12.12-14.18.32:626][315]MapCheck: New page: Map Check
+[2017.12.12-14.18.32:659][315]LightingResults: New page: Lighting Build - Dec 12, 2017, 4:18:32 PM
+[2017.12.12-14.18.32:668][315]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.12-14.18.32:669][315]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.12-14.18.32:669][315]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.12-14.18.32:670][315]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.12-14.18.32:670][315]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4224
+[2017.12.12-14.18.37:188][315]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.12.12-14.18.37:188][315]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.12-14.18.37:188][315]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.12-14.18.37:188][315]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.12-14.18.37:188][315]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.12-14.18.37:188][315]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.12-14.18.37:293][315]LogEditorBuildUtils: Build time 0:04
+[2017.12.12-14.18.38:363][381]Job is a success!
+[2017.12.12-14.18.38:450][383]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2017.12.12-14.18.38:450][383]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2017.12.12-14.18.38:450][383]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 64X64)
+[2017.12.12-14.18.38:477][383]Lightmass on MAGNUS-PC: 677 ms total, 87 ms importing, 17 ms setup, 244 ms photons, 300 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.17 sec total, 154 ms processing.
+[2017.12.12-14.18.38:498][383]LogStaticLightingSystem: Illumination: 5.80 sec (2 ms encoding lightmaps, 8 ms encoding shadowmaps)
+[2017.12.12-14.18.38:498][383]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.12.12-14.18.38:498][383]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.12.12-14.18.39:188][383]DumpUnbuiltLightIteractions
+[2017.12.12-14.18.39:188][383]Lights with unbuilt interactions: 0
+[2017.12.12-14.18.39:188][383]
+[2017.12.12-14.18.39:188][383]Primitives with unbuilt interactions: 0
+[2017.12.12-14.18.39:197][384]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.12-14.18.39:197][384]MapCheck: New page: ScanReach - Dec 12, 2017, 4:18:39 PM
+[2017.12.12-14.18.39:237][384]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.827ms to complete.
+[2017.12.12-14.19.08:013][756]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.12.12-14.19.12:178][250]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.12.12-14.19.13:250][375]Cmd: DELETE
+[2017.12.12-14.19.13:250][375]Cmd: ACTOR DELETE
+[2017.12.12-14.19.13:251][375]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2017.12.12-14.19.13:262][375]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.12.12-14.19.42:878][901]Cmd: SELECT NONE
+[2017.12.12-14.19.44:098][ 47]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2017.12.12-14.19.44:911][138]Cmd: SELECT NONE
+[2017.12.12-14.19.45:819][247]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.12.12-14.19.50:234][754]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.12-14.19.58:328][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.12-14.20.15:259][644]Cmd: SELECT NONE
+[2017.12.12-14.20.16:566][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.12-14.20.16:719][795]LogSavePackage: Save=123.22ms
+[2017.12.12-14.20.16:719][795]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach1571125444C3CD3298E9F5B45FFFB507.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.12.12-14.20.16:722][795]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.12.12-14.20.16:754][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.12.12-14.20.16:790][795]LogSavePackage: Save=19.83ms
+[2017.12.12-14.20.16:790][795]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataD5B634504D73D58EA057B1ADD75FE5E8.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.12.12-14.20.16:792][795]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2017.12.12-14.20.19:323][ 85]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.12-14.20.19:350][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.12.12-14.20.19:350][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-14.20.19:350][ 85]PIE: New page: PIE session: ScanReach (Dec 12, 2017, 4:20:19 PM)
+[2017.12.12-14.20.19:350][ 85]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2017.12.12-14.20.19:353][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002528s)
+[2017.12.12-14.20.19:353][ 85]LogAIModule: Creating AISystem for world ScanReach
+[2017.12.12-14.20.19:353][ 85]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.12.12-14.20.19:353][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.003301s)
+[2017.12.12-14.20.19:371][ 85]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.12-14.20.19:377][ 85]LogInit: FAudioDevice initialized.
+[2017.12.12-14.20.19:495][ 85]LogLoad: Game class is 'ScanReach_GM_C'
+[2017.12.12-14.20.19:497][ 85]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2017.12.12-15.20.19
+[2017.12.12-14.20.19:497][ 85]LogWorld: Bringing up level for play took: 0.001660
+[2017.12.12-14.20.19:504][ 85]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.055
+[2017.12.12-14.20.19:505][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.12.12-14.20.35:004][902]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.12.12-14.20.35:035][902]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2017.12.12-14.20.35:832][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.12-14.20.35:977][991]LogSavePackage: Save=122.43ms
+[2017.12.12-14.20.35:977][991]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach7E342C62484647F8C4FF67B84FBC9ECF.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2017.12.12-14.20.35:978][991]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2017.12.12-14.20.36:009][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2017.12.12-14.20.36:040][991]LogSavePackage: Save=19.57ms
+[2017.12.12-14.20.36:040][991]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData600CE5B34424C8D3A30AE4B462F89212.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2017.12.12-14.20.36:042][991]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
