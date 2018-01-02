@@ -1,0 +1,739 @@
+﻿Log file open, 01/02/18 13:30:35
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(369013809) SRandInit(369013809).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074001
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.02-12.30.36:199][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.02-12.30.36:199][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.02-12.30.36:206][  0]LogInit: Computer: WINDOWS-EUOFFC3
+[2018.01.02-12.30.36:206][  0]LogInit: User: Bendick
+[2018.01.02-12.30.36:206][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.02-12.30.36:206][  0]LogInit: High frequency timer resolution =3.914057 MHz
+[2018.01.02-12.30.36:206][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.02-12.30.36:206][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.02-12.30.36:206][  0]LogMemory: Process Physical Memory: 273.68 MB used, 273.68 MB peak
+[2018.01.02-12.30.36:206][  0]LogMemory: Process Virtual Memory: 264.98 MB used, 264.98 MB peak
+[2018.01.02-12.30.36:206][  0]LogMemory: Physical Memory: 7669.06 MB used,  8653.91 MB free, 16322.98 MB total
+[2018.01.02-12.30.36:206][  0]LogMemory: Virtual Memory: 675.99 MB used,  8653.91 MB free, 134217728.00 MB total
+[2018.01.02-12.30.36:254][  0]LogInit: Using OS detected language (en-US).
+[2018.01.02-12.30.36:254][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.02-12.30.36:255][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.02-12.30.36:882][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.02-12.30.36:923][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.02-12.30.36:923][  0]LogD3D11RHI:       8096/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.02-12.30.36:924][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.02-12.30.36:924][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.02-12.30.36:924][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.02-12.30.36:929][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.02-12.30.36:929][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.02-12.30.36:929][  0]LogWindows: EnumDisplayDevices:
+[2018.01.02-12.30.36:929][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.02-12.30.36:929][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.02-12.30.36:929][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.02-12.30.36:929][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.02-12.30.36:929][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.02-12.30.36:929][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.02-12.30.36:929][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.02-12.30.36:929][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.02-12.30.36:929][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.02-12.30.36:948][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.02-12.30.36:957][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.02-12.30.37:047][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/10612/).
+[2018.01.02-12.30.37:047][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/1989A5DF4569607D59C79697EE1B83E6/'.
+[2018.01.02-12.30.37:047][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.02-12.30.37:743][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.02-12.30.37:778][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.02-12.30.37:813][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.02-12.30.37:847][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.02-12.30.37:882][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.02-12.30.37:917][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.02-12.30.37:952][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.02-12.30.37:987][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.02-12.30.38:018][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.02-12.30.38:051][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.02-12.30.38:084][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.02-12.30.38:119][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.02-12.30.38:152][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.02-12.30.38:185][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.02-12.30.38:220][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.02-12.30.38:285][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.02-12.30.38:285][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.02-12.30.38:312][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.02-12.30.38:381][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.02-12.30.38:402][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.02-12.30.38:437][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.02-12.30.38:484][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.02-12.30.38:526][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.02-12.30.38:562][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.02-12.30.38:562][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.02-12.30.38:894][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.02-12.30.38:956][  0]LogDerivedDataCache: Loaded boot cache 0.06s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.02-12.30.38:956][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.02-12.30.38:956][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.02-12.30.38:956][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.02-12.30.38:956][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.02-12.30.38:956][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.02-12.30.38:967][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.02-12.30.38:978][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.02-12.30.38:985][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.02-12.30.38:985][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.02-12.30.38:986][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.02-12.30.38:986][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.02-12.30.39:205][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.02-12.30.39:370][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.02-12.30.39:399][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.02-12.30.39:432][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.02-12.30.39:432][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.02-12.30.39:432][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.02-12.30.39:832][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2018.01.02-12.30.39:882][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
+[2018.01.02-12.30.39:926][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.026973 seconds
+[2018.01.02-12.30.39:930][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.02-12.30.39:930][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.02-12.30.39:930][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.02-12.30.39:982][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.02-12.30.41:743][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.02-12.30.41:774][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.02-12.30.42:132][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.02-12.30.42:389][  0]SourceControl: Info Source control is disabled
+[2018.01.02-12.30.42:429][  0]SourceControl: Info Source control is disabled
+[2018.01.02-12.30.42:462][  0]SourceControl: Info Source control is disabled
+[2018.01.02-12.30.42:493][  0]SourceControl: Info Source control is disabled
+[2018.01.02-12.30.42:942][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.02-12.30.43:328][  0]LogEngine: Initializing Engine...
+[2018.01.02-12.30.43:329][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.02-12.30.43:453][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.02-12.30.43:453][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.02-12.30.43:540][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.02-12.30.43:545][  0]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.30.43:558][  0]LogInit: FAudioDevice initialized.
+[2018.01.02-12.30.43:595][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.02-12.30.43:605][  0]LogInit: Texture streaming: Disabled
+[2018.01.02-12.30.43:671][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.02-12.30.43:820][  0]LogInit: Transaction tracking system initialized
+[2018.01.02-12.30.44:030][  0]BlueprintLog: New page: Editor Load
+[2018.01.02-12.30.44:648][  0]LocalizationService: Info Localization service is disabled
+[2018.01.02-12.30.45:099][  0]LogConsoleResponse:Display: 
+[2018.01.02-12.30.45:201][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.02-12.30.45:201][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.02-12.30.45:877][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2018.01.02-12.30.45:877][  0]SourceControl: Info Source control is disabled
+[2018.01.02-12.30.45:877][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.02-12.30.45:877][  0]LightingResults: New page: Lighting Build
+[2018.01.02-12.30.45:905][  0]MapCheck: New page: Map Check
+[2018.01.02-12.30.45:905][  0]LightingResults: New page: Lighting Build
+[2018.01.02-12.30.46:220][  0]LogTexture:Display: Building textures: T_DeckOverview_Pressed (BGRA8, 212X49)
+[2018.01.02-12.30.46:221][  0]LogTexture:Display: Building textures: T_DeckOverview_Normal (BGRA8, 212X49)
+[2018.01.02-12.30.46:222][  0]LogTexture:Display: Building textures: T_DeckOverview_Hoverd (BGRA8, 212X49)
+[2018.01.02-12.30.46:246][  0]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.30.46:252][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.02-12.30.46:263][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.02-12.30.46:296][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.648ms to complete.
+[2018.01.02-12.30.46:296][  0]LogFileHelpers: Loading map 'ScanReach' took 0.419
+[2018.01.02-12.30.46:404][  0]LogCollectionManager: Loaded 0 collections in 0.000967 seconds
+[2018.01.02-12.30.46:471][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2018.01.02-12.30.46:471][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
+[2018.01.02-12.30.46:471][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2018.01.02-12.30.46:471][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.02-12.30.46:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 2329 classes and 491 folders.
+[2018.01.02-12.30.46:519][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.02-12.30.46:541][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.01.02-12.30.46:569][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.02-12.30.46:623][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.02-12.30.46:627][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.02-12.30.46:628][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.02-12.30.46:632][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.02-12.30.46:691][  0]LogRenderer: Reallocating scene render targets to support 1276x568 NumSamples 1 (Frame:1).
+[2018.01.02-12.30.46:720][  0]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.02-12.30.46:759][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.02-12.30.46:813][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.02-12.30.46:813][  0]LogLoad: (Engine Initialization) Total time: 11.70 seconds
+[2018.01.02-12.30.46:813][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2018.01.02-12.30.46:813][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.02-12.30.46:813][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.02-12.30.47:152][  0]LogOcInput: OculusInput pre-init called
+[2018.01.02-12.30.47:152][  0]LogHMD: Starting GearVRController plugin
+[2018.01.02-12.30.47:163][  0]LogAssetRegistry: Asset discovery search completed in 7.3028 seconds
+[2018.01.02-12.30.47:165][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.02-12.30.47:165][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2018.01.02-12.30.47:199][  0]LogRenderer: Reallocating scene render targets to support 1276x584 NumSamples 1 (Frame:2).
+[2018.01.02-12.30.48:847][  8]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.30.48:890][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.30.48:890][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.30.48:890][  8]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:30:48)
+[2018.01.02-12.30.48:890][  8]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.30.48:892][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001678s)
+[2018.01.02-12.30.48:892][  8]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.30.48:892][  8]LogPlayLevel: PIE: World Init took: (0.000371s)
+[2018.01.02-12.30.48:892][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002166s)
+[2018.01.02-12.30.48:900][  8]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.30.48:909][  8]LogInit: FAudioDevice initialized.
+[2018.01.02-12.30.48:979][  8]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.30.48:981][  8]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.30.48
+[2018.01.02-12.30.48:981][  8]LogWorld: Bringing up level for play took: 0.001009
+[2018.01.02-12.30.49:010][  8]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.01.02-12.30.49:015][  8]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.305
+[2018.01.02-12.30.49:015][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.30.49:042][  8]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2018.01.02-12.31.09:770][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.31.09:812][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.31.15:079][121]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.02-12.31.15:329][121]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2018.01.02-12.31.15:705][121]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.02-12.31.15:763][121]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.02-12.31.15:804][122]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.02-12.31.25:375][260]BlueprintLog: New page: Compile bp_Ship
+[2018.01.02-12.31.26:899][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2018.01.02-12.31.27:085][422]LogSavePackage: Save=165.91ms
+[2018.01.02-12.31.27:085][422]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship7B91DE1D4DAE8E6CB9581B8679610CB2.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2018.01.02-12.31.27:087][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2018.01.02-12.31.27:581][481]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.31.27:597][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.31.27:597][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.31.27:597][481]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:31:27)
+[2018.01.02-12.31.27:597][481]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.31.27:599][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001827s)
+[2018.01.02-12.31.27:599][481]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.31.27:599][481]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2018.01.02-12.31.27:599][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002498s)
+[2018.01.02-12.31.27:613][481]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.31.27:622][481]LogInit: FAudioDevice initialized.
+[2018.01.02-12.31.27:676][481]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.31.27:678][481]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.31.27
+[2018.01.02-12.31.27:678][481]LogWorld: Bringing up level for play took: 0.001104
+[2018.01.02-12.31.27:684][481]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.974
+[2018.01.02-12.31.27:684][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.31.31:794][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.31.31:839][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.33.01:713][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2018.01.02-12.33.01:893][269]LogSavePackage: Save=165.21ms
+[2018.01.02-12.33.01:893][269]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship0E7375E54E126ACFBFEDC396279632E5.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2018.01.02-12.33.01:895][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2018.01.02-12.33.29:073][502]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.02-12.34.10:359][532]LogSavePackage: Save=47.53ms
+[2018.01.02-12.34.10:360][532]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButton044853D646E24B79897F548330CA6A3E.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2018.01.02-12.34.10:362][532]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2018.01.02-12.34.11:304][645]BlueprintLog: New page: Compile w_DeckButton
+[2018.01.02-12.34.11:401][645]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.34.11:777][681]LogSavePackage: Save=35.68ms
+[2018.01.02-12.34.11:777][681]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButton267182C446DF608B7CD7C2BC44574BC3.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2018.01.02-12.34.11:778][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2018.01.02-12.34.12:204][732]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.34.12:218][732]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.12:218][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.34.12:218][732]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:34:12)
+[2018.01.02-12.34.12:218][732]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.34.12:220][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001749s)
+[2018.01.02-12.34.12:220][732]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.34.12:221][732]LogPlayLevel: PIE: World Init took: (0.000457s)
+[2018.01.02-12.34.12:221][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002326s)
+[2018.01.02-12.34.12:234][732]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.34.12:245][732]LogInit: FAudioDevice initialized.
+[2018.01.02-12.34.12:294][732]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.34.12:296][732]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.34.12
+[2018.01.02-12.34.12:296][732]LogWorld: Bringing up level for play took: 0.000951
+[2018.01.02-12.34.12:300][732]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.41
+[2018.01.02-12.34.12:300][732]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.28:011][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.28:054][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.30:438][890]LogSavePackage: Save=34.26ms
+[2018.01.02-12.34.30:438][890]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButton03D43C534172C851D702809331A4D928.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2018.01.02-12.34.30:440][890]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2018.01.02-12.34.31:243][986]BlueprintLog: New page: Compile w_DeckButton
+[2018.01.02-12.34.31:333][986]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.34.31:786][ 31]LogSavePackage: Save=36.17ms
+[2018.01.02-12.34.31:786][ 31]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButtonFD9B2B7F46A5B6FD62F40BB18135C765.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2018.01.02-12.34.31:787][ 31]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2018.01.02-12.34.32:080][ 66]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.34.32:095][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.32:095][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.34.32:095][ 66]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:34:32)
+[2018.01.02-12.34.32:095][ 66]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.34.32:097][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001712s)
+[2018.01.02-12.34.32:097][ 66]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.34.32:098][ 66]LogPlayLevel: PIE: World Init took: (0.000438s)
+[2018.01.02-12.34.32:098][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002264s)
+[2018.01.02-12.34.32:111][ 66]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.34.32:121][ 66]LogInit: FAudioDevice initialized.
+[2018.01.02-12.34.32:170][ 66]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.34.32:172][ 66]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.34.32
+[2018.01.02-12.34.32:173][ 66]LogWorld: Bringing up level for play took: 0.001452
+[2018.01.02-12.34.32:176][ 66]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.534
+[2018.01.02-12.34.32:177][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.34:144][298]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.34:194][298]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.37:612][699]LogSavePackage: Save=34.31ms
+[2018.01.02-12.34.37:612][699]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButtonE4E5DE3245F03DDF207B229DA6D4DE8F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2018.01.02-12.34.37:614][699]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2018.01.02-12.34.38:606][818]BlueprintLog: New page: Compile w_DeckButton
+[2018.01.02-12.34.38:696][818]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.34.39:583][923]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.34.39:597][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.39:597][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.34.39:597][923]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:34:39)
+[2018.01.02-12.34.39:597][923]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.34.39:599][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001897s)
+[2018.01.02-12.34.39:599][923]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.34.39:599][923]LogPlayLevel: PIE: World Init took: (0.000365s)
+[2018.01.02-12.34.39:600][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002389s)
+[2018.01.02-12.34.39:611][923]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.34.39:620][923]LogInit: FAudioDevice initialized.
+[2018.01.02-12.34.39:670][923]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.34.39:672][923]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.34.39
+[2018.01.02-12.34.39:672][923]LogWorld: Bringing up level for play took: 0.000994
+[2018.01.02-12.34.39:676][923]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.966
+[2018.01.02-12.34.39:676][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.40:759][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.40:802][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.44:358][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2018.01.02-12.34.44:540][471]LogSavePackage: Save=166.22ms
+[2018.01.02-12.34.44:540][471]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship59A27F8148259571D946D0BA3237E385.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2018.01.02-12.34.44:542][471]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2018.01.02-12.34.45:617][600]BlueprintLog: New page: Compile bp_Ship
+[2018.01.02-12.34.47:451][803]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.34.47:465][803]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.47:466][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.34.47:466][803]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:34:47)
+[2018.01.02-12.34.47:466][803]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.34.47:467][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001732s)
+[2018.01.02-12.34.47:468][803]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.34.47:468][803]LogPlayLevel: PIE: World Init took: (0.000396s)
+[2018.01.02-12.34.47:468][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002254s)
+[2018.01.02-12.34.47:481][803]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.34.47:490][803]LogInit: FAudioDevice initialized.
+[2018.01.02-12.34.47:540][803]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.34.47:541][803]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.34.47
+[2018.01.02-12.34.47:541][803]LogWorld: Bringing up level for play took: 0.000940
+[2018.01.02-12.34.47:545][803]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.834
+[2018.01.02-12.34.47:545][803]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.51:800][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.34.51:846][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.35.06:573][ 62]BlueprintLog: New page: Compile w_DeckButton
+[2018.01.02-12.35.06:709][ 62]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.35.33:397][242]BlueprintLog: New page: Compile w_DeckButton
+[2018.01.02-12.35.33:483][242]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.35.35:472][472]LogSavePackage: Save=36.42ms
+[2018.01.02-12.35.35:472][472]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButtonA0E569754721D4C5C1E8728E61EDDEB6.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2018.01.02-12.35.35:474][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2018.01.02-12.38.18:922][869]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.02-12.38.37:230][ 47]LogSavePackage: Save=34.15ms
+[2018.01.02-12.38.37:230][ 47]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckOverview_Container414459C54827DF29790DF6A18A4BBD02.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset'
+[2018.01.02-12.38.37:232][ 47]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset
+[2018.01.02-12.38.37:692][102]BlueprintLog: New page: Compile DeckOverview_Container
+[2018.01.02-12.38.37:798][102]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.38.38:040][123]LogSavePackage: Save=32.22ms
+[2018.01.02-12.38.38:040][123]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckOverview_Container7CC4A5284E123CA1C3103C97E786C104.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset'
+[2018.01.02-12.38.38:041][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset
+[2018.01.02-12.38.44:626][899]LogSavePackage: Save=51.29ms
+[2018.01.02-12.38.44:626][899]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckOverview8A54BFC84AD1F05855ECBEB582534CE3.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckOverview.uasset'
+[2018.01.02-12.38.44:628][899]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckOverview.uasset
+[2018.01.02-12.38.44:996][943]BlueprintLog: New page: Compile w_DeckOverview
+[2018.01.02-12.38.45:092][943]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.38.47:066][169]LogSavePackage: Save=53.02ms
+[2018.01.02-12.38.47:067][169]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckOverviewF2FC49F54D4848D8732B64BD799C34CD.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckOverview.uasset'
+[2018.01.02-12.38.47:068][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckOverview.uasset
+[2018.01.02-12.38.56:081][250]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2018.01.02-12.39.12:191][122]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.39.12:219][122]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.39.12:219][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.39.12:219][122]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:39:12)
+[2018.01.02-12.39.12:219][122]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.39.12:221][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001730s)
+[2018.01.02-12.39.12:221][122]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.39.12:221][122]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2018.01.02-12.39.12:221][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002380s)
+[2018.01.02-12.39.12:236][122]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.39.12:246][122]LogInit: FAudioDevice initialized.
+[2018.01.02-12.39.12:296][122]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.39.12:298][122]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.39.12
+[2018.01.02-12.39.12:298][122]LogWorld: Bringing up level for play took: 0.001322
+[2018.01.02-12.39.12:302][122]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.408
+[2018.01.02-12.39.12:302][122]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.39.12:387][129]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:ExecuteUbergraph_w_DeckOverview
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:GenerateDeckButtons
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:GenerateDeckButtons
+	Function /Game/Blueprints/Widgets/DeckOverview_Container.DeckOverview_Container_C:GenerateButtonRow
+
+[2018.01.02-12.39.12:388][129]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:ExecuteUbergraph_w_DeckOverview
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:GenerateDeckButtons
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:GenerateDeckButtons
+	Function /Game/Blueprints/Widgets/DeckOverview_Container.DeckOverview_Container_C:GenerateButtonRow
+
+[2018.01.02-12.39.12:388][129]LogScriptCore:Warning: Script Msg: Divide by zero
+Script call stack:
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:ExecuteUbergraph_w_DeckOverview
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:GenerateDeckButtons
+	Function /Game/Blueprints/Widgets/w_DeckOverview.w_DeckOverview_C:GenerateDeckButtons
+	Function /Game/Blueprints/Widgets/DeckOverview_Container.DeckOverview_Container_C:GenerateButtonRow
+
+[2018.01.02-12.39.20:102][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.39.20:167][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.39.47:970][366]BlueprintLog: New page: Compile DeckOverview_Container
+[2018.01.02-12.39.48:052][366]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.39.48:924][463]LogSavePackage: Save=30.00ms
+[2018.01.02-12.39.48:924][463]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckOverview_ContainerDB7920EA47ECB27DA8EB08888BB663B5.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset'
+[2018.01.02-12.39.48:926][463]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset
+[2018.01.02-12.39.49:368][515]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.39.49:387][515]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.39.49:387][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.39.49:387][515]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:39:49)
+[2018.01.02-12.39.49:387][515]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.39.49:389][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001662s)
+[2018.01.02-12.39.49:389][515]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.39.49:389][515]LogPlayLevel: PIE: World Init took: (0.000420s)
+[2018.01.02-12.39.49:389][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002200s)
+[2018.01.02-12.39.49:404][515]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.39.49:414][515]LogInit: FAudioDevice initialized.
+[2018.01.02-12.39.49:466][515]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.39.49:468][515]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.39.49
+[2018.01.02-12.39.49:468][515]LogWorld: Bringing up level for play took: 0.001378
+[2018.01.02-12.39.49:471][515]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.761
+[2018.01.02-12.39.49:472][515]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.39.57:172][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.39.57:236][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.40.35:364][392]BlueprintLog: New page: Compile DeckOverview_Container
+[2018.01.02-12.40.35:455][392]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.40.35:876][435]LogSavePackage: Save=27.75ms
+[2018.01.02-12.40.35:876][435]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckOverview_Container662586844152D937B5B35A9D20C02CD5.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset'
+[2018.01.02-12.40.35:878][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset
+[2018.01.02-12.40.36:249][472]LogSavePackage: Save=27.52ms
+[2018.01.02-12.40.36:249][472]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckOverview_Container9B9031C4424B4FFDD7DF6D9255E71B28.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset'
+[2018.01.02-12.40.36:250][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset
+[2018.01.02-12.41.04:947][672]LogSavePackage: Save=27.49ms
+[2018.01.02-12.41.04:947][672]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/DeckOverview_ContainerE1F27E76419FFACEC71EBBAB8574F4F1.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset'
+[2018.01.02-12.41.04:948][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/DeckOverview_Container.uasset
+[2018.01.02-12.41.08:412][ 83]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.41.08:431][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.41.08:432][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.41.08:432][ 83]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:41:08)
+[2018.01.02-12.41.08:432][ 83]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.41.08:433][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001716s)
+[2018.01.02-12.41.08:434][ 83]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.41.08:434][ 83]LogPlayLevel: PIE: World Init took: (0.000448s)
+[2018.01.02-12.41.08:434][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002290s)
+[2018.01.02-12.41.08:448][ 83]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.41.08:457][ 83]LogInit: FAudioDevice initialized.
+[2018.01.02-12.41.08:506][ 83]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.41.08:508][ 83]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.41.08
+[2018.01.02-12.41.08:508][ 83]LogWorld: Bringing up level for play took: 0.001010
+[2018.01.02-12.41.08:512][ 83]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.198
+[2018.01.02-12.41.08:513][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.41.15:336][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.41.15:399][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.41.58:788][363]LogSavePackage: Save=95.25ms
+[2018.01.02-12.41.58:788][363]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_Auto1EF84069C4654CDBD9144079D69EBDA57.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/ScanReach_Auto1.umap'
+[2018.01.02-12.41.58:789][363]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/ScanReach_Auto1.umap
+[2018.01.02-12.41.58:790][363]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ScanReach' took 0.140
+[2018.01.02-12.41.58:790][363]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.140
+[2018.01.02-12.47.47:013][706]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2018.01.02-12.48.11:624][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-12.48.11:757][639]LogSavePackage: Save=95.30ms
+[2018.01.02-12.48.11:757][639]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachF5BB899E49ECFCE5EB6836AEBA1A8341.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-12.48.11:760][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-12.48.11:790][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-12.48.11:825][639]LogSavePackage: Save=16.21ms
+[2018.01.02-12.48.11:825][639]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData4E22EE094915688054D471A92CFDEAE3.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-12.48.11:826][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-12.48.13:823][872]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.48.13:841][872]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.13:841][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.48.13:841][872]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:48:13)
+[2018.01.02-12.48.13:841][872]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.48.13:843][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001671s)
+[2018.01.02-12.48.13:843][872]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.48.13:843][872]LogPlayLevel: PIE: World Init took: (0.000444s)
+[2018.01.02-12.48.13:843][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002235s)
+[2018.01.02-12.48.13:860][872]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.48.13:871][872]LogInit: FAudioDevice initialized.
+[2018.01.02-12.48.13:920][872]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.48.13:922][872]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.48.13
+[2018.01.02-12.48.13:922][872]LogWorld: Bringing up level for play took: 0.001114
+[2018.01.02-12.48.13:927][872]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.783
+[2018.01.02-12.48.13:927][872]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.15:202][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.15:266][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.24:538][117]LogSavePackage: Save=34.01ms
+[2018.01.02-12.48.24:538][117]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButtonA715DB574938EAA8BF75189D09EF86EE.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
+[2018.01.02-12.48.24:540][117]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
+[2018.01.02-12.48.25:249][202]BlueprintLog: New page: Compile w_DeckButton
+[2018.01.02-12.48.25:350][202]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-12.48.25:683][240]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.48.25:700][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.25:700][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.48.25:700][240]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:48:25)
+[2018.01.02-12.48.25:700][240]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.48.25:702][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001646s)
+[2018.01.02-12.48.25:702][240]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.48.25:702][240]LogPlayLevel: PIE: World Init took: (0.000366s)
+[2018.01.02-12.48.25:702][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002126s)
+[2018.01.02-12.48.25:719][240]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.48.25:728][240]LogInit: FAudioDevice initialized.
+[2018.01.02-12.48.25:777][240]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.48.25:780][240]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.48.25
+[2018.01.02-12.48.25:780][240]LogWorld: Bringing up level for play took: 0.001038
+[2018.01.02-12.48.25:783][240]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 1.073
+[2018.01.02-12.48.25:784][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.27:202][407]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.27:262][407]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.34:921][322]Cmd: TRANSACTION UNDO
+[2018.01.02-12.48.34:921][322]LogEditorTransaction: Undo Edit Width Override
+[2018.01.02-12.48.39:612][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2018.01.02-12.48.39:796][878]LogSavePackage: Save=165.10ms
+[2018.01.02-12.48.39:797][878]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship23FCFFCE4657FD83E62E70B012841083.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2018.01.02-12.48.39:799][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2018.01.02-12.48.40:523][965]BlueprintLog: New page: Compile bp_Ship
+[2018.01.02-12.48.41:854][105]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.48.41:872][105]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.41:872][105]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.02-12.48.41:872][105]LogPlayLevel: [PlayLevel] Compiling w_DeckButton before play...
+[2018.01.02-12.48.41:975][105]LogPlayLevel: PlayLevel: Blueprint regeneration took 102 ms (1 blueprints)
+[2018.01.02-12.48.41:975][105]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:48:41)
+[2018.01.02-12.48.41:975][105]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.48.41:977][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001605s)
+[2018.01.02-12.48.41:977][105]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.48.41:977][105]LogPlayLevel: PIE: World Init took: (0.000385s)
+[2018.01.02-12.48.41:977][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002105s)
+[2018.01.02-12.48.41:989][105]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.48.41:999][105]LogInit: FAudioDevice initialized.
+[2018.01.02-12.48.42:046][105]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.48.42:047][105]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.48.42
+[2018.01.02-12.48.42:048][105]LogWorld: Bringing up level for play took: 0.000974
+[2018.01.02-12.48.42:051][105]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.659
+[2018.01.02-12.48.42:051][105]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.49:047][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.48.49:107][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.54.19:715][605]BlueprintLog: New page: Compile bp_Ship
+[2018.01.02-12.54.20:237][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
+[2018.01.02-12.54.20:420][646]LogSavePackage: Save=163.78ms
+[2018.01.02-12.54.20:420][646]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship187279CA4DD5649D35094B8C10D75438.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
+[2018.01.02-12.54.20:422][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
+[2018.01.02-12.58.21:706][574]LogSavePackage: Save=96.66ms
+[2018.01.02-12.58.21:706][574]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_Auto252EBABB249A115BA85863D9A044FBC15.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/ScanReach_Auto2.umap'
+[2018.01.02-12.58.21:707][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/ScanReach_Auto2.umap
+[2018.01.02-12.58.21:709][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ScanReach' took 0.137
+[2018.01.02-12.58.21:709][574]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.137
+[2018.01.02-12.58.21:710][574]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/w_DeckButton] ([1] browsable assets)...
+[2018.01.02-12.58.21:710][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/w_DeckButton]
+[2018.01.02-12.58.21:766][574]LogSavePackage: Save=36.63ms
+[2018.01.02-12.58.21:766][574]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButton_Auto2137377994B7F50BD7D24BFB299289F0C.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Blueprints/Widgets/w_DeckButton_Auto2.uasset'
+[2018.01.02-12.58.21:767][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Blueprints/Widgets/w_DeckButton_Auto2.uasset
+[2018.01.02-12.58.21:767][574]LogFileHelpers: Auto-saving content packages took 0.057
+[2018.01.02-12.58.23:137][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.02-12.58.31:859][730]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-12.58.31:877][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.58.31:877][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-12.58.31:877][730]PIE: New page: PIE session: ScanReach (2 Jan 2018 14:58:31)
+[2018.01.02-12.58.31:877][730]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.02-12.58.31:879][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001668s)
+[2018.01.02-12.58.31:880][730]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-12.58.31:880][730]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2018.01.02-12.58.31:880][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.002317s)
+[2018.01.02-12.58.31:894][730]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.02-12.58.31:905][730]LogInit: FAudioDevice initialized.
+[2018.01.02-12.58.31:959][730]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.02-12.58.31:960][730]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.02-13.58.31
+[2018.01.02-12.58.31:960][730]LogWorld: Bringing up level for play took: 0.001062
+[2018.01.02-12.58.31:965][730]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.745
+[2018.01.02-12.58.31:966][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.58.32:639][805]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-12.58.32:695][805]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.02-13.00.01:922][495]LogLinker: Can't find file '/Game/Blueprints/Widgets/w_NamePlate'
+[2018.01.02-13.00.01:922][495]LogLinker: Can't find file '/Game/Blueprints/Widgets/w_NamePlate'
+[2018.01.02-13.00.03:634][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-13.00.03:755][698]LogSavePackage: Save=94.47ms
+[2018.01.02-13.00.03:755][698]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach0B010186461391764BB973A29D49B6EE.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-13.00.03:759][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-13.00.03:793][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-13.00.03:828][698]LogSavePackage: Save=14.62ms
+[2018.01.02-13.00.03:828][698]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData458E209D49A808BD4CB0B2BE4E77F3A4.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-13.00.03:829][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-13.00.03:944][710]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2018.01.02-13.00.04:640][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.02-13.00.04:905][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-13.00.05:027][815]LogSavePackage: Save=94.23ms
+[2018.01.02-13.00.05:027][815]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach03A45F004ED39DCAB9BC1CAA41C3BA46.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-13.00.05:028][815]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-13.00.05:052][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-13.00.05:083][815]LogSavePackage: Save=14.75ms
+[2018.01.02-13.00.05:083][815]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData8647239F4A8D7266D7432FB3C2462F8E.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-13.00.05:084][815]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-13.07.13:587][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-13.07.13:724][851]LogSavePackage: Save=99.54ms
+[2018.01.02-13.07.13:725][851]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachFE3FF61B404A3AF73BDAAA9B8ABF7350.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-13.07.13:726][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-13.07.13:751][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-13.07.13:786][851]LogSavePackage: Save=15.03ms
+[2018.01.02-13.07.13:786][851]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData1816A0CB4B06CBB097DEAD97F8BB70C3.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-13.07.13:787][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-13.07.14:624][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-13.07.14:745][948]LogSavePackage: Save=94.08ms
+[2018.01.02-13.07.14:745][948]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach989CD254481523EBFC4BEBAC99716BD8.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-13.07.14:746][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-13.07.14:771][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-13.07.14:801][948]LogSavePackage: Save=13.97ms
+[2018.01.02-13.07.14:801][948]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData46C8199F4AC601796FC3D2892D8EB62D.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-13.07.14:802][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-13.07.15:368][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-13.07.15:490][ 13]LogSavePackage: Save=94.23ms
+[2018.01.02-13.07.15:490][ 13]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach541D09C3450CBAC2202F55A9A06EE270.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-13.07.15:491][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-13.07.15:518][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-13.07.15:548][ 13]LogSavePackage: Save=13.88ms
+[2018.01.02-13.07.15:548][ 13]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData1BF492C84CC227C72627BE8274989C1F.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-13.07.15:549][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-13.07.16:065][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-13.07.16:186][ 72]LogSavePackage: Save=93.97ms
+[2018.01.02-13.07.16:186][ 72]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach188E85024373539BC924FE88970DD0EA.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-13.07.16:187][ 72]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-13.07.16:213][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-13.07.16:242][ 72]LogSavePackage: Save=13.75ms
+[2018.01.02-13.07.16:242][ 72]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltDataB0DD083444DC64C6AE7F5FA62C1BF6A6.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-13.07.16:243][ 72]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-13.07.16:677][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-13.07.16:800][121]LogSavePackage: Save=95.76ms
+[2018.01.02-13.07.16:800][121]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReachB6ABCDF844F1F19AF1025DBFD119A93E.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-13.07.16:801][121]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-13.07.16:827][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-13.07.16:856][121]LogSavePackage: Save=14.03ms
+[2018.01.02-13.07.16:856][121]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData657E7FD54FB614E113DB4F8CBBCF13E7.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-13.07.16:857][121]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-13.07.17:175][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.02-13.07.17:300][156]LogSavePackage: Save=95.59ms
+[2018.01.02-13.07.17:300][156]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach4F2A53EF4534103396C1ACB487F467A0.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
+[2018.01.02-13.07.17:301][156]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
+[2018.01.02-13.07.17:326][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach_BuiltData" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset" SILENT=true
+[2018.01.02-13.07.17:357][156]LogSavePackage: Save=14.90ms
+[2018.01.02-13.07.17:357][156]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach_BuiltData02D0A8E749B184DD0BC679A05EECD456.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset'
+[2018.01.02-13.07.17:358][156]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach_BuiltData.uasset
+[2018.01.02-13.11.54:563][318]BlueprintLog: New page: Compile w_NamePlate
+[2018.01.02-13.11.54:633][318]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.02-13.11.55:177][379]LogSavePackage: Save=12.99ms
+[2018.01.02-13.11.55:177][379]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_NamePlate80FB1FF34E737DA2432F95855FE237B3.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset'
+[2018.01.02-13.11.55:178][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset
+[2018.01.02-13.11.56:395][520]LogSavePackage: Save=11.80ms
+[2018.01.02-13.11.56:395][520]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_NamePlate8DF716B04C99B21247C4A5B80F3897FF.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset'
+[2018.01.02-13.11.56:396][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset
+[2018.01.02-13.11.59:213][852]LogSavePackage: Save=11.62ms
+[2018.01.02-13.11.59:213][852]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_NamePlateA08A4A044796275F3CC99FBB9E23C710.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset'
+[2018.01.02-13.11.59:214][852]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset
+[2018.01.02-13.12.03:109][313]LogSavePackage: Save=11.71ms
+[2018.01.02-13.12.03:109][313]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_NamePlateC3A7E2AA4FD2533348DD638EEB35F256.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset'
+[2018.01.02-13.12.03:110][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset
+[2018.01.02-13.17.05:459][345]LogSavePackage: Save=12.11ms
+[2018.01.02-13.17.05:459][345]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_NamePlate0FE5C68C4DD2A69D332CDBA9157B2385.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset'
+[2018.01.02-13.17.05:460][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_NamePlate.uasset
+[2018.01.02-13.17.07:709][615]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2018.01.02-13.17.10:214][911]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
+[2018.01.02-13.17.22:759][378]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_2189.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.02-13.17.22:759][378]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_2190.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.02-13.17.22:759][378]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_2185.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.02-13.17.22:759][378]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_2186.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.02-13.17.22:759][378]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_2187.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.02-13.17.22:759][378]LogActorComponent: RegisterComponentWithWorld: (/Game/ScanReach.ScanReach:PersistentLevel.DESTROYED_bp_Deck_C_CHILDACTOR_2188.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.02-13.17.39:670][346]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.168 s
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: === Handled ensure: ===
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: 
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: Ensure condition failed: Obj != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\PropertyEditor\Private\PropertyChangeListener.cpp] [Line: 246]
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: 
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: Stack: 
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C85CE2B6
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C837B8C2
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C8391E86
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B70CC9A2
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Sequencer.dll!0x00000000A6FBCBB1
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Sequencer.dll!0x00000000A6F67A5E
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000C7E4971B
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C4D6B316
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C4E307C1
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C4E30394
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000C7E75D3E
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000C7E72526
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C4D6B2E6
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C4E2FF60
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000C4DD4855
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B716DDEB
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B7163698
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B7163C39
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B71A1754
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B71A1AC9
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B723F7D1
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B722DFD0
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B7212436
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-ClassViewer.dll!0x00000000A7EB42E0
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-ClassViewer.dll!0x00000000A7E9E59B
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-ClassViewer.dll!0x00000000A7E9F69A
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-ClassViewer.dll!0x00000000A7E9F057
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-ClassViewer.dll!0x00000000A7EC188C
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-ClassViewer.dll!0x00000000A7EBB1C9
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C42A9E9C
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C4279835
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C431E5E2
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C430720F
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C42F8391
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C85C175B
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C85AB7D1
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C85C33DB
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C85A7B22
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: USER32.dll!0x000000000032B85D
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: USER32.dll!0x000000000032B1EF
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C85C3CE6
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor.exe!0x000000009949DB44
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor.exe!0x000000009948F0B0
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor.exe!0x000000009948F12A
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor.exe!0x00000000994A0CF9
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: UE4Editor.exe!0x00000000994A25F7
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: KERNEL32.DLL!0x0000000002801FE4
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: ntdll.dll!0x0000000002E5EF91
+[2018.01.02-13.17.39:670][346]LogOutputDevice:Error: 
+[2018.01.02-13.17.39:677][346]LogStats:                SubmitErrorReport -  0.000 s
