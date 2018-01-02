@@ -1,0 +1,654 @@
+﻿Log file open, 01/02/18 11:12:58
+LogInit:Display: Running engine for game: SR_Prototype_V3
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1156333430) SRandInit(-1156333429).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084196
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.02-10.12.58:907][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.02-10.12.58:907][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.02-10.12.58:920][  0]LogInit: Computer: MAGNUS-PC
+[2018.01.02-10.12.58:920][  0]LogInit: User: Magnus
+[2018.01.02-10.12.58:920][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.02-10.12.58:920][  0]LogInit: High frequency timer resolution =3.117186 MHz
+[2018.01.02-10.12.58:920][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.02-10.12.58:920][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.02-10.12.58:920][  0]LogMemory: Process Physical Memory: 273.18 MB used, 273.18 MB peak
+[2018.01.02-10.12.58:920][  0]LogMemory: Process Virtual Memory: 266.51 MB used, 266.51 MB peak
+[2018.01.02-10.12.58:920][  0]LogMemory: Physical Memory: 7023.61 MB used,  9313.24 MB free, 16336.84 MB total
+[2018.01.02-10.12.58:920][  0]LogMemory: Virtual Memory: 676.88 MB used,  9313.24 MB free, 134217728.00 MB total
+[2018.01.02-10.12.58:978][  0]LogInit: Using OS detected language (nb-NO).
+[2018.01.02-10.12.58:979][  0]LogInit: Using OS detected locale (nb-NO).
+[2018.01.02-10.12.58:981][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the language.
+[2018.01.02-10.12.58:981][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the locale.
+[2018.01.02-10.12.59:909][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.02-10.12.59:951][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.02-10.12.59:951][  0]LogD3D11RHI:       8096/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.01.02-10.12.59:952][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.02-10.12.59:952][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.02-10.12.59:952][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.02-10.12.59:957][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.02-10.12.59:957][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.02-10.12.59:957][  0]LogWindows: EnumDisplayDevices:
+[2018.01.02-10.12.59:957][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.02-10.12.59:957][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.02-10.12.59:957][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.02-10.12.59:958][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.02-10.12.59:958][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.02-10.12.59:958][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.02-10.12.59:958][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.02-10.12.59:958][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.02-10.12.59:958][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.02-10.12.59:982][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.02-10.13.00:122][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.02-10.13.00:166][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/6084/).
+[2018.01.02-10.13.00:166][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Magnus/AppData/Local/Temp/UnrealShaderWorkingDir/CDA4BF6549FC566B75B87CA42561CD34/'.
+[2018.01.02-10.13.00:166][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.02-10.13.01:230][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.02-10.13.01:271][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.02-10.13.01:310][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.02-10.13.01:347][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.02-10.13.01:384][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.02-10.13.01:421][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.02-10.13.01:461][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.02-10.13.01:498][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.02-10.13.01:526][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.02-10.13.01:562][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.02-10.13.01:600][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.02-10.13.01:638][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.02-10.13.01:675][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.02-10.13.01:710][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.02-10.13.01:747][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.02-10.13.01:826][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.02-10.13.01:826][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.02-10.13.01:852][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.02-10.13.01:923][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.02-10.13.01:945][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.02-10.13.01:983][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.02-10.13.02:024][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.02-10.13.02:060][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.02-10.13.02:096][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.02-10.13.02:096][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.02-10.13.02:423][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.02-10.13.02:497][  0]LogDerivedDataCache: Loaded boot cache 0.07s 111MB C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.02-10.13.02:497][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.02-10.13.02:497][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.02-10.13.02:497][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.02-10.13.02:497][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.02-10.13.02:497][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.02-10.13.02:511][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.02-10.13.02:523][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Magnus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.02-10.13.02:531][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.02-10.13.02:532][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.02-10.13.02:532][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.02-10.13.02:532][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.02-10.13.02:824][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.02-10.13.03:014][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.02-10.13.03:043][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.02-10.13.03:074][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.02-10.13.03:074][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.02-10.13.03:074][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.02-10.13.03:541][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2018.01.02-10.13.03:595][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2018.01.02-10.13.03:628][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.018892 seconds
+[2018.01.02-10.13.03:633][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.02-10.13.03:633][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.02-10.13.03:633][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.02-10.13.03:672][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.02-10.13.05:502][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.02-10.13.05:532][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.02-10.13.05:912][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.02-10.13.06:215][  0]SourceControl: Info Source control is disabled
+[2018.01.02-10.13.06:260][  0]SourceControl: Info Source control is disabled
+[2018.01.02-10.13.06:292][  0]SourceControl: Info Source control is disabled
+[2018.01.02-10.13.06:324][  0]SourceControl: Info Source control is disabled
+[2018.01.02-10.13.06:777][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.02-10.13.07:179][  0]LogEngine: Initializing Engine...
+[2018.01.02-10.13.07:179][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.02-10.13.07:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.02-10.13.07:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.02-10.13.07:422][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.02-10.13.07:433][  0]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.02-10.13.07:444][  0]LogInit: FAudioDevice initialized.
+[2018.01.02-10.13.07:487][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.02-10.13.07:499][  0]LogInit: Texture streaming: Disabled
+[2018.01.02-10.13.07:558][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.02-10.13.07:708][  0]LogInit: Transaction tracking system initialized
+[2018.01.02-10.13.07:916][  0]BlueprintLog: New page: Editor Load
+[2018.01.02-10.13.08:522][  0]LocalizationService: Info Localization service is disabled
+[2018.01.02-10.13.08:960][  0]LogConsoleResponse:Display: 
+[2018.01.02-10.13.09:083][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.02-10.13.09:083][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.02-10.13.09:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2018.01.02-10.13.09:742][  0]SourceControl: Info Source control is disabled
+[2018.01.02-10.13.09:742][  0]Cmd: MAP LOAD FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.02-10.13.09:742][  0]LightingResults: New page: Lighting Build
+[2018.01.02-10.13.09:769][  0]MapCheck: New page: Map Check
+[2018.01.02-10.13.09:769][  0]LightingResults: New page: Lighting Build
+[2018.01.02-10.13.10:221][  0]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.02-10.13.10:228][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.02-10.13.10:240][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.02-10.13.10:274][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.12ms to complete.
+[2018.01.02-10.13.10:274][  0]LogFileHelpers: Loading map 'ScanReach' took 0.532
+[2018.01.02-10.13.10:445][  0]LogCollectionManager: Loaded 0 collections in 0.000885 seconds
+[2018.01.02-10.13.10:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2018.01.02-10.13.10:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Magnus/Collections/' took 0.01s
+[2018.01.02-10.13.10:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2018.01.02-10.13.10:527][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.02-10.13.10:536][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2329 classes and 491 folders.
+[2018.01.02-10.13.10:579][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.02-10.13.10:609][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.02-10.13.10:638][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.02-10.13.10:707][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.02-10.13.10:712][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.02-10.13.10:714][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.02-10.13.10:719][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.02-10.13.10:804][  0]LogRenderer: Reallocating scene render targets to support 1100x596 NumSamples 1 (Frame:1).
+[2018.01.02-10.13.10:858][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.02-10.13.10:893][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.02-10.13.10:943][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.02-10.13.10:943][  0]LogLoad: (Engine Initialization) Total time: 13.25 seconds
+[2018.01.02-10.13.10:943][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2018.01.02-10.13.10:943][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.02-10.13.10:943][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.02-10.13.11:283][  0]LogOcInput: OculusInput pre-init called
+[2018.01.02-10.13.11:283][  0]LogHMD: Starting GearVRController plugin
+[2018.01.02-10.13.11:300][  0]LogAssetRegistry: Asset discovery search completed in 7.7261 seconds
+[2018.01.02-10.13.11:301][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.02-10.13.11:301][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2018.01.02-10.13.16:766][568]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.02-10.13.16:800][568]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.02-10.14.34:549][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/UI/DarkMode_V2/T_TopBar" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_TopBar.uasset" SILENT=true
+[2018.01.02-10.14.34:557][300]LogSavePackage: Save=6.00ms
+[2018.01.02-10.14.34:557][300]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_TopBar37CFAE174055117EEB9B0784CC6BDE98.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_TopBar.uasset'
+[2018.01.02-10.14.34:561][300]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_TopBar.uasset
+[2018.01.02-10.14.34:579][300]LogSavePackage: Save=6.91ms
+[2018.01.02-10.14.34:579][300]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_MusterStation3CA16A634E13F076FD5E969208A61D70.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_MusterStation.uasset'
+[2018.01.02-10.14.34:581][300]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_MusterStation.uasset
+[2018.01.02-10.14.34:597][300]LogSavePackage: Save=6.56ms
+[2018.01.02-10.14.34:597][300]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Staircase532FA8B44F5A8F65D85B1DB63BBEA4E7.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_Staircase.uasset'
+[2018.01.02-10.14.34:600][300]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_Staircase.uasset
+[2018.01.02-10.14.34:614][300]LogSavePackage: Save=5.62ms
+[2018.01.02-10.14.34:614][300]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_StatusBarGreen98A71C534A19EF06E5192DB12DC37F47.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_StatusBarGreen.uasset'
+[2018.01.02-10.14.34:617][300]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_StatusBarGreen.uasset
+[2018.01.02-10.14.34:631][300]LogSavePackage: Save=5.34ms
+[2018.01.02-10.14.34:631][300]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_StatusBarRedA2496A5C40956E649D29FA9520A61D25.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_StatusBarRed.uasset'
+[2018.01.02-10.14.34:634][300]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_StatusBarRed.uasset
+[2018.01.02-10.14.34:647][300]LogSavePackage: Save=5.94ms
+[2018.01.02-10.14.34:647][300]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_StatusBarYellow3D0F7A9A4110D5007F90EE84903118F5.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_StatusBarYellow.uasset'
+[2018.01.02-10.14.34:650][300]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V2/T_StatusBarYellow.uasset
+[2018.01.02-10.26.37:938][637]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.02-10.26.37:969][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ScanReach' took 0.008
+[2018.01.02-10.26.37:971][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/UI/DarkMode_V2/T_Options_Hoverd] ([1] browsable assets)...
+[2018.01.02-10.26.37:971][637]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/UI/DarkMode_V2/T_Options_Hoverd.T_Options_Hoverd]
+[2018.01.02-10.26.37:971][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/UI/DarkMode_V2/T_Options_Hoverd]
+[2018.01.02-10.26.37:981][637]LogSavePackage: Save=7.35ms
+[2018.01.02-10.26.37:981][637]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_Hoverd_Auto1FD7F06824BE9F855C76E45A6A62C8A7C.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Textures/UI/DarkMode_V2/T_Options_Hoverd_Auto1.uasset'
+[2018.01.02-10.26.37:982][637]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Textures/UI/DarkMode_V2/T_Options_Hoverd_Auto1.uasset
+[2018.01.02-10.26.37:982][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/UI/DarkMode_V2/T_Options_Normal] ([1] browsable assets)...
+[2018.01.02-10.26.37:983][637]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/UI/DarkMode_V2/T_Options_Normal.T_Options_Normal]
+[2018.01.02-10.26.37:983][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/UI/DarkMode_V2/T_Options_Normal]
+[2018.01.02-10.26.37:991][637]LogSavePackage: Save=6.11ms
+[2018.01.02-10.26.37:991][637]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_Normal_Auto133E9A9E94FDB4FB2DBE2A691BA298E38.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Textures/UI/DarkMode_V2/T_Options_Normal_Auto1.uasset'
+[2018.01.02-10.26.37:992][637]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Textures/UI/DarkMode_V2/T_Options_Normal_Auto1.uasset
+[2018.01.02-10.26.37:992][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/UI/DarkMode_V2/T_Options_Pressed] ([1] browsable assets)...
+[2018.01.02-10.26.37:993][637]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/UI/DarkMode_V2/T_Options_Pressed.T_Options_Pressed]
+[2018.01.02-10.26.37:993][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/UI/DarkMode_V2/T_Options_Pressed]
+[2018.01.02-10.26.38:000][637]LogSavePackage: Save=6.13ms
+[2018.01.02-10.26.38:000][637]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_Pressed_Auto1582AD8F34B31DB5AA75987AFA40A2767.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Textures/UI/DarkMode_V2/T_Options_Pressed_Auto1.uasset'
+[2018.01.02-10.26.38:002][637]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Autosaves/Game/Textures/UI/DarkMode_V2/T_Options_Pressed_Auto1.uasset
+[2018.01.02-10.26.38:002][637]LogFileHelpers: Auto-saving content packages took 0.032
+[2018.01.02-10.38.16:409][540]LogSavePackage: Save=6.37ms
+[2018.01.02-10.38.16:409][540]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_Pressed00D2190E48B3F0F8D80B4FA3F5A0935F.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Pressed.uasset'
+[2018.01.02-10.38.16:412][540]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Pressed.uasset
+[2018.01.02-10.38.16:424][540]LogSavePackage: Save=5.83ms
+[2018.01.02-10.38.16:424][540]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_NormalA2591C454655ED484A5586A6A499A428.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Normal.uasset'
+[2018.01.02-10.38.16:426][540]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Normal.uasset
+[2018.01.02-10.38.16:440][540]LogSavePackage: Save=7.34ms
+[2018.01.02-10.38.16:440][540]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_Hoverd1A88342D46087D267E17B2A60D885A20.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Hoverd.uasset'
+[2018.01.02-10.38.16:445][540]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Hoverd.uasset
+[2018.01.02-10.38.16:448][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/UI/DarkMode_V4/T_TopBar" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_TopBar.uasset" SILENT=true
+[2018.01.02-10.38.16:455][540]LogSavePackage: Save=5.93ms
+[2018.01.02-10.38.16:455][540]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_TopBar4850862C42F8B5064D0EE0A6ACC57975.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_TopBar.uasset'
+[2018.01.02-10.38.16:458][540]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_TopBar.uasset
+[2018.01.02-10.38.16:472][540]LogSavePackage: Save=6.49ms
+[2018.01.02-10.38.16:472][540]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Staircase984F6A27435F95520A01EBB263CA5046.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Staircase.uasset'
+[2018.01.02-10.38.16:475][540]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Staircase.uasset
+[2018.01.02-10.38.16:490][540]LogSavePackage: Save=7.29ms
+[2018.01.02-10.38.16:490][540]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_MusterStationD2ADBBC34F81ACF35DF29BB54E7F9CA2.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_MusterStation.uasset'
+[2018.01.02-10.38.16:492][540]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_MusterStation.uasset
+[2018.01.02-10.38.25:192][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckNamePlate.png)
+[2018.01.02-10.38.25:196][918]LogTexture:Display: Building textures: T_DeckNamePlate (BGRA8, 232X53)
+[2018.01.02-10.38.25:203][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckNamePlate_Red.png)
+[2018.01.02-10.38.25:205][918]LogTexture:Display: Building textures: T_DeckNamePlate_Red (BGRA8, 232X53)
+[2018.01.02-10.38.25:212][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckNamePlate_Yellow.png)
+[2018.01.02-10.38.25:214][918]LogTexture:Display: Building textures: T_DeckNamePlate_Yellow (BGRA8, 232X53)
+[2018.01.02-10.38.25:221][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_.png)
+[2018.01.02-10.38.25:224][918]LogTexture:Display: Building textures: T_DeckOverview_ (BGRA8, 212X49)
+[2018.01.02-10.38.25:231][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_Hoverd.png)
+[2018.01.02-10.38.25:233][918]LogTexture:Display: Building textures: T_DeckOverview_Hoverd (BGRA8, 208X46)
+[2018.01.02-10.38.25:240][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_HoverdRed.png)
+[2018.01.02-10.38.25:242][918]LogTexture:Display: Building textures: T_DeckOverview_HoverdRed (BGRA8, 212X49)
+[2018.01.02-10.38.25:248][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_Normal.png)
+[2018.01.02-10.38.25:250][918]LogTexture:Display: Building textures: T_DeckOverview_Normal (BGRA8, 208X46)
+[2018.01.02-10.38.25:256][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_NormalRed.png)
+[2018.01.02-10.38.25:258][918]LogTexture:Display: Building textures: T_DeckOverview_NormalRed (BGRA8, 212X49)
+[2018.01.02-10.38.25:264][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_NormalYellow.png)
+[2018.01.02-10.38.25:266][918]LogTexture:Display: Building textures: T_DeckOverview_NormalYellow (BGRA8, 212X49)
+[2018.01.02-10.38.25:272][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_Pressed.png)
+[2018.01.02-10.38.25:273][918]LogTexture:Display: Building textures: T_DeckOverview_Pressed (BGRA8, 208X46)
+[2018.01.02-10.38.25:279][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_PressedRed.png)
+[2018.01.02-10.38.25:281][918]LogTexture:Display: Building textures: T_DeckOverview_PressedRed (BGRA8, 212X49)
+[2018.01.02-10.38.25:287][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_DeckOverview_PressedYellow.png)
+[2018.01.02-10.38.25:289][918]LogTexture:Display: Building textures: T_DeckOverview_PressedYellow (BGRA8, 212X49)
+[2018.01.02-10.38.25:295][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_SideBar.png)
+[2018.01.02-10.38.25:305][918]LogTexture:Display: Building textures: T_SideBar (BGRA8, 477X1053)
+[2018.01.02-10.38.25:349][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_SideBarHighlight.png)
+[2018.01.02-10.38.25:351][918]LogTexture:Display: Building textures: T_SideBarHighlight (BGRA8, 467X50)
+[2018.01.02-10.38.25:359][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_StatusBarGreen.png)
+[2018.01.02-10.38.25:361][918]LogTexture:Display: Building textures: T_StatusBarGreen (BGRA8, 473X55)
+[2018.01.02-10.38.25:369][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_StatusBarRed.png)
+[2018.01.02-10.38.25:371][918]LogTexture:Display: Building textures: T_StatusBarRed (BGRA8, 473X55)
+[2018.01.02-10.38.25:378][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Magnus\Desktop\Scan_Reach\UE_UI\UI_V4\T_StatusBarYellow.png)
+[2018.01.02-10.38.25:380][918]LogTexture:Display: Building textures: T_StatusBarYellow (BGRA8, 473X55)
+[2018.01.02-10.38.33:676][188]LogSavePackage: Save=6.09ms
+[2018.01.02-10.38.33:676][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckNamePlate4BA8775A4759C88D73E9419DC8132696.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckNamePlate.uasset'
+[2018.01.02-10.38.33:679][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckNamePlate.uasset
+[2018.01.02-10.38.33:692][188]LogSavePackage: Save=5.61ms
+[2018.01.02-10.38.33:692][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckNamePlate_Red2454102D438C305ECAD3459A0ECA8EDF.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckNamePlate_Red.uasset'
+[2018.01.02-10.38.33:695][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckNamePlate_Red.uasset
+[2018.01.02-10.38.33:709][188]LogSavePackage: Save=7.29ms
+[2018.01.02-10.38.33:709][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckNamePlate_YellowE896C3344F7D68B977B272AF6787A709.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckNamePlate_Yellow.uasset'
+[2018.01.02-10.38.33:712][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckNamePlate_Yellow.uasset
+[2018.01.02-10.38.33:726][188]LogSavePackage: Save=5.79ms
+[2018.01.02-10.38.33:726][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_B343D9024AD11039D861ADBECA691522.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_.uasset'
+[2018.01.02-10.38.33:729][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_.uasset
+[2018.01.02-10.38.33:742][188]LogSavePackage: Save=5.71ms
+[2018.01.02-10.38.33:742][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_Hoverd00E8464448BDF79DB5198E879662DA77.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_Hoverd.uasset'
+[2018.01.02-10.38.33:745][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_Hoverd.uasset
+[2018.01.02-10.38.33:757][188]LogSavePackage: Save=6.14ms
+[2018.01.02-10.38.33:757][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_HoverdRed970E78FB4F2018765863A2AE1D0E12CB.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_HoverdRed.uasset'
+[2018.01.02-10.38.33:760][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_HoverdRed.uasset
+[2018.01.02-10.38.33:772][188]LogSavePackage: Save=6.38ms
+[2018.01.02-10.38.33:772][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_NormalF09AA9324F3FA366A0D072AE6EF066BB.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_Normal.uasset'
+[2018.01.02-10.38.33:774][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_Normal.uasset
+[2018.01.02-10.38.33:787][188]LogSavePackage: Save=6.39ms
+[2018.01.02-10.38.33:787][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_NormalRedD02B0B734C7F5A738D67D68D2C0CCDA6.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_NormalRed.uasset'
+[2018.01.02-10.38.33:789][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_NormalRed.uasset
+[2018.01.02-10.38.33:801][188]LogSavePackage: Save=6.37ms
+[2018.01.02-10.38.33:801][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_NormalYellow18E75A1045346F1DB33EBFB68C66B374.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_NormalYellow.uasset'
+[2018.01.02-10.38.33:804][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_NormalYellow.uasset
+[2018.01.02-10.38.33:816][188]LogSavePackage: Save=5.78ms
+[2018.01.02-10.38.33:816][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_PressedDCB27FE549F29786B084C89B2D913D85.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_Pressed.uasset'
+[2018.01.02-10.38.33:819][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_Pressed.uasset
+[2018.01.02-10.38.33:830][188]LogSavePackage: Save=5.91ms
+[2018.01.02-10.38.33:830][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_PressedRed6B9895CB430B63C33B408EA3474F3C59.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_PressedRed.uasset'
+[2018.01.02-10.38.33:833][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_PressedRed.uasset
+[2018.01.02-10.38.33:844][188]LogSavePackage: Save=5.57ms
+[2018.01.02-10.38.33:844][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_DeckOverview_PressedYellow2D7248404718269860BE4DB0473B9C14.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_PressedYellow.uasset'
+[2018.01.02-10.38.33:847][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_DeckOverview_PressedYellow.uasset
+[2018.01.02-10.38.33:877][188]LogSavePackage: Save=5.42ms
+[2018.01.02-10.38.33:877][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_MusterStationB4D38F454E35EA1576958D9CF7AD3236.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_MusterStation.uasset'
+[2018.01.02-10.38.33:878][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_MusterStation.uasset
+[2018.01.02-10.38.33:908][188]LogSavePackage: Save=5.95ms
+[2018.01.02-10.38.33:908][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_HoverdBF5F2A664B684E8D6B0FB2BCB2D0A66D.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Hoverd.uasset'
+[2018.01.02-10.38.33:910][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Hoverd.uasset
+[2018.01.02-10.38.33:940][188]LogSavePackage: Save=5.34ms
+[2018.01.02-10.38.33:940][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_Normal669AFC404100849F84B32FB38750937C.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Normal.uasset'
+[2018.01.02-10.38.33:941][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Normal.uasset
+[2018.01.02-10.38.33:971][188]LogSavePackage: Save=5.63ms
+[2018.01.02-10.38.33:971][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_Options_Pressed3581A68745DE4A085A9D24999F670BA5.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Pressed.uasset'
+[2018.01.02-10.38.33:972][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Options_Pressed.uasset
+[2018.01.02-10.38.33:979][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/UI/DarkMode_V4/T_SideBar" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_SideBar.uasset" SILENT=true
+[2018.01.02-10.38.34:004][188]LogSavePackage: Save=23.55ms
+[2018.01.02-10.38.34:004][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_SideBar4E26E547412E61787447EA9456C4466E.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_SideBar.uasset'
+[2018.01.02-10.38.34:006][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_SideBar.uasset
+[2018.01.02-10.38.34:020][188]LogSavePackage: Save=6.12ms
+[2018.01.02-10.38.34:020][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_SideBarHighlight67DD8D5D4604E260679C6FB750AD6025.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_SideBarHighlight.uasset'
+[2018.01.02-10.38.34:022][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_SideBarHighlight.uasset
+[2018.01.02-10.38.34:053][188]LogSavePackage: Save=5.65ms
+[2018.01.02-10.38.34:053][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_StaircaseD8F04F454108824BE833298872467C62.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Staircase.uasset'
+[2018.01.02-10.38.34:055][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_Staircase.uasset
+[2018.01.02-10.38.34:066][188]LogSavePackage: Save=6.30ms
+[2018.01.02-10.38.34:066][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_StatusBarGreenD5BDCB7B478B17C0EB6E559C892648AD.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_StatusBarGreen.uasset'
+[2018.01.02-10.38.34:069][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_StatusBarGreen.uasset
+[2018.01.02-10.38.34:081][188]LogSavePackage: Save=6.46ms
+[2018.01.02-10.38.34:081][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_StatusBarRed1173BCB0403025B4665BB3AA7C47F286.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_StatusBarRed.uasset'
+[2018.01.02-10.38.34:084][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_StatusBarRed.uasset
+[2018.01.02-10.38.34:095][188]LogSavePackage: Save=6.20ms
+[2018.01.02-10.38.34:095][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_StatusBarYellow35CAD26943C7CF14737E038FD64F8236.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_StatusBarYellow.uasset'
+[2018.01.02-10.38.34:098][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_StatusBarYellow.uasset
+[2018.01.02-10.38.34:100][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/UI/DarkMode_V4/T_TopBar" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_TopBar.uasset" SILENT=true
+[2018.01.02-10.38.34:130][188]LogSavePackage: Save=5.42ms
+[2018.01.02-10.38.34:130][188]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/T_TopBarB9ED8D584A2D6556BF7D30BA7D95FAC8.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_TopBar.uasset'
+[2018.01.02-10.38.34:131][188]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Textures/UI/DarkMode_V4/T_TopBar.uasset
+[2018.01.02-10.38.55:937][119]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.02-10.38.56:183][120]Cmd: QUIT_EDITOR
+[2018.01.02-10.38.56:239][120]LogExit: Preparing to exit.
+[2018.01.02-10.38.57:168][120]LogExit: Editor shut down
+[2018.01.02-10.38.57:171][120]LogExit: Transaction tracking system shut down
+[2018.01.02-10.38.57:218][120]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.02-10.38.57:218][120]LogExit: Object subsystem successfully closed.
+[2018.01.02-10.38.57:236][120]LogD3D11RHI: Shutdown
+[2018.01.02-10.38.57:236][120]LogD3D11RHI: CleanupD3DDevice
+[2018.01.02-10.38.57:289][120]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.02-10.38.57:298][120]LogModuleManager: Shutting down and abandoning module TextureEditor (526)
+[2018.01.02-10.38.57:298][120]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.01.02-10.38.57:298][120]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.02-10.38.57:298][120]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.02-10.38.57:298][120]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.02-10.38.57:298][120]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.02-10.38.57:299][120]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' was aborted.
+[2018.01.02-10.38.57:299][120]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Magnus/Collections/' was aborted.
+[2018.01.02-10.38.57:299][120]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' was aborted.
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.02-10.38.57:299][120]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.02-10.38.57:300][120]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.02-10.38.57:314][120]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.02-10.38.57:366][120]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.02-10.38.57:366][120]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.02-10.38.57:366][120]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.02-10.38.57:366][120]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.02-10.38.57:366][120]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.02-10.38.57:366][120]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.02-10.38.57:367][120]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.02-10.38.57:367][120]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.02-10.38.57:367][120]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.02-10.38.57:367][120]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.02-10.38.57:367][120]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.02-10.38.57:367][120]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.02-10.38.57:367][120]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.02-10.38.57:367][120]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.02-10.38.57:368][120]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.02-10.38.57:467][120]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.02-10.38.57:468][120]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.02-10.38.57:469][120]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.02-10.38.57:569][120]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.02-10.38.57:670][120]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.02-10.38.57:670][120]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.02-10.38.57:670][120]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.02-10.38.57:670][120]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.02-10.38.57:670][120]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.02-10.38.57:670][120]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.02-10.38.57:671][120]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.02-10.38.57:671][120]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.02-10.38.57:671][120]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.02-10.38.57:671][120]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.02-10.38.57:673][120]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.02-10.38.57:676][120]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.02-10.38.57:676][120]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.02-10.38.57:676][120]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.02-10.38.57:676][120]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.02-10.38.57:676][120]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.02-10.38.57:676][120]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.02-10.38.57:844][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.02-10.38.57:844][120]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' was aborted.
+[2018.01.02-10.38.57:844][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.02-10.38.57:844][120]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.02-10.38.57:846][120]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.02-10.38.57:847][120]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.02-10.38.57:847][120]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.02-10.38.57:847][120]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.02-10.38.57:847][120]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.02-10.38.57:847][120]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.02-10.38.57:847][120]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.02-10.38.57:847][120]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.02-10.38.57:847][120]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.02-10.38.57:878][120]LogDerivedDataCache: Shutdown
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.02-10.38.57:878][120]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.02-10.38.57:878][120]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.02-10.38.57:878][120]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.01.02-10.38.57:878][120]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA43518E9-4174-12B2-85EC-51BAC252C3F7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a1328f8b4b27980f4eb39a8ed1208b4f%7C07c812ce51884e509e41d7ec8613d7db%7C6aef0a9f-b728-4fc9-a3bf-f0a7ec88ec16&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.02-10.38.57:878][120]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA43518E9-4174-12B2-85EC-51BAC252C3F7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a1328f8b4b27980f4eb39a8ed1208b4f%7C07c812ce51884e509e41d7ec8613d7db%7C6aef0a9f-b728-4fc9-a3bf-f0a7ec88ec16&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.02-10.38.57:889][120]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.02-10.38.57:890][120]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.02-10.38.57:890][120]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.02-10.38.57:890][120]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.02-10.38.57:890][120]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.02-10.38.57:890][120]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.02-10.38.57:890][120]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.02-10.38.57:890][120]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.02-10.38.57:890][120]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.02-10.38.57:891][120]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.02-10.38.57:892][120]LogExit: Exiting.
+[2018.01.02-10.38.57:908][120]Log file closed, 01/02/18 11:38:57
