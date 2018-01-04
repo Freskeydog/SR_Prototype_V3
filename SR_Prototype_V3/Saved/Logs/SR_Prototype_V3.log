@@ -1,9 +1,9 @@
-﻿Log file open, 01/04/18 17:27:41
+﻿Log file open, 01/04/18 17:32:58
 LogInit:Display: Running engine for game: SR_Prototype_V3
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1554397460) SRandInit(1554397460).
+LogInit:Display: RandInit(1047329589) SRandInit(1047329589).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.074216
+LogStats: Stats thread started at 0.083025
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,1014 +46,959 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.04-16.27.41:745][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.04-16.27.41:745][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.04-16.27.41:766][  0]LogInit: Computer: WINDOWS-EUOFFC3
-[2018.01.04-16.27.41:766][  0]LogInit: User: Bendick
-[2018.01.04-16.27.41:766][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.04-16.27.41:766][  0]LogInit: High frequency timer resolution =3.914066 MHz
-[2018.01.04-16.27.41:766][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.01.04-16.27.41:766][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.04-16.27.41:766][  0]LogMemory: Process Physical Memory: 274.31 MB used, 274.31 MB peak
-[2018.01.04-16.27.41:766][  0]LogMemory: Process Virtual Memory: 265.05 MB used, 265.05 MB peak
-[2018.01.04-16.27.41:766][  0]LogMemory: Physical Memory: 7176.81 MB used,  9146.17 MB free, 16322.98 MB total
-[2018.01.04-16.27.41:766][  0]LogMemory: Virtual Memory: 675.99 MB used,  9146.17 MB free, 134217728.00 MB total
-[2018.01.04-16.27.41:929][  0]LogInit: Using OS detected language (en-US).
-[2018.01.04-16.27.41:929][  0]LogInit: Using OS detected locale (en-GB).
-[2018.01.04-16.27.41:967][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.01.04-16.27.44:093][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.04-16.27.44:122][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.01.04-16.27.44:122][  0]LogD3D11RHI:       8096/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.01.04-16.27.44:123][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.04-16.27.44:123][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.04-16.27.44:123][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.04-16.27.44:128][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.04-16.27.44:128][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.04-16.27.44:128][  0]LogWindows: EnumDisplayDevices:
-[2018.01.04-16.27.44:128][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.01.04-16.27.44:128][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.01.04-16.27.44:128][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.04-16.27.44:128][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.04-16.27.44:128][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.04-16.27.44:128][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.01.04-16.27.44:128][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.04-16.27.44:128][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.04-16.27.44:128][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.01.04-16.27.44:146][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.04-16.27.44:156][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.01.04-16.27.44:246][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/15572/).
-[2018.01.04-16.27.44:246][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/4080FE484354A47644441EBE29622C70/'.
-[2018.01.04-16.27.44:246][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.01.04-16.27.45:655][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.04-16.27.45:690][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.01.04-16.27.45:726][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.04-16.27.45:761][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.01.04-16.27.45:799][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.01.04-16.27.45:834][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.04-16.27.45:869][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.04-16.27.45:904][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.04-16.27.45:936][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.01.04-16.27.45:972][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.01.04-16.27.46:007][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.04-16.27.46:040][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.04-16.27.46:075][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.04-16.27.46:108][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.04-16.27.46:142][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.04-16.27.46:210][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.04-16.27.46:210][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.04-16.27.46:236][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.01.04-16.27.46:309][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.01.04-16.27.46:330][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.01.04-16.27.46:363][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.04-16.27.46:396][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.04-16.27.46:429][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.04-16.27.46:465][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.01.04-16.27.46:465][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.01.04-16.27.46:832][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.01.04-16.27.46:895][  0]LogDerivedDataCache: Loaded boot cache 0.06s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.01.04-16.27.46:895][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.01.04-16.27.46:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.04-16.27.46:895][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.04-16.27.46:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.04-16.27.46:895][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.04-16.27.46:910][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.04-16.27.46:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.04-16.27.46:927][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.04-16.27.46:928][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.04-16.27.46:938][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.04-16.27.46:938][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.04-16.27.47:223][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.04-16.27.47:452][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.04-16.27.47:482][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.04-16.27.47:514][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.04-16.27.47:514][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.01.04-16.27.47:514][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.01.04-16.27.48:281][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
-[2018.01.04-16.27.48:344][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
-[2018.01.04-16.27.48:397][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.036315 seconds
-[2018.01.04-16.27.48:402][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.01.04-16.27.48:402][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2018.01.04-16.27.48:402][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.04-16.27.48:449][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.04-16.27.51:190][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.04-16.27.51:221][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.04-16.27.51:616][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.04-16.27.51:897][  0]SourceControl: Info Source control is disabled
-[2018.01.04-16.27.51:937][  0]SourceControl: Info Source control is disabled
-[2018.01.04-16.27.51:972][  0]SourceControl: Info Source control is disabled
-[2018.01.04-16.27.52:004][  0]SourceControl: Info Source control is disabled
-[2018.01.04-16.27.52:511][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.04-16.27.52:960][  0]LogEngine: Initializing Engine...
-[2018.01.04-16.27.52:961][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.04-16.27.53:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.04-16.27.53:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.04-16.27.53:174][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.04-16.27.53:179][  0]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.04-16.27.53:193][  0]LogInit: FAudioDevice initialized.
-[2018.01.04-16.27.53:230][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.01.04-16.27.53:240][  0]LogInit: Texture streaming: Disabled
-[2018.01.04-16.27.53:306][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.04-16.27.53:460][  0]LogInit: Transaction tracking system initialized
-[2018.01.04-16.27.53:669][  0]BlueprintLog: New page: Editor Load
-[2018.01.04-16.27.54:308][  0]LocalizationService: Info Localization service is disabled
-[2018.01.04-16.27.54:782][  0]LogConsoleResponse:Display: 
-[2018.01.04-16.27.54:889][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.04-16.27.54:889][  0]LogCook:Display: Mobile HDR setting 1
-[2018.01.04-16.27.54:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
-[2018.01.04-16.27.55:575][  0]SourceControl: Info Source control is disabled
-[2018.01.04-16.27.55:575][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.04-16.27.55:576][  0]LightingResults: New page: Lighting Build
-[2018.01.04-16.27.55:603][  0]MapCheck: New page: Map Check
-[2018.01.04-16.27.55:603][  0]LightingResults: New page: Lighting Build
-[2018.01.04-16.27.56:269][  0]LogAIModule: Creating AISystem for world ScanReach
-[2018.01.04-16.27.56:288][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.04-16.27.56:299][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.04-16.27.56:338][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.844ms to complete.
-[2018.01.04-16.27.56:338][  0]LogFileHelpers: Loading map 'ScanReach' took 0.763
-[2018.01.04-16.27.56:489][  0]LogCollectionManager: Loaded 0 collections in 0.001007 seconds
-[2018.01.04-16.27.56:556][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
-[2018.01.04-16.27.56:556][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
-[2018.01.04-16.27.56:556][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
-[2018.01.04-16.27.56:556][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.01.04-16.27.56:562][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2334 classes and 495 folders.
-[2018.01.04-16.27.56:605][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.01.04-16.27.56:801][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.01.04-16.27.56:833][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.01.04-16.27.56:893][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.01.04-16.27.56:900][  0]LogSlate: Took 0.003779 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.04-16.27.56:904][  0]LogSlate: Took 0.002469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.04-16.27.56:910][  0]LogSlate: Took 0.002907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.04-16.27.56:992][  0]LogRenderer: Reallocating scene render targets to support 1276x628 NumSamples 1 (Frame:1).
-[2018.01.04-16.27.57:023][  0]LogSlate: Took 0.002579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.04-16.27.57:049][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.01.04-16.27.57:100][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.01.04-16.27.57:100][  0]LogLoad: (Engine Initialization) Total time: 17.02 seconds
-[2018.01.04-16.27.57:100][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
-[2018.01.04-16.27.57:100][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.01.04-16.27.57:100][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.01.04-16.27.57:439][  0]LogOcInput: OculusInput pre-init called
-[2018.01.04-16.27.57:439][  0]LogHMD: Starting GearVRController plugin
-[2018.01.04-16.27.57:451][  0]LogAssetRegistry: Asset discovery search completed in 9.1277 seconds
-[2018.01.04-16.27.57:452][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.01.04-16.27.57:452][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
-[2018.01.04-16.27.57:534][  1]LogRenderer: Reallocating scene render targets to support 1276x644 NumSamples 1 (Frame:2).
-[2018.01.04-16.28.39:208][ 28]LogTexture:Display: Building textures: T_SelectedDeck (BGRA8, 15X15)
-[2018.01.04-16.28.39:215][ 28]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.04-16.28.39:251][ 28]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.01.04-16.28.49:052][154]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
-[2018.01.04-16.28.49:483][154]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.04-16.28.49:486][154]LogSlate: Took 0.002630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.01.04-16.29.24:785][358]BlueprintLog: New page: Compile w_DeckButton
-[2018.01.04-16.29.24:884][358]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2018.01.04-16.29.34:958][564]BlueprintLog: New page: Compile w_DeckButton
-[2018.01.04-16.29.35:045][564]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2018.01.04-16.29.35:474][605]LogSavePackage: Save=36.15ms
-[2018.01.04-16.29.35:474][605]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButton7474FE82496AED9D76A2A7BF35A03249.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
-[2018.01.04-16.29.35:477][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
-[2018.01.04-16.29.37:005][780]LogSavePackage: Save=34.47ms
-[2018.01.04-16.29.37:005][780]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_DeckButtonF308BCD04AB841DC5728F3BF6735DB6A.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset'
-[2018.01.04-16.29.37:006][780]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_DeckButton.uasset
-[2018.01.04-16.29.41:708][344]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
-[2018.01.04-16.29.42:050][379]LogEditorViewport: Clicking on Actor (context menu): bp_Ship_C (bp_Ship)
-[2018.01.04-16.29.43:820][553]LogSlate: Took 0.002884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.01.04-16.30.07:400][873]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:549][873]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.149 s
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: === Handled ensure: ===
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: 
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: Stack: 
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3DCE2B6
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3B7B8C2
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3B91E86
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BC7F7556
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000BB17D27B
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000B9E924AA
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000B9D372CC
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000B9D3A6D9
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000B9E58035
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C17BDB57
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C17C4B61
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C19E48D3
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C181F604
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C17F77FC
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000C17E814C
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3DC15B0
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3DAB7D1
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3DC33DB
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3DA7B22
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: USER32.dll!0x000000000EBCB85D
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: USER32.dll!0x000000000EBCB1EF
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3DC3CE6
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor.exe!0x000000002B9DDB44
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor.exe!0x000000002B9CF0B0
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor.exe!0x000000002B9CF12A
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor.exe!0x000000002B9E0CF9
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: UE4Editor.exe!0x000000002B9E25F7
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: KERNEL32.DLL!0x000000000F5F1FE4
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: ntdll.dll!0x000000001031EF91
-[2018.01.04-16.30.07:549][873]LogOutputDevice:Error: 
-[2018.01.04-16.30.07:559][873]LogStats:                SubmitErrorReport -  0.000 s
-[2018.01.04-16.30.07:728][873]LogStats:                    SendNewReport -  0.170 s
-[2018.01.04-16.30.07:728][873]LogStats:             FDebug::EnsureFailed -  0.328 s
-[2018.01.04-16.30.07:729][873]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:888][887]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:900][888]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:912][889]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:924][890]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:935][891]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:935][891]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:936][891]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:937][891]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:942][891]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:949][892]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:950][892]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.07:954][892]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.08:050][900]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.08:050][900]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:660][360]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:660][360]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:662][360]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:665][360]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:671][361]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:672][361]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:677][361]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:872][381]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:872][381]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:874][381]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.12:877][381]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:313][426]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:314][426]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:315][426]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:319][426]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:326][427]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:330][427]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:337][428]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:340][428]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:346][429]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:347][429]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:351][429]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:357][430]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:360][430]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:367][431]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:370][431]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:376][432]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:379][432]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:385][433]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:386][433]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:390][433]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:396][434]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:399][434]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:406][435]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:409][435]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:415][436]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:418][436]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:425][437]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:428][437]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:435][438]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:438][438]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:445][439]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:447][439]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:454][440]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:457][440]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:463][441]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:466][441]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:473][442]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:477][442]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:484][443]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:487][443]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:494][444]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:497][444]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:504][445]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:507][445]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:514][446]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:517][446]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:524][447]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:527][447]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:534][448]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:538][448]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:544][449]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:547][449]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:554][450]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:557][450]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:564][451]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:567][451]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:574][452]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:577][452]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:583][453]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:586][453]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:592][454]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:594][454]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:597][454]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:603][455]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:604][455]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:607][455]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:638][458]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:639][458]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:639][458]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:641][458]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:644][458]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:650][459]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:652][459]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:655][459]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:660][460]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:662][460]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:665][460]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:672][461]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:673][461]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:676][461]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:968][491]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:968][491]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:971][491]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:973][491]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:980][492]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:983][492]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:989][493]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:990][493]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:993][493]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.13:999][494]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:000][494]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:003][494]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:010][495]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:013][495]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:020][496]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:023][496]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:029][497]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:033][497]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:039][498]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:042][498]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:049][499]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:051][499]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:058][500]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:061][500]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:068][501]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:071][501]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:078][502]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:081][502]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:088][503]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:091][503]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:097][504]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:101][504]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:107][505]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:110][505]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:117][506]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:120][506]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:127][507]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:130][507]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:137][508]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:140][508]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:147][509]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:150][509]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:157][510]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:160][510]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:166][511]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:169][511]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:177][512]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:180][512]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:187][513]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:190][513]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:196][514]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:200][514]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:207][515]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:210][515]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:216][516]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:219][516]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:226][517]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:229][517]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:236][518]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:239][518]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:246][519]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:248][519]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:255][520]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:258][520]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:266][521]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:269][521]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:276][522]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:278][522]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:285][523]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:289][523]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:295][524]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:298][524]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:305][525]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:308][525]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:315][526]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:318][526]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:325][527]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:328][527]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:334][528]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:338][528]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:345][529]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:348][529]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:355][530]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:357][530]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:364][531]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:367][531]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:374][532]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:377][532]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:384][533]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:387][533]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:394][534]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:396][534]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:403][535]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:406][535]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:413][536]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:415][536]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:422][537]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:425][537]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:432][538]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:435][538]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:441][539]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:444][539]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:451][540]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:455][540]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:461][541]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:464][541]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:471][542]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:474][542]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:481][543]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:484][543]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:490][544]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:493][544]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:500][545]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:503][545]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:510][546]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:513][546]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:519][547]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:522][547]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:529][548]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:532][548]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:539][549]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:542][549]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:548][550]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:551][550]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:558][551]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:561][551]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:568][552]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:571][552]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:577][553]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:580][553]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:587][554]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:590][554]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:597][555]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:600][555]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:606][556]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:609][556]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:616][557]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:619][557]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:625][558]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:629][558]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:636][559]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:639][559]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:645][560]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:648][560]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:655][561]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:659][561]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:666][562]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:669][562]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:687][563]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:689][563]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:696][564]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:699][564]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:705][565]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:708][565]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:714][566]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:716][566]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:723][567]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:725][567]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:732][568]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:735][568]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:741][569]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:744][569]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:751][570]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:754][570]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:760][571]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:763][571]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:770][572]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:773][572]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:780][573]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:783][573]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:790][574]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:793][574]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:799][575]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:802][575]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:809][576]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.14:812][576]LogUObjectBase:Warning: Object is not registered
-[2018.01.04-16.30.18:053][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
-[2018.01.04-16.30.18:248][910]LogSavePackage: Save=169.52ms
-[2018.01.04-16.30.18:248][910]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship5BE7B07E41C5F03AD27EFBA38109F82A.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
-[2018.01.04-16.30.18:250][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
-[2018.01.04-16.30.18:475][931]BlueprintLog: New page: Compile bp_Ship
-[2018.01.04-16.30.18:815][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ship/bp_Ship" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset" SILENT=true
-[2018.01.04-16.30.19:002][942]LogSavePackage: Save=165.91ms
-[2018.01.04-16.30.19:002][942]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/bp_Ship497102E340FE40784A761AA8BBDE9D23.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset'
-[2018.01.04-16.30.19:003][942]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Ship/bp_Ship.uasset
-[2018.01.04-16.30.19:363][975]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2018.01.04-16.30.19:422][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
-[2018.01.04-16.30.19:422][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.04-16.30.19:422][975]PIE: New page: PIE session: ScanReach (4 Jan 2018 18:30:19)
-[2018.01.04-16.30.19:422][975]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
-[2018.01.04-16.30.19:426][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003656s)
-[2018.01.04-16.30.19:426][975]LogAIModule: Creating AISystem for world ScanReach
-[2018.01.04-16.30.19:426][975]LogPlayLevel: PIE: World Init took: (0.000433s)
-[2018.01.04-16.30.19:426][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.004227s)
-[2018.01.04-16.30.19:441][975]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.04-16.30.19:452][975]LogInit: FAudioDevice initialized.
-[2018.01.04-16.30.19:522][975]LogLoad: Game class is 'ScanReach_GM_C'
-[2018.01.04-16.30.19:526][975]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.04-17.30.19
-[2018.01.04-16.30.19:527][975]LogWorld: Bringing up level for play took: 0.004425
-[2018.01.04-16.30.19:559][975]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] cfdfb18f-7a15-4922-b52e-2dbed43c299d
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] 70c81956-1c1a-40f4-aa2b-3a743a9deac3
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] 7f464d36-31a3-4a56-894a-a94f14707e09
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] a895776a-5510-48c3-88bc-56118557b179
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] b1f089d5-6e8e-4001-b860-b29937bc82d6
-[2018.01.04-16.30.19:562][975]LogBlueprintUserMessages: [Websocket_Master_58] 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
-[2018.01.04-16.30.19:569][975]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.497
-[2018.01.04-16.30.19:569][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
-[2018.01.04-16.30.19:605][975]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
-[2018.01.04-16.30.20:038][  2]LogBlueprintUserMessages: [Websocket_Master_58] Connected To: ws://srtdev7-inrange-websocket.azurewebsites.net/inrange
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -61.103397
+[2018.01.04-16.32.58:960][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-16.32.58:961][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.04-16.32.58:971][  0]LogInit: Computer: MAGNUS-PC
+[2018.01.04-16.32.58:971][  0]LogInit: User: Magnus
+[2018.01.04-16.32.58:971][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.04-16.32.58:971][  0]LogInit: High frequency timer resolution =3.117188 MHz
+[2018.01.04-16.32.58:971][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.04-16.32.58:971][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.04-16.32.58:971][  0]LogMemory: Process Physical Memory: 273.75 MB used, 273.75 MB peak
+[2018.01.04-16.32.58:971][  0]LogMemory: Process Virtual Memory: 266.55 MB used, 266.55 MB peak
+[2018.01.04-16.32.58:971][  0]LogMemory: Physical Memory: 7566.01 MB used,  8770.84 MB free, 16336.84 MB total
+[2018.01.04-16.32.58:971][  0]LogMemory: Virtual Memory: 676.88 MB used,  8770.84 MB free, 134217728.00 MB total
+[2018.01.04-16.32.59:018][  0]LogInit: Using OS detected language (nb-NO).
+[2018.01.04-16.32.59:018][  0]LogInit: Using OS detected locale (nb-NO).
+[2018.01.04-16.32.59:020][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the language.
+[2018.01.04-16.32.59:020][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the locale.
+[2018.01.04-16.32.59:857][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.04-16.32.59:908][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.04-16.32.59:908][  0]LogD3D11RHI:       8096/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.01.04-16.32.59:910][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.04-16.32.59:910][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.04-16.32.59:910][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.04-16.32.59:916][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.04-16.32.59:916][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.04-16.32.59:916][  0]LogWindows: EnumDisplayDevices:
+[2018.01.04-16.32.59:916][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.04-16.32.59:916][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.04-16.32.59:917][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.04-16.32.59:917][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.04-16.32.59:917][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.04-16.32.59:917][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.04-16.32.59:917][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.04-16.32.59:917][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.04-16.32.59:917][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.04-16.32.59:945][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.04-16.33.00:081][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.04-16.33.00:126][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/12668/).
+[2018.01.04-16.33.00:126][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Magnus/AppData/Local/Temp/UnrealShaderWorkingDir/488A23F64CF86F797D4A7EA797CEC1F4/'.
+[2018.01.04-16.33.00:126][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.04-16.33.01:072][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.04-16.33.01:106][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.04-16.33.01:141][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.04-16.33.01:177][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.04-16.33.01:212][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.04-16.33.01:246][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.04-16.33.01:280][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.04-16.33.01:315][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.04-16.33.01:345][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.04-16.33.01:378][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.04-16.33.01:412][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.04-16.33.01:446][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.04-16.33.01:480][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.04-16.33.01:516][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.04-16.33.01:552][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.04-16.33.01:622][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.04-16.33.01:622][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.04-16.33.01:649][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.04-16.33.01:719][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.04-16.33.01:741][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.04-16.33.01:776][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.04-16.33.01:811][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.04-16.33.01:846][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.04-16.33.01:881][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.04-16.33.01:881][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.04-16.33.02:200][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.04-16.33.02:279][  0]LogDerivedDataCache: Loaded boot cache 0.08s 111MB C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-16.33.02:279][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.04-16.33.02:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.04-16.33.02:279][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.04-16.33.02:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.04-16.33.02:279][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.04-16.33.02:294][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.04-16.33.02:306][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Magnus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.04-16.33.02:315][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.04-16.33.02:315][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.04-16.33.02:316][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-16.33.02:316][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-16.33.02:599][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-16.33.02:785][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.04-16.33.02:815][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.04-16.33.02:845][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.04-16.33.02:845][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.04-16.33.02:845][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.04-16.33.03:317][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2018.01.04-16.33.03:371][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2018.01.04-16.33.03:404][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.019064 seconds
+[2018.01.04-16.33.03:409][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.04-16.33.03:409][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.04-16.33.03:409][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.04-16.33.03:451][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.04-16.33.05:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.04-16.33.05:561][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.04-16.33.05:942][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.04-16.33.06:230][  0]SourceControl: Info Source control is disabled
+[2018.01.04-16.33.06:262][  0]SourceControl: Info Source control is disabled
+[2018.01.04-16.33.06:292][  0]SourceControl: Info Source control is disabled
+[2018.01.04-16.33.06:321][  0]SourceControl: Info Source control is disabled
+[2018.01.04-16.33.06:758][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.04-16.33.07:212][  0]LogEngine: Initializing Engine...
+[2018.01.04-16.33.07:212][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.04-16.33.07:383][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.04-16.33.07:383][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.04-16.33.07:465][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.04-16.33.07:476][  0]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.04-16.33.07:486][  0]LogInit: FAudioDevice initialized.
+[2018.01.04-16.33.07:531][  0]LogDerivedDataCache: Saved boot cache 0.04s 111MB C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-16.33.07:541][  0]LogInit: Texture streaming: Disabled
+[2018.01.04-16.33.07:601][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.04-16.33.07:745][  0]LogInit: Transaction tracking system initialized
+[2018.01.04-16.33.07:945][  0]BlueprintLog: New page: Editor Load
+[2018.01.04-16.33.08:572][  0]LocalizationService: Info Localization service is disabled
+[2018.01.04-16.33.09:006][  0]LogConsoleResponse:Display: 
+[2018.01.04-16.33.09:128][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.04-16.33.09:128][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.04-16.33.09:783][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' took 0.01s
+[2018.01.04-16.33.09:783][  0]SourceControl: Info Source control is disabled
+[2018.01.04-16.33.09:783][  0]Cmd: MAP LOAD FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.04-16.33.09:783][  0]LightingResults: New page: Lighting Build
+[2018.01.04-16.33.09:810][  0]MapCheck: New page: Map Check
+[2018.01.04-16.33.09:810][  0]LightingResults: New page: Lighting Build
+[2018.01.04-16.33.10:557][  0]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.04-16.33.10:580][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.04-16.33.10:596][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.04-16.33.10:635][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.374ms to complete.
+[2018.01.04-16.33.10:635][  0]LogFileHelpers: Loading map 'ScanReach' took 0.852
+[2018.01.04-16.33.10:820][  0]LogCollectionManager: Loaded 0 collections in 0.000882 seconds
+[2018.01.04-16.33.10:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2018.01.04-16.33.10:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Magnus/Collections/' took 0.01s
+[2018.01.04-16.33.10:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2018.01.04-16.33.10:906][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.04-16.33.10:915][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2334 classes and 495 folders.
+[2018.01.04-16.33.10:958][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.04-16.33.10:987][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.04-16.33.11:015][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.04-16.33.11:084][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.04-16.33.11:089][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.04-16.33.11:091][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.04-16.33.11:096][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.04-16.33.11:184][  0]LogRenderer: Reallocating scene render targets to support 1100x596 NumSamples 1 (Frame:1).
+[2018.01.04-16.33.11:245][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-16.33.11:306][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.04-16.33.11:355][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.04-16.33.11:355][  0]LogLoad: (Engine Initialization) Total time: 13.52 seconds
+[2018.01.04-16.33.11:355][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2018.01.04-16.33.11:355][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.04-16.33.11:355][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.04-16.33.11:729][  0]LogOcInput: OculusInput pre-init called
+[2018.01.04-16.33.11:729][  0]LogHMD: Starting GearVRController plugin
+[2018.01.04-16.33.11:748][  0]LogAssetRegistry: Asset discovery search completed in 8.3990 seconds
+[2018.01.04-16.33.11:749][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.04-16.33.11:749][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.01.04-16.33.12:696][  3]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-16.33.16:598][428]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.04-16.33.16:638][428]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.33.16:638][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-16.33.16:638][428]PIE: New page: PIE session: ScanReach (Jan 4, 2018, 6:33:16 PM)
+[2018.01.04-16.33.16:638][428]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.04-16.33.16:643][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005108s)
+[2018.01.04-16.33.16:644][428]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.04-16.33.16:644][428]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2018.01.04-16.33.16:644][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.005776s)
+[2018.01.04-16.33.16:659][428]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.04-16.33.16:666][428]LogInit: FAudioDevice initialized.
+[2018.01.04-16.33.16:805][428]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.04-16.33.16:812][428]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.04-17.33.16
+[2018.01.04-16.33.16:813][428]LogWorld: Bringing up level for play took: 0.005878
+[2018.01.04-16.33.16:842][428]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.33.16:848][428]LogBlueprintUserMessages: [Websocket_Master_58] 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
+[2018.01.04-16.33.16:851][428]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.505
+[2018.01.04-16.33.16:852][428]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.33.16:879][428]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2018.01.04-16.33.18:635][616]LogBlueprintUserMessages: [Websocket_Master_58] Connected To: ws://srtdev7-inrange-websocket.azurewebsites.net/inrange
+[2018.01.04-16.33.20:852][882]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -68.951675
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.33.22:864][123]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -54.227837
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.33.24:864][363]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -75.979576
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.33.26:882][605]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -48.81929
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.33.28:883][845]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -54.45462
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.33.30:901][ 87]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -52.359768
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.33.32:910][328]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -74.164825
 
 TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
 
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.33.34:925][569]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -76.40175
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.33.36:967][814]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -49.019615
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
 SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.22:106][170]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -50.240265
+[2018.01.04-16.33.38:934][ 50]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -57.50459
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.33.40:944][291]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -59.14767
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.33.43:076][546]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -57.855167
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.33.45:101][789]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -75.33909
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
+[2018.01.04-16.33.47:077][ 26]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -73.21266
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.33.49:135][231]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -71.61629
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.33.51:089][465]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -45.80313
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
+[2018.01.04-16.33.53:093][705]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -75.85649
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.33.55:098][945]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -62.74132
 
 TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
 
 SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.24:119][335]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:125][499]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -55.066864
-
-TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
-
-SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.26:126][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -57.479603
+[2018.01.04-16.33.57:143][189]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -70.48313
 
 TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
 
-SensorID: 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-16.30.28:153][657]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-16.30.29:230][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
-[2018.01.04-16.30.29:315][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
-[2018.01.04-16.30.33:961][230]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
-[2018.01.04-16.30.34:619][307]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
-[2018.01.04-16.30.34:967][347]LogEditorViewport: Clicking on Actor (LMB): bp_Ship_C (bp_Ship)
-[2018.01.04-16.31.00:181][932]LogEditorTransaction: Undo Move Node
-[2018.01.04-16.31.00:832][986]LogEditorTransaction: Undo Delete current selection
-[2018.01.04-16.31.07:451][671]LogSavePackage: Save=116.32ms
-[2018.01.04-16.31.07:451][671]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Websocket_MasterA7B6767F4C0A345819DEC694F05B3B13.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Websocket/Websocket_Master.uasset'
-[2018.01.04-16.31.07:453][671]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Websocket/Websocket_Master.uasset
-[2018.01.04-16.31.07:782][707]BlueprintLog: New page: Compile Websocket_Master
-[2018.01.04-16.31.08:272][731]LogSavePackage: Save=117.00ms
-[2018.01.04-16.31.08:272][731]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Websocket_Master0AAEC9AF407D74B6865D9896578C1A98.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Websocket/Websocket_Master.uasset'
-[2018.01.04-16.31.08:273][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Websocket/Websocket_Master.uasset
-[2018.01.04-16.31.08:709][777]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2018.01.04-16.31.08:726][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
-[2018.01.04-16.31.08:726][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.04-16.31.08:726][777]PIE: New page: PIE session: ScanReach (4 Jan 2018 18:31:08)
-[2018.01.04-16.31.08:726][777]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
-[2018.01.04-16.31.08:730][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003869s)
-[2018.01.04-16.31.08:731][777]LogAIModule: Creating AISystem for world ScanReach
-[2018.01.04-16.31.08:731][777]LogPlayLevel: PIE: World Init took: (0.000378s)
-[2018.01.04-16.31.08:731][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.004371s)
-[2018.01.04-16.31.08:744][777]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.04-16.31.08:753][777]LogInit: FAudioDevice initialized.
-[2018.01.04-16.31.08:811][777]LogLoad: Game class is 'ScanReach_GM_C'
-[2018.01.04-16.31.08:815][777]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.04-17.31.08
-[2018.01.04-16.31.08:815][777]LogWorld: Bringing up level for play took: 0.003551
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] cfdfb18f-7a15-4922-b52e-2dbed43c299d
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] 70c81956-1c1a-40f4-aa2b-3a743a9deac3
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] 7f464d36-31a3-4a56-894a-a94f14707e09
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] a895776a-5510-48c3-88bc-56118557b179
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] b1f089d5-6e8e-4001-b860-b29937bc82d6
-[2018.01.04-16.31.08:819][777]LogBlueprintUserMessages: [Websocket_Master_58] 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
-[2018.01.04-16.31.08:826][777]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach -0.246
-[2018.01.04-16.31.08:826][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
-[2018.01.04-16.31.10:675][962]LogBlueprintUserMessages: [Websocket_Master_58] Connected To: ws://srtdev7-inrange-websocket.azurewebsites.net/inrange
-[2018.01.04-16.31.12:887][197]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -73.45508
+SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.33.59:147][428]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -65.0156
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.34.01:158][669]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -62.866043
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.34.03:193][913]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -46.21713
 
 TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
 
 SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-16.31.14:886][407]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -49.545887
+[2018.01.04-16.34.05:171][150]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -63.381077
 
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
 
-SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
-[2018.01.04-16.31.16:908][614]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -71.29762
+SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.34.07:223][396]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -63.519684
 
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
-
-SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-16.31.18:918][814]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -58.98515
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
-[2018.01.04-16.31.20:929][ 17]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -63.693012
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+TagID: d343d373-0696-4542-8a05-52a261511d54
 
 SensorID: a895776a-5510-48c3-88bc-56118557b179
-[2018.01.04-16.31.22:941][211]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -42.444935
-
-TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
-
-SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
-[2018.01.04-16.31.24:957][407]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -64.37888
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
-[2018.01.04-16.31.26:972][611]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -47.44244
-
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
-
-SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
-[2018.01.04-16.31.28:970][812]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -54.24736
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
-[2018.01.04-16.31.31:001][ 16]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -69.93998
-
-TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
-
-SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-16.31.32:988][218]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -70.09452
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
-[2018.01.04-16.31.34:994][424]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -60.54761
+[2018.01.04-16.34.09:200][585]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -53.572166
 
 TagID: d343d373-0696-4542-8a05-52a261511d54
 
 SensorID: 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
-[2018.01.04-16.31.36:988][624]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -41.48151
+[2018.01.04-16.34.09:783][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.34.09:811][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.34.22:675][181]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-16.34.22:988][181]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2018.01.04-16.34.23:614][181]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.04-16.34.24:620][297]LogSlate: Took 0.001685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.04-16.35.57:505][317]BlueprintLog: New page: Compile w_Status
+[2018.01.04-16.35.57:651][317]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.04-16.36.07:215][457]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.04-16.36.07:241][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.36.07:241][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-16.36.07:241][457]PIE: New page: PIE session: ScanReach (Jan 4, 2018, 6:36:07 PM)
+[2018.01.04-16.36.07:241][457]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.04-16.36.07:247][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005741s)
+[2018.01.04-16.36.07:247][457]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.04-16.36.07:247][457]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2018.01.04-16.36.07:247][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.006483s)
+[2018.01.04-16.36.07:270][457]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.04-16.36.07:278][457]LogInit: FAudioDevice initialized.
+[2018.01.04-16.36.07:389][457]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.04-16.36.07:396][457]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.04-17.36.07
+[2018.01.04-16.36.07:396][457]LogWorld: Bringing up level for play took: 0.006185
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.36.07:402][457]LogBlueprintUserMessages: [Websocket_Master_58] 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
+[2018.01.04-16.36.07:405][457]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.049
+[2018.01.04-16.36.07:406][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.36.09:198][647]LogBlueprintUserMessages: [Websocket_Master_58] Connected To: ws://srtdev7-inrange-websocket.azurewebsites.net/inrange
+[2018.01.04-16.36.11:410][911]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -44.5013
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.36.11:669][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.36.11:712][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.36.22:961][280]BlueprintLog: New page: Compile w_Status
+[2018.01.04-16.36.23:073][280]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.04-16.36.23:485][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/w_Status" FILE="C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Status.uasset" SILENT=true
+[2018.01.04-16.36.23:541][322]LogSavePackage: Save=15.27ms
+[2018.01.04-16.36.23:541][322]LogSavePackage: Moving 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/w_StatusC074828943B7FBB9BC0577A55619078A.tmp' to 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Status.uasset'
+[2018.01.04-16.36.23:545][322]LogSavePackage:Display: Finished SavePackage C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Widgets/w_Status.uasset
+[2018.01.04-16.36.30:214][114]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.04-16.36.30:235][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.36.30:235][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-16.36.30:235][114]PIE: New page: PIE session: ScanReach (Jan 4, 2018, 6:36:30 PM)
+[2018.01.04-16.36.30:235][114]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.04-16.36.30:240][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005035s)
+[2018.01.04-16.36.30:241][114]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.04-16.36.30:241][114]LogPlayLevel: PIE: World Init took: (0.000476s)
+[2018.01.04-16.36.30:241][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.005703s)
+[2018.01.04-16.36.30:264][114]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.04-16.36.30:270][114]LogInit: FAudioDevice initialized.
+[2018.01.04-16.36.30:380][114]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.04-16.36.30:386][114]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.04-17.36.30
+[2018.01.04-16.36.30:387][114]LogWorld: Bringing up level for play took: 0.005120
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.36.30:392][114]LogBlueprintUserMessages: [Websocket_Master_58] 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
+[2018.01.04-16.36.30:395][114]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 1.039
+[2018.01.04-16.36.30:395][114]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.36.32:155][317]LogBlueprintUserMessages: [Websocket_Master_58] Connected To: ws://srtdev7-inrange-websocket.azurewebsites.net/inrange
+[2018.01.04-16.36.34:363][582]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -57.13946
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.36.36:355][821]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -54.1571
 
 TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
 
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.36.38:364][ 62]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -75.90884
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
 SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-16.31.38:999][833]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -73.8077
+[2018.01.04-16.36.40:373][303]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -61.331303
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.36.42:383][544]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -75.43988
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.36.44:392][785]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -70.789856
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.36.46:401][ 26]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -40.221115
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.36.48:402][266]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -73.387245
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.36.50:421][508]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -66.879326
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.36.52:430][749]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -62.814556
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.36.54:440][990]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -47.840855
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.36.56:449][231]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -78.45456
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
+[2018.01.04-16.36.58:458][472]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -72.72511
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.37.00:466][713]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -58.58284
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.37.02:490][954]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -76.20597
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.37.04:640][ 93]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -53.899086
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.37.06:639][ 99]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -63.971462
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.37.08:639][105]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -68.782936
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.37.10:639][111]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -66.5994
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.37.12:639][117]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -72.53053
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.37.14:639][123]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -78.62776
 
 TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
 
 SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
-[2018.01.04-16.31.39:209][853]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
-[2018.01.04-16.31.39:250][853]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
-[2018.01.04-16.31.40:077][920]LogSavePackage: Save=112.86ms
-[2018.01.04-16.31.40:077][920]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Websocket_MasterE5A3BB924D7A88099D8ADA9A0C922EDC.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Websocket/Websocket_Master.uasset'
-[2018.01.04-16.31.40:078][920]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Websocket/Websocket_Master.uasset
-[2018.01.04-16.31.41:050][ 31]BlueprintLog: New page: Compile Websocket_Master
-[2018.01.04-16.31.41:572][ 60]LogSavePackage: Save=114.46ms
-[2018.01.04-16.31.41:572][ 60]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Websocket_Master4A66389F4D46E4133A5BBABDBBDAC0D7.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Websocket/Websocket_Master.uasset'
-[2018.01.04-16.31.41:573][ 60]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Blueprints/Websocket/Websocket_Master.uasset
-[2018.01.04-16.31.45:325][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ScanReach" FILE="../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.01.04-16.31.45:509][285]LogSavePackage: Save=149.16ms
-[2018.01.04-16.31.45:509][285]LogSavePackage: Moving '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/ScanReach387E439C41C757D28165AD860136B3F2.tmp' to '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap'
-[2018.01.04-16.31.45:511][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/ScanReach.umap
-[2018.01.04-16.31.45:534][285]LogFileHelpers: Saving map 'ScanReach' took 0.248
-[2018.01.04-16.31.45:615][285]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.04-16.31.45:615][285]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.04-16.31.45:765][286]Cmd: QUIT_EDITOR
-[2018.01.04-16.31.46:675][286]LogExit: Preparing to exit.
-[2018.01.04-16.31.47:374][286]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' was aborted.
-[2018.01.04-16.31.47:397][286]LogExit: Editor shut down
-[2018.01.04-16.31.47:399][286]LogExit: Transaction tracking system shut down
-[2018.01.04-16.31.47:461][286]LogObj: Freed 0b from 0 cluster array pools.
-[2018.01.04-16.31.47:461][286]LogExit: Object subsystem successfully closed.
-[2018.01.04-16.31.47:474][286]LogD3D11RHI: Shutdown
-[2018.01.04-16.31.47:474][286]LogD3D11RHI: CleanupD3DDevice
-[2018.01.04-16.31.47:529][286]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module SequencerWidgets (534)
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module TextureEditor (528)
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
-[2018.01.04-16.31.47:539][286]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
-[2018.01.04-16.31.47:539][286]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
-[2018.01.04-16.31.47:540][286]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' was aborted.
-[2018.01.04-16.31.47:540][286]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' was aborted.
-[2018.01.04-16.31.47:540][286]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' was aborted.
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module BspMode (496)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module Media (473)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module SessionServices (460)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
-[2018.01.04-16.31.47:540][286]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module MergeActors (430)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module SizeMap (428)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module TreeMap (426)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
-[2018.01.04-16.31.47:577][286]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module XmlParser (410)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module Blutility (408)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
-[2018.01.04-16.31.47:578][286]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module AutomationController (388)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module Layers (384)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module Persona (376)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
-[2018.01.04-16.31.47:629][286]LogModuleManager: Shutting down and abandoning module Kismet (370)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module Toolbox (366)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module OutputLog (360)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module GammaUI (358)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module Documentation (356)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module MovieScene (352)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module Niagara (350)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module PortalServices (342)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module AIModule (336)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
-[2018.01.04-16.31.47:633][286]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module WebSocket (326)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2018.01.04-16.31.47:833][286]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2018.01.04-16.31.47:834][286]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Plugins/WebSocket/Binaries/Win64' was aborted.
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2018.01.04-16.31.47:834][286]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2018.01.04-16.31.47:934][286]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2018.01.04-16.31.48:228][286]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2018.01.04-16.31.48:228][286]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2018.01.04-16.31.48:228][286]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2018.01.04-16.31.48:228][286]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2018.01.04-16.31.48:228][286]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2018.01.04-16.31.48:229][286]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2018.01.04-16.31.48:229][286]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2018.01.04-16.31.48:229][286]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2018.01.04-16.31.48:229][286]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2018.01.04-16.31.48:229][286]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2018.01.04-16.31.48:230][286]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2018.01.04-16.31.48:232][286]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2018.01.04-16.31.48:232][286]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2018.01.04-16.31.48:232][286]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2018.01.04-16.31.48:232][286]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2018.01.04-16.31.48:232][286]LogModuleManager: Shutting down and abandoning module Core (164)
-[2018.01.04-16.31.48:232][286]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2018.01.04-16.31.48:389][286]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.01.04-16.31.48:389][286]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' was aborted.
-[2018.01.04-16.31.48:389][286]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.01.04-16.31.48:389][286]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2018.01.04-16.31.48:390][286]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2018.01.04-16.31.48:391][286]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2018.01.04-16.31.48:391][286]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2018.01.04-16.31.48:391][286]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2018.01.04-16.31.48:391][286]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2018.01.04-16.31.48:391][286]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2018.01.04-16.31.48:391][286]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2018.01.04-16.31.48:391][286]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2018.01.04-16.31.48:391][286]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.01.04-16.31.48:486][286]LogDerivedDataCache: Shutdown
-[2018.01.04-16.31.48:486][286]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.01.04-16.31.48:486][286]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.01.04-16.31.48:486][286]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.01.04-16.31.48:486][286]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.01.04-16.31.48:487][286]LogOnline:Display: Unloading online subsystem: NULL
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.01.04-16.31.48:487][286]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.01.04-16.31.48:487][286]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.01.04-16.31.48:487][286]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B03341669-4232-1984-DFC2-CC858A37BCAC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=0c75b627499df609a8813c9ced46962c%7Cfebaf0232e0e4e628b45a2bec753bbbc%7C408adb04-e8c0-4c29-a1fb-4d7ed05dedd7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.01.04-16.31.48:507][286]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.01.04-16.31.48:507][286]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2018.01.04-16.31.48:507][286]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.01.04-16.31.48:508][286]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.01.04-16.31.48:509][286]LogExit: Exiting.
-[2018.01.04-16.31.48:520][286]Log file closed, 01/04/18 17:31:48
+[2018.01.04-16.37.16:640][129]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -75.415855
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.37.18:639][135]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -66.08494
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.37.20:639][141]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -41.411274
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.37.22:639][147]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -40.10035
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.37.24:639][153]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -57.218823
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.37.26:639][159]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -79.75742
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.37.28:639][165]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -62.184696
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.37.30:976][172]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -49.381016
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.37.32:973][178]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -50.724308
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.37.34:973][184]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -60.880764
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.37.36:972][190]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -65.96399
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.37.38:973][196]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -70.513374
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.37.40:675][205]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -54.078457
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.37.42:692][446]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -52.2881
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.37.44:104][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.37.44:132][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.39.45:962][792]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.04-16.39.45:980][792]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.39.45:980][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-16.39.45:980][792]PIE: New page: PIE session: ScanReach (Jan 4, 2018, 6:39:45 PM)
+[2018.01.04-16.39.45:980][792]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_ScanReach
+[2018.01.04-16.39.45:985][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005100s)
+[2018.01.04-16.39.45:985][792]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.04-16.39.45:986][792]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.01.04-16.39.45:986][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ScanReach.ScanReach to /Game/UEDPIE_0_ScanReach.ScanReach (0.005953s)
+[2018.01.04-16.39.46:014][792]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.04-16.39.46:021][792]LogInit: FAudioDevice initialized.
+[2018.01.04-16.39.46:130][792]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.04-16.39.46:137][792]LogWorld: Bringing World /Game/UEDPIE_0_ScanReach.ScanReach up for play (max tick rate 0) at 2018.01.04-17.39.46
+[2018.01.04-16.39.46:138][792]LogWorld: Bringing up level for play took: 0.005776
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-16.39.46:143][792]LogBlueprintUserMessages: [Websocket_Master_58] 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
+[2018.01.04-16.39.46:146][792]PIE: Info Play in editor start time for /Game/UEDPIE_0_ScanReach 0.79
+[2018.01.04-16.39.46:146][792]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.39.47:933][990]LogBlueprintUserMessages: [Websocket_Master_58] Connected To: ws://srtdev7-inrange-websocket.azurewebsites.net/inrange
+[2018.01.04-16.39.50:141][255]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -44.280964
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.39.52:133][494]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -59.534927
+
+TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.39.54:134][734]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -41.286667
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.39.56:152][976]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -48.232006
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-16.39.58:162][217]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -78.30579
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-16.40.00:171][458]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -62.074406
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.40.02:179][699]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -61.60995
+
+TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.40.04:198][941]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -76.54453
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-16.40.06:207][182]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -51.061565
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.40.08:218][423]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -71.5133
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-16.40.10:217][663]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -59.781544
+
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
+
+SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.40.12:245][906]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -58.15701
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
+[2018.01.04-16.40.14:239][145]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -44.12414
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-16.40.16:258][387]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -73.47573
+
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
+
+SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-16.40.18:276][629]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -68.53074
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-16.40.19:695][799]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.40.19:740][799]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ScanReach.ScanReach:PersistentLevel' has LevelScriptBlueprint '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach' with GeneratedClass '/Game/ScanReach.ScanReach_C' with ClassGeneratedBy '/Game/ScanReach.ScanReach:PersistentLevel.ScanReach'
+[2018.01.04-16.40.23:573][221]Cmd: QUIT_EDITOR
+[2018.01.04-16.40.24:069][221]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.04-16.40.24:079][221]LogExit: Preparing to exit.
+[2018.01.04-16.40.24:831][221]LogExit: Editor shut down
+[2018.01.04-16.40.24:834][221]LogExit: Transaction tracking system shut down
+[2018.01.04-16.40.24:919][221]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.04-16.40.24:919][221]LogExit: Object subsystem successfully closed.
+[2018.01.04-16.40.24:942][221]LogD3D11RHI: Shutdown
+[2018.01.04-16.40.24:943][221]LogD3D11RHI: CleanupD3DDevice
+[2018.01.04-16.40.25:002][221]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.04-16.40.25:010][221]LogModuleManager: Shutting down and abandoning module SequencerWidgets (534)
+[2018.01.04-16.40.25:010][221]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.01.04-16.40.25:010][221]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2018.01.04-16.40.25:010][221]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2018.01.04-16.40.25:010][221]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.01.04-16.40.25:010][221]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2018.01.04-16.40.25:010][221]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2018.01.04-16.40.25:010][221]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.01.04-16.40.25:010][221]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.01.04-16.40.25:011][221]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' was aborted.
+[2018.01.04-16.40.25:011][221]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Magnus/Collections/' was aborted.
+[2018.01.04-16.40.25:011][221]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' was aborted.
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2018.01.04-16.40.25:011][221]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module Media (473)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2018.01.04-16.40.25:012][221]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2018.01.04-16.40.25:905][221]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2018.01.04-16.40.25:905][221]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2018.01.04-16.40.25:905][221]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2018.01.04-16.40.25:905][221]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2018.01.04-16.40.25:905][221]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2018.01.04-16.40.25:906][221]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2018.01.04-16.40.25:958][221]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2018.01.04-16.40.25:958][221]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2018.01.04-16.40.25:958][221]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2018.01.04-16.40.25:958][221]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2018.01.04-16.40.25:958][221]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2018.01.04-16.40.25:958][221]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2018.01.04-16.40.25:958][221]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2018.01.04-16.40.25:958][221]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2018.01.04-16.40.25:959][221]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2018.01.04-16.40.25:959][221]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2018.01.04-16.40.25:964][221]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2018.01.04-16.40.25:965][221]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module WebSocket (326)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.04-16.40.26:131][221]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.04-16.40.26:132][221]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.04-16.40.26:132][221]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Binaries/Win64' was aborted.
+[2018.01.04-16.40.26:133][221]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Plugins/WebSocket/Binaries/Win64' was aborted.
+[2018.01.04-16.40.26:133][221]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.04-16.40.26:133][221]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.04-16.40.26:133][221]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.04-16.40.26:133][221]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.04-16.40.26:133][221]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.04-16.40.26:133][221]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.04-16.40.26:234][221]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.04-16.40.26:334][221]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.04-16.40.26:334][221]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.04-16.40.26:334][221]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.04-16.40.26:334][221]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.04-16.40.26:334][221]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.04-16.40.26:334][221]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.04-16.40.26:335][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.04-16.40.26:335][221]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.04-16.40.26:335][221]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.04-16.40.26:335][221]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.04-16.40.26:337][221]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.04-16.40.26:338][221]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.04-16.40.26:338][221]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.04-16.40.26:338][221]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.04-16.40.26:339][221]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.04-16.40.26:339][221]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.04-16.40.26:339][221]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.04-16.40.26:339][221]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.04-16.40.26:339][221]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.04-16.40.26:339][221]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.04-16.40.26:490][221]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.04-16.40.26:490][221]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/' was aborted.
+[2018.01.04-16.40.26:490][221]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.04-16.40.26:490][221]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.04-16.40.26:492][221]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.04-16.40.26:493][221]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.04-16.40.26:493][221]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.04-16.40.26:493][221]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.04-16.40.26:493][221]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.04-16.40.26:493][221]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.04-16.40.26:493][221]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.04-16.40.26:493][221]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.04-16.40.26:493][221]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.04-16.40.26:556][221]LogDerivedDataCache: Shutdown
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.04-16.40.26:556][221]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.04-16.40.26:557][221]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.04-16.40.26:557][221]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.04-16.40.26:557][221]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.04-16.40.26:557][221]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B13084373-4E3F-EEE9-0E20-89BFC73194F6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a1328f8b4b27980f4eb39a8ed1208b4f%7C07c812ce51884e509e41d7ec8613d7db%7C6aef0a9f-b728-4fc9-a3bf-f0a7ec88ec16&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.04-16.40.26:562][221]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.04-16.40.26:563][221]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.04-16.40.26:563][221]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.04-16.40.26:563][221]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.04-16.40.26:563][221]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.04-16.40.26:563][221]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.04-16.40.26:563][221]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.04-16.40.26:563][221]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.04-16.40.26:563][221]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.04-16.40.26:564][221]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.04-16.40.26:566][221]LogExit: Exiting.
+[2018.01.04-16.40.26:579][221]Log file closed, 01/04/18 17:40:26
