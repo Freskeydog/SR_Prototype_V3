@@ -1,9 +1,9 @@
-﻿Log file open, 01/04/18 15:58:35
+﻿Log file open, 01/04/18 16:21:43
 LogInit:Display: Running engine for game: SR_Prototype_V3
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(573486055) SRandInit(573486055).
+LogInit:Display: RandInit(-1050486268) SRandInit(-1050486268).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.087053
+LogStats: Stats thread started at 0.075575
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,741 +46,393 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
 LogInit: Command line:  /Temp/Autosaves/Game/UEDPCScanReach -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
-LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.04-14.58.35:535][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.04-14.58.35:535][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.04-14.58.35:538][  0]LogInit: Computer: MAGNUS-PC
-[2018.01.04-14.58.35:538][  0]LogInit: User: Magnus
-[2018.01.04-14.58.35:538][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.04-14.58.35:538][  0]LogInit: High frequency timer resolution =3.117188 MHz
-[2018.01.04-14.58.35:539][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.01.04-14.58.35:539][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.04-14.58.35:539][  0]LogMemory: Process Physical Memory: 273.23 MB used, 273.23 MB peak
-[2018.01.04-14.58.35:539][  0]LogMemory: Process Virtual Memory: 266.59 MB used, 266.59 MB peak
-[2018.01.04-14.58.35:539][  0]LogMemory: Physical Memory: 8762.41 MB used,  7574.43 MB free, 16336.84 MB total
-[2018.01.04-14.58.35:539][  0]LogMemory: Virtual Memory: 676.88 MB used,  7574.43 MB free, 134217728.00 MB total
-[2018.01.04-14.58.35:590][  0]LogInit: Using OS detected language (nb-NO).
-[2018.01.04-14.58.35:590][  0]LogInit: Using OS detected locale (nb-NO).
-[2018.01.04-14.58.35:592][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the language.
-[2018.01.04-14.58.35:592][  0]LogTextLocalizationManager: No localization for 'nb-NO' exists, so 'en' will be used for the locale.
-[2018.01.04-14.58.36:372][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.04-14.58.36:420][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.01.04-14.58.36:420][  0]LogD3D11RHI:       8096/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2018.01.04-14.58.36:422][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.04-14.58.36:422][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.04-14.58.36:422][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.04-14.58.36:428][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.04-14.58.36:428][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.04-14.58.36:428][  0]LogWindows: EnumDisplayDevices:
-[2018.01.04-14.58.36:428][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.01.04-14.58.36:428][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.01.04-14.58.36:428][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.01.04-14.58.36:428][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.04-14.58.36:428][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.04-14.58.36:428][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.01.04-14.58.36:428][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.04-14.58.36:428][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.04-14.58.36:428][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.01.04-14.58.36:454][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.04-14.58.36:596][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.01.04-14.58.36:639][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/12404/).
-[2018.01.04-14.58.36:639][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Magnus/AppData/Local/Temp/UnrealShaderWorkingDir/3B9DBAA54458BAFEDE9D6A8116EEC605/'.
-[2018.01.04-14.58.36:639][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.01.04-14.58.37:600][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.04-14.58.37:635][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.04-14.58.37:668][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.04-14.58.37:697][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.01.04-14.58.37:697][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.01.04-14.58.38:022][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.01.04-14.58.38:112][  0]LogDerivedDataCache: Loaded boot cache 0.09s 111MB C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.01.04-14.58.38:112][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Magnus/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.01.04-14.58.38:112][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.04-14.58.38:112][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.04-14.58.38:112][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.04-14.58.38:112][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.04-14.58.38:127][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.04-14.58.38:139][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Magnus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.04-14.58.38:147][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.04-14.58.38:148][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.04-14.58.38:148][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.04-14.58.38:148][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.04-14.58.38:402][  0]LogAssetRegistry: FAssetRegistry took 0.0040 seconds to start up
-[2018.01.04-14.58.38:408][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.005301 seconds
-[2018.01.04-14.58.38:484][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.04-14.58.38:678][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.04-14.58.38:706][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.04-14.58.38:736][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.04-14.58.38:736][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.01.04-14.58.38:736][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.01.04-14.58.39:175][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
-[2018.01.04-14.58.39:233][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.04-14.58.39:981][  0]LogMoviePlayer: Initializing movie player
-[2018.01.04-14.58.40:218][  0]LogCollectionManager: Loaded 0 collections in 0.000694 seconds
-[2018.01.04-14.58.40:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
-[2018.01.04-14.58.40:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Magnus/Collections/' took 0.01s
-[2018.01.04-14.58.40:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
-[2018.01.04-14.58.40:264][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.01.04-14.58.40:264][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
-[2018.01.04-14.58.40:371][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.04-14.58.40:400][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.04-14.58.40:703][  0]SourceControl: Info Source control is disabled
-[2018.01.04-14.58.40:704][  0]SourceControl: Info Source control is disabled
-[2018.01.04-14.58.40:734][  0]SourceControl: Info Source control is disabled
-[2018.01.04-14.58.40:895][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.04-14.58.41:210][  0]LogUObjectArray: 37275 objects as part of root set at end of initial load.
-[2018.01.04-14.58.41:210][  0]LogUObjectAllocator: 8410056 out of 0 bytes used by permanent object pool.
-[2018.01.04-14.58.41:210][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.04-14.58.41:288][  0]LogEngine: Initializing Engine...
-[2018.01.04-14.58.41:288][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.04-14.58.41:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.04-14.58.41:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.04-14.58.41:447][  0]LogInit: XAudio2 using 'Øretelefon (HyperX 7.1 Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.01.04-14.58.41:459][  0]LogInit: FAudioDevice initialized.
-[2018.01.04-14.58.41:485][  0]LogInit: Texture streaming: Disabled
-[2018.01.04-14.58.41:506][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.04-14.58.41:679][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
-[2018.01.04-14.58.41:679][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
-[2018.01.04-14.58.41:816][  0]LogInit:Display: Game Engine Initialized.
-[2018.01.04-14.58.41:913][  0]LogInit:Display: Starting Game.
-[2018.01.04-14.58.41:913][  0]LogNet: Browse: /Temp/Autosaves/Game/UEDPCScanReach?Name=Player
-[2018.01.04-14.58.41:913][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/UEDPCScanReach?Name=Player
-[2018.01.04-14.58.41:927][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.04-14.58.41:927][  0]LogMemory: Process Physical Memory: 855.48 MB used, 916.80 MB peak
-[2018.01.04-14.58.41:927][  0]LogMemory: Process Virtual Memory: 983.04 MB used, 1006.72 MB peak
-[2018.01.04-14.58.41:927][  0]LogMemory: Physical Memory: 9279.03 MB used,  7057.81 MB free, 16336.84 MB total
-[2018.01.04-14.58.41:927][  0]LogMemory: Virtual Memory: 1675.50 MB used,  7057.81 MB free, 134217728.00 MB total
-[2018.01.04-14.58.41:927][  0]LogMemory: 
-[2018.01.04-14.58.41:927][  0]Allocator Stats for TBB: (not implemented)
-[2018.01.04-14.58.42:521][  0]LogAIModule: Creating AISystem for world ScanReach
-[2018.01.04-14.58.42:521][  0]LogLoad: Game class is 'ScanReach_GM_C'
-[2018.01.04-14.58.42:539][  0]LogWorld: Bringing World /Temp/Autosaves/Game/UEDPCScanReach.ScanReach up for play (max tick rate 0) at 2018.01.04-15.58.42
-[2018.01.04-14.58.42:540][  0]LogWorld: Bringing up level for play took: 0.017813
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] cfdfb18f-7a15-4922-b52e-2dbed43c299d
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] 70c81956-1c1a-40f4-aa2b-3a743a9deac3
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] 7f464d36-31a3-4a56-894a-a94f14707e09
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] a895776a-5510-48c3-88bc-56118557b179
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] b1f089d5-6e8e-4001-b860-b29937bc82d6
-[2018.01.04-14.58.42:546][  0]LogBlueprintUserMessages: [Websocket_Master_58] 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
-[2018.01.04-14.58.42:546][  0]LogLoad: Took 0.633378 seconds to LoadMap(/Temp/Autosaves/Game/UEDPCScanReach)
-[2018.01.04-14.58.42:768][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
-[2018.01.04-14.58.42:768][  0]LogLoad: (Engine Initialization) Total time: 8.28 seconds
-[2018.01.04-14.58.42:768][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.21 seconds
-[2018.01.04-14.58.42:768][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.01.04-14.58.42:768][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.01.04-14.58.42:785][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.04-14.58.42:785][  0]LogOcInput: OculusInput pre-init called
-[2018.01.04-14.58.42:785][  0]LogHMD: Starting GearVRController plugin
-[2018.01.04-14.58.43:076][ 17]LogRenderer: Reallocating scene render targets to support 1280x340 NumSamples 1 (Frame:18).
-[2018.01.04-14.58.43:094][ 18]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:18).
-[2018.01.04-14.58.43:740][ 50]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:52).
-[2018.01.04-14.58.43:754][ 50]LogRenderer: Reallocating scene render targets to support 1280x340 NumSamples 1 (Frame:53).
-[2018.01.04-14.58.43:754][ 50]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:53).
-[2018.01.04-14.58.44:812][116]LogBlueprintUserMessages: [Websocket_Master_58] Connected To: ws://srtdev7-inrange-websocket.azurewebsites.net/inrange
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -58.289436
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.47:021][253]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -60.446598
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.49:038][378]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:054][503]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -42.198338
-
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
-
-SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.51:055][503]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -76.57218
+[2018.01.04-15.21.43:652][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-15.21.43:652][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.04-15.21.43:654][  0]LogInit: Computer: WINDOWS-EUOFFC3
+[2018.01.04-15.21.43:654][  0]LogInit: User: Bendick
+[2018.01.04-15.21.43:654][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.04-15.21.43:654][  0]LogInit: High frequency timer resolution =3.914066 MHz
+[2018.01.04-15.21.43:654][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.04-15.21.43:654][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.04-15.21.43:654][  0]LogMemory: Process Physical Memory: 273.61 MB used, 273.61 MB peak
+[2018.01.04-15.21.43:654][  0]LogMemory: Process Virtual Memory: 260.84 MB used, 260.84 MB peak
+[2018.01.04-15.21.43:654][  0]LogMemory: Physical Memory: 8317.71 MB used,  8005.27 MB free, 16322.98 MB total
+[2018.01.04-15.21.43:654][  0]LogMemory: Virtual Memory: 671.86 MB used,  8005.27 MB free, 134217728.00 MB total
+[2018.01.04-15.21.43:705][  0]LogInit: Using OS detected language (en-US).
+[2018.01.04-15.21.43:705][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.04-15.21.43:707][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.04-15.21.44:231][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.04-15.21.44:271][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.04-15.21.44:271][  0]LogD3D11RHI:       8096/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.04-15.21.44:272][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.04-15.21.44:272][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.04-15.21.44:272][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.04-15.21.44:276][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.04-15.21.44:277][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.04-15.21.44:277][  0]LogWindows: EnumDisplayDevices:
+[2018.01.04-15.21.44:277][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.04-15.21.44:277][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.04-15.21.44:277][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.04-15.21.44:277][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.04-15.21.44:277][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.04-15.21.44:277][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.04-15.21.44:277][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.04-15.21.44:277][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.04-15.21.44:277][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.04-15.21.44:295][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.04-15.21.44:303][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.04-15.21.44:394][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Intermediate/Shaders/WorkingDirectory/11604/).
+[2018.01.04-15.21.44:394][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bendick/AppData/Local/Temp/UnrealShaderWorkingDir/6F7120A441A68D30FF3167AAD87B5FA2/'.
+[2018.01.04-15.21.44:394][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.04-15.21.45:063][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.04-15.21.45:097][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.04-15.21.45:130][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.04-15.21.45:164][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.04-15.21.45:164][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.04-15.21.45:491][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.04-15.21.45:553][  0]LogDerivedDataCache: Loaded boot cache 0.06s 111MB C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-15.21.45:553][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bendick/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.04-15.21.45:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.04-15.21.45:553][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.04-15.21.45:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.04-15.21.45:553][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.04-15.21.45:564][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.04-15.21.45:575][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bendick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.04-15.21.45:582][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.04-15.21.45:582][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.04-15.21.45:582][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-15.21.45:582][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-15.21.45:746][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2018.01.04-15.21.45:752][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.005902 seconds
+[2018.01.04-15.21.45:806][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-15.21.45:945][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.04-15.21.45:974][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.04-15.21.46:005][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.04-15.21.46:005][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.04-15.21.46:005][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.04-15.21.46:319][  0]LogNetVersion: SR_Prototype_V3 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708348065)
+[2018.01.04-15.21.46:371][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.04-15.21.47:062][  0]LogMoviePlayer: Initializing movie player
+[2018.01.04-15.21.47:121][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.04-15.21.47:121][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.04-15.21.47:291][  0]LogCollectionManager: Loaded 0 collections in 0.000946 seconds
+[2018.01.04-15.21.47:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' took 0.01s
+[2018.01.04-15.21.47:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' took 0.01s
+[2018.01.04-15.21.47:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' took 0.01s
+[2018.01.04-15.21.47:337][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.04-15.21.47:337][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2018.01.04-15.21.47:445][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.04-15.21.47:475][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.04-15.21.47:743][  0]SourceControl: Info Source control is disabled
+[2018.01.04-15.21.47:743][  0]SourceControl: Info Source control is disabled
+[2018.01.04-15.21.47:772][  0]SourceControl: Info Source control is disabled
+[2018.01.04-15.21.47:943][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.04-15.21.48:261][  0]LogUObjectArray: 37275 objects as part of root set at end of initial load.
+[2018.01.04-15.21.48:261][  0]LogUObjectAllocator: 8410064 out of 0 bytes used by permanent object pool.
+[2018.01.04-15.21.48:261][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.04-15.21.48:334][  0]LogEngine: Initializing Engine...
+[2018.01.04-15.21.48:335][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.04-15.21.48:447][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.04-15.21.48:447][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.04-15.21.48:452][  0]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.04-15.21.48:466][  0]LogInit: FAudioDevice initialized.
+[2018.01.04-15.21.48:484][  0]LogInit: Texture streaming: Disabled
+[2018.01.04-15.21.48:493][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.04-15.21.48:659][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2018.01.04-15.21.48:659][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
+[2018.01.04-15.21.48:798][  0]LogInit:Display: Game Engine Initialized.
+[2018.01.04-15.21.48:899][  0]LogInit:Display: Starting Game.
+[2018.01.04-15.21.48:899][  0]LogNet: Browse: /Temp/Autosaves/Game/UEDPCScanReach?Name=Player
+[2018.01.04-15.21.48:899][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/UEDPCScanReach?Name=Player
+[2018.01.04-15.21.48:910][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.04-15.21.48:910][  0]LogMemory: Process Physical Memory: 803.32 MB used, 938.55 MB peak
+[2018.01.04-15.21.48:910][  0]LogMemory: Process Virtual Memory: 933.72 MB used, 1015.59 MB peak
+[2018.01.04-15.21.48:910][  0]LogMemory: Physical Memory: 8782.20 MB used,  7540.78 MB free, 16322.98 MB total
+[2018.01.04-15.21.48:910][  0]LogMemory: Virtual Memory: 1642.79 MB used,  7540.78 MB free, 134217728.00 MB total
+[2018.01.04-15.21.48:910][  0]LogMemory: 
+[2018.01.04-15.21.48:910][  0]Allocator Stats for TBB: (not implemented)
+[2018.01.04-15.21.49:353][  0]LogAIModule: Creating AISystem for world ScanReach
+[2018.01.04-15.21.49:353][  0]LogLoad: Game class is 'ScanReach_GM_C'
+[2018.01.04-15.21.49:365][  0]LogWorld: Bringing World /Temp/Autosaves/Game/UEDPCScanReach.ScanReach up for play (max tick rate 0) at 2018.01.04-16.21.49
+[2018.01.04-15.21.49:365][  0]LogWorld: Bringing up level for play took: 0.011342
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] cfdfb18f-7a15-4922-b52e-2dbed43c299d
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] 3cff7215-ab99-4071-b738-9ede02b36604
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] 5a161fa2-488f-4024-9753-a4e4a3ded31a
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] 70c81956-1c1a-40f4-aa2b-3a743a9deac3
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] a895776a-5510-48c3-88bc-56118557b179
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] b1f089d5-6e8e-4001-b860-b29937bc82d6
+[2018.01.04-15.21.49:369][  0]LogBlueprintUserMessages: [Websocket_Master_58] 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
+[2018.01.04-15.21.49:369][  0]LogLoad: Took 0.470323 seconds to LoadMap(/Temp/Autosaves/Game/UEDPCScanReach)
+[2018.01.04-15.21.49:530][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2018.01.04-15.21.49:530][  0]LogLoad: (Engine Initialization) Total time: 6.91 seconds
+[2018.01.04-15.21.49:530][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2018.01.04-15.21.49:530][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.04-15.21.49:530][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.04-15.21.49:546][  0]LogOcInput: OculusInput pre-init called
+[2018.01.04-15.21.49:547][  0]LogHMD: Starting GearVRController plugin
+[2018.01.04-15.21.49:838][ 19]LogRenderer: Reallocating scene render targets to support 1280x340 NumSamples 1 (Frame:20).
+[2018.01.04-15.21.49:855][ 20]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:20).
+[2018.01.04-15.21.51:498][121]LogBlueprintUserMessages: [Websocket_Master_58] Connected To: ws://srtdev7-inrange-websocket.azurewebsites.net/inrange
+[2018.01.04-15.21.53:723][259]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -67.82424
 
 TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
 
 SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.53:055][627]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -46.657787
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.53:724][259]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -58.34062
 
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
+TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
 
-SensorID: 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.55:071][752]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -51.867268
+SensorID: 7f464d36-31a3-4a56-894a-a94f14707e09
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.55:724][383]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -40.092358
+
+TagID: d343d373-0696-4542-8a05-52a261511d54
+
+SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.57:724][507]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -76.70551
 
 TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
 
-SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.57:087][877]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:103][  2]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -52.274464
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-14.58.59:103][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:103][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:103][  2]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.58.59:103][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:103][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:103][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:104][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:104][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:104][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.58.59:104][  2]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -69.8109
-
-TagID: d343d373-0696-4542-8a05-52a261511d54
-
 SensorID: 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.01:104][126]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.03:103][250]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -41.816555
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.21.59:724][631]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -74.453575
 
 TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
-
-SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.03:104][250]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -59.211822
-
-TagID: a4f627c7-66e7-40b6-af13-18d95bb7302e
-
-SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.05:104][374]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:120][499]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -41.759476
-
-TagID: d343d373-0696-4542-8a05-52a261511d54
-
-SensorID: 70c81956-1c1a-40f4-aa2b-3a743a9deac3
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.07:121][499]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:136][624]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -59.78793
-
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
-
-SensorID: b1f089d5-6e8e-4001-b860-b29937bc82d6
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.09:137][624]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -51.816242
-
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
-
-SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.11:137][748]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:153][873]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -42.524086
-
-TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
-
-SensorID: a895776a-5510-48c3-88bc-56118557b179
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.13:154][873]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -65.06827
-
-TagID: d343d373-0696-4542-8a05-52a261511d54
-
-SensorID: a895776a-5510-48c3-88bc-56118557b179
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.15:153][997]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -63.01699
-
-TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
-
-SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.17:170][122]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -79.56098
-
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
-
-SensorID: a895776a-5510-48c3-88bc-56118557b179
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.19:186][247]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:202][372]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -66.70311
-
-TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
-
-SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-14.59.21:202][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:202][372]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.21:202][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:202][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:202][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:202][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:202][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:203][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:203][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.21:203][372]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -43.989143
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.23:203][496]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -53.2932
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.25:203][620]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:221][745]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -46.109963
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
-[2018.01.04-14.59.27:221][745]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.27:221][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:222][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:222][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:222][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:222][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:222][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:222][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:222][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.27:222][745]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -40.851685
-
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
-
-SensorID: 9f7e559f-d9e4-4143-bea3-69bb144d9d76
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.29:220][869]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -54.098362
-
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
-
-SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.31:222][993]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -61.229416
-
-TagID: 490d1d0f-0670-4675-a278-c3e0a54a389a
-
-SensorID: 302316ab-3b7b-45f1-9fc0-5f0b4f819c41
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.33:237][118]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.35:255][243]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -60.931473
-
-TagID: d343d373-0696-4542-8a05-52a261511d54
-
-SensorID: 5a161fa2-488f-4024-9753-a4e4a3ded31a
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.35:256][243]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -53.020275
-
-TagID: d63e739a-fca8-4ed6-b0b9-df8ccc003eee
-
-SensorID: cfdfb18f-7a15-4922-b52e-2dbed43c299d
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.37:271][368]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -53.019367
-
-TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
 
 SensorID: 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.39:289][493]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -75.3873
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.01:740][756]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -57.106033
 
-TagID: d343d373-0696-4542-8a05-52a261511d54
-
-SensorID: 6a46c0b8-f691-40a2-bf8c-041ec09dc7ac
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.41:289][617]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.42:113][668]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] RSSI: -45.512383
-
-TagID: d343d373-0696-4542-8a05-52a261511d54
+TagID: c1a8b364-77b6-400e-883c-c93cbc2fa96e
 
 SensorID: 3cff7215-ab99-4071-b738-9ede02b36604
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:305][742]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
-[2018.01.04-14.59.43:481][753]Closing by request
-[2018.01.04-14.59.43:482][753]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.01.04-14.59.44:340][754]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.04-14.59.44:348][754]LogExit: Preparing to exit.
-[2018.01.04-14.59.44:348][754]LogMoviePlayer: Shutting down movie player
-[2018.01.04-14.59.45:550][754]LogExit: Game engine shut down
-[2018.01.04-14.59.45:599][754]LogObj: Freed 0b from 0 cluster array pools.
-[2018.01.04-14.59.45:599][754]LogExit: Object subsystem successfully closed.
-[2018.01.04-14.59.45:617][754]LogD3D11RHI: Shutdown
-[2018.01.04-14.59.45:617][754]LogD3D11RHI: CleanupD3DDevice
-[2018.01.04-14.59.45:666][754]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (298)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module SequenceRecorder (296)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module AutomationController (294)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (292)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module AIModule (290)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (289)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module AITestSuite (287)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (284)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (282)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (280)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module Media (279)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module CharacterAI (276)
-[2018.01.04-14.59.45:670][754]LogModuleManager: Shutting down and abandoning module SessionServices (274)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (272)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (270)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module MovieScene (268)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module GeometryCache (266)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (265)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module Niagara (262)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module NiagaraEditor (261)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (258)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module PortalServices (256)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module PortalRpc (254)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module MessagingRpc (252)
-[2018.01.04-14.59.45:671][754]LogModuleManager: Shutting down and abandoning module ProfilerService (250)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module TaskGraph (248)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module WebSocket (246)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module SteamVR (242)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module OculusInput (236)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module CableComponent (230)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module HotReload (217)
-[2018.01.04-14.59.45:834][754]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Plugins/WebSocket/Binaries/Win64' was aborted.
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module SourceControl (209)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
-[2018.01.04-14.59.45:834][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
-[2018.01.04-14.59.45:935][754]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
-[2018.01.04-14.59.46:394][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
-[2018.01.04-14.59.46:394][754]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
-[2018.01.04-14.59.46:394][754]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
-[2018.01.04-14.59.46:394][754]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
-[2018.01.04-14.59.46:394][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
-[2018.01.04-14.59.46:395][754]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
-[2018.01.04-14.59.46:395][754]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' was aborted.
-[2018.01.04-14.59.46:395][754]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Magnus/Collections/' was aborted.
-[2018.01.04-14.59.46:395][754]LogDirectoryWatcher: A directory notification for 'C:/Users/Magnus/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' was aborted.
-[2018.01.04-14.59.46:395][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
-[2018.01.04-14.59.46:395][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
-[2018.01.04-14.59.46:395][754]LogModuleManager: Shutting down and abandoning module Paper2D (176)
-[2018.01.04-14.59.46:395][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
-[2018.01.04-14.59.46:395][754]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module VREditor (162)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
-[2018.01.04-14.59.46:396][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module UMG (150)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module Sequencer (148)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module AssetTools (146)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module MessageLog (145)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module Slate (136)
-[2018.01.04-14.59.46:397][754]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module Messaging (132)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module Networking (124)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module Core (120)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
-[2018.01.04-14.59.46:398][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
-[2018.01.04-14.59.46:678][754]LogDerivedDataCache: Shutdown
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.01.04-14.59.46:678][754]LogOnline:Display: Unloading online subsystem: NULL
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.01.04-14.59.46:678][754]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.01.04-14.59.46:691][754]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.01.04-14.59.46:692][754]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.01.04-14.59.46:693][754]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.01.04-14.59.46:693][754]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.01.04-14.59.46:694][754]LogExit: Exiting.
-[2018.01.04-14.59.46:695][754]Log file closed, 01/04/18 15:59:46
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.03:756][881]LogBlueprintUserMessages: [Websocket_Master_58] Not Recognized!
+[2018.01.04-15.22.05:432][975]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.04-15.22.05:432][975]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.04-15.22.05:434][975]LogEngine: All Windows Closed
+[2018.01.04-15.22.05:434][975]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.01.04-15.22.06:341][976]LogExit: Preparing to exit.
+[2018.01.04-15.22.06:341][976]LogMoviePlayer: Shutting down movie player
+[2018.01.04-15.22.06:598][976]LogExit: Game engine shut down
+[2018.01.04-15.22.06:633][976]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.04-15.22.06:633][976]LogExit: Object subsystem successfully closed.
+[2018.01.04-15.22.06:649][976]LogD3D11RHI: Shutdown
+[2018.01.04-15.22.06:649][976]LogD3D11RHI: CleanupD3DDevice
+[2018.01.04-15.22.06:675][976]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (298)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module SequenceRecorder (296)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module AutomationController (294)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module AutomationWorker (292)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module AIModule (290)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module GameplayDebugger (289)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module AITestSuite (287)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (284)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (282)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (280)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module Media (279)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module CharacterAI (276)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module SessionServices (274)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (272)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (270)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module MovieScene (268)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module GeometryCache (266)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (265)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module Niagara (262)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module NiagaraEditor (261)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (258)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module PortalServices (256)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module PortalRpc (254)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module MessagingRpc (252)
+[2018.01.04-15.22.06:681][976]LogModuleManager: Shutting down and abandoning module ProfilerService (250)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module TaskGraph (248)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module WebSocket (246)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module SteamVR (242)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module OculusInput (236)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module CableComponent (230)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module HotReload (217)
+[2018.01.04-15.22.06:817][976]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Plugins/WebSocket/Binaries/Win64' was aborted.
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module SourceControl (209)
+[2018.01.04-15.22.06:817][976]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
+[2018.01.04-15.22.06:818][976]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
+[2018.01.04-15.22.06:818][976]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
+[2018.01.04-15.22.06:818][976]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
+[2018.01.04-15.22.06:818][976]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
+[2018.01.04-15.22.06:818][976]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
+[2018.01.04-15.22.06:918][976]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2018.01.04-15.22.07:449][976]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Collections/' was aborted.
+[2018.01.04-15.22.07:449][976]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Content/Developers/Bendick/Collections/' was aborted.
+[2018.01.04-15.22.07:449][976]LogDirectoryWatcher: A directory notification for 'C:/Users/Bendick/Documents/GitHub/SR_Prototype_V3/SR_Prototype_V3/Saved/Collections/' was aborted.
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module Paper2D (176)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
+[2018.01.04-15.22.07:449][976]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module VREditor (162)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module AssetTools (146)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2018.01.04-15.22.07:450][976]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module Messaging (132)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module Core (120)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
+[2018.01.04-15.22.07:451][976]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2018.01.04-15.22.07:580][976]LogDerivedDataCache: Shutdown
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.04-15.22.07:580][976]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.04-15.22.07:580][976]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.04-15.22.07:595][976]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.04-15.22.07:596][976]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.04-15.22.07:597][976]LogExit: Exiting.
+[2018.01.04-15.22.07:597][976]Log file closed, 01/04/18 16:22:07
